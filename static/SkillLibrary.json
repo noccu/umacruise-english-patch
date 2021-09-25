@@ -1,0 +1,900 @@
+{
+    "Skill": {
+        "金": [
+            {
+                "Name": "Concentration",
+                "Effect": "Improve Starts, decreases delay of Late Starts"
+            },
+            {
+                "Name": "Unbreakable Spirit",
+                "Effect": "Leader・Lightly increases acceleration when behind in middle Leg"
+            },
+            {
+                "Name": "Gust of Wind",
+                "Effect": "Increases acceleration on straights"
+            },
+            {
+                "Name": "Curve Sommelier",
+                "Effect": "Increases acceleration through elegant cornering"
+            },
+            {
+                "Name": "Non-stop Girl",
+                "Effect": "When blocked during Last Spurt, become better at navigating through it"
+            },
+            {
+                "Name": "Fortune Favors the Fast",
+                "Effect": "Runner・moving forwards becomes easier during the Opening Leg"
+            },
+            {
+                "Name": "Runaway",
+                "Effect": "Runner・Keeping the lead on the final corner becomes easier"
+            },
+            {
+                "Name": "Technician",
+                "Effect": "Leader・Taking position becomes a bit smoother"
+            },
+            {
+                "Name": "Straight Down Resolution",
+                "Effect": "Leader・Become a bit better at downhills"
+            },
+            {
+                "Name": "Laborious",
+                "Effect": "Betweener・Passing becomes a bit easier to succeed"
+            },
+            {
+                "Name": "Switch-up Pro",
+                "Effect": "Betweener・Increases acceleration in the Final Leg"
+            },
+            {
+                "Name": "Imminent Shadow",
+                "Effect": "Last Spurt Increases acceleration on straights＜作戦・Chaser ＞"
+            },
+            {
+                "Name": "Sprint Turbo",
+                "Effect": "Increases acceleration on straights＜Short Distance ＞"
+            },
+            {
+                "Name": "Plan X",
+                "Effect": "Short・Passing becomes easier when in the front in middle Leg"
+            },
+            {
+                "Name": "Accel Full Throttle!",
+                "Effect": "mile・Increases acceleration when passing in middle Leg"
+            },
+            {
+                "Name": "Big Strides",
+                "Effect": "mile・Passing ability increases when behind in the Final Leg"
+            },
+            {
+                "Name": "Like The Wind",
+                "Effect": "Increases speed on straights"
+            },
+            {
+                "Name": "Archline Professor",
+                "Effect": "Become better at corners, increases speed"
+            },
+            {
+                "Name": "Now I'm Pumped!",
+                "Effect": "Increases speed when passing during the middle Leg"
+            },
+            {
+                "Name": "Heart and Soul",
+                "Effect": "Increase Speed during your Last Spurt"
+            },
+            {
+                "Name": "Escape Artist",
+                "Effect": "Runner・moving forwards becomes easier during the Opening Leg"
+            },
+            {
+                "Name": "Speed Star",
+                "Effect": "Leader・Passing becomes easier on the Final corner"
+            },
+            {
+                "Name": "Quick and Decisive",
+                "Effect": "Betweener・Increases speed during the middle Leg"
+            },
+            {
+                "Name": "Rising Dragon",
+                "Effect": "Betweener・Increases speed when passing from the outside on the final corner"
+            },
+            {
+                "Name": "疾風怒涛",
+                "Effect": "Chaser・Get ready to pass during the Final Leg and become better at positioning"
+            },
+            {
+                "Name": "Overwhelming Lead",
+                "Effect": "Short・Easier to keep the lead if you lead with big margin in the middle Leg"
+            },
+            {
+                "Name": "Glimmer of Shock",
+                "Effect": "Short・Spurts become easier when in the back of the pack during the Final Leg"
+            },
+            {
+                "Name": "Big Sister Disposition",
+                "Effect": "mile・Passing becomes easier to succeed"
+            },
+            {
+                "Name": "Ruler of Mile",
+                "Effect": "mile・When in the lead in Opening Leg, extending the lead becomes easier"
+            },
+            {
+                "Name": "Gear Change",
+                "Effect": "Short・Passing becomes easier when in the front in middle Leg"
+            },
+            {
+                "Name": "Killer Tune",
+                "Effect": "medium・Easier to take a good position in the middle Leg if you're leading"
+            },
+            {
+                "Name": "To Victory!",
+                "Effect": "medium・When overtaken in the Final Leg, retaking your place becomes easier"
+            },
+            {
+                "Name": "Vanguard's Wisdom",
+                "Effect": "Short・Easier to keep the lead if you lead with big margin in the middle Leg"
+            },
+            {
+                "Name": "Intrinsic Experience",
+                "Effect": "Long・Increases speed when near the inner fence during the Final Leg"
+            },
+            {
+                "Name": "Trending Charts!",
+                "Effect": "Dirt・Increase speed when competing for position during the middle Leg"
+            },
+            {
+                "Name": "Star of the Show",
+                "Effect": "Become better at taking a good track position during the Opening Leg"
+            },
+            {
+                "Name": "Magician of the Lane",
+                "Effect": "Become better at taking a good track position during the Opening Leg"
+            },
+            {
+                "Name": "Sixth Sense",
+                "Effect": "Runner・Become harder to surround in Opening Leg"
+            },
+            {
+                "Name": "Lightning Step",
+                "Effect": "medium・Become harder to box in if behind in middle Leg"
+            },
+            {
+                "Name": "Seeing The Big Picture",
+                "Effect": "Betweener・Sharpens observation skills in middle Leg, widening field of vision a little"
+            },
+            {
+                "Name": "Good Visibility! All Clear!",
+                "Effect": "Chaser・Grasp the situation when moving left-right, lightly widening field of vision "
+            },
+            {
+                "Name": "Clairvoyance",
+                "Effect": "medium・Sharpens observation skills during the Opening Leg, widening field of vision"
+            },
+            {
+                "Name": "Breath of Fresh Air",
+                "Effect": "Recover stamina on straights"
+            },
+            {
+                "Name": "Arc Maestro",
+                "Effect": "Recover stamina through efficient cornering"
+            },
+            {
+                "Name": "Will of Steel",
+                "Effect": "Remain composed and recover stamina in Opening Leg if front-side is crowded"
+            },
+            {
+                "Name": "Indomitable Heart",
+                "Effect": "Recover stamina when passed in the middle Leg"
+            },
+            {
+                "Name": "Where the Wind Blows",
+                "Effect": "Recover stamina when boxed in during the middle Leg"
+            },
+            {
+                "Name": "Wild Girl",
+                "Effect": "Runner・Become harder to tire out on uphills"
+            },
+            {
+                "Name": "Calm and Composed",
+                "Effect": "Leader・Harder to tire out during the Opening Leg"
+            },
+            {
+                "Name": "Big Eater",
+                "Effect": "Leader・Recover stamina in middle Leg"
+            },
+            {
+                "Name": "Race Planner",
+                "Effect": "Leader・Harder to tire out during the Opening Leg"
+            },
+            {
+                "Name": "Relax",
+                "Effect": "Betweener・Recover stamina during the Final Leg"
+            },
+            {
+                "Name": "Sleeping Lion",
+                "Effect": "Chaser・Become harder to tire out during the middle Leg"
+            },
+            {
+                "Name": "After School Specialist",
+                "Effect": "Chaser・Become harder to tire out on downhills"
+            },
+            {
+                "Name": "Wisdom Eye",
+                "Effect": "mile・Become harder to tire when in the back of the pack during the Opening Le"
+            },
+            {
+                "Name": "Miracle Step",
+                "Effect": "medium・Become harder to tire out from left-right movements"
+            },
+            {
+                "Name": "The One Who Clears The Path",
+                "Effect": "medium・Become harder to tire out when in the lead during the middle Leg"
+            },
+            {
+                "Name": "Cooldown",
+                "Effect": "Long・Take a breath when entering straights and become harder to tire out"
+            },
+            {
+                "Name": "Fight or Flight",
+                "Effect": "Long・Recover the will to run after exhausting your strength"
+            },
+            {
+                "Name": "Super Lucky Seven",
+                "Effect": "Good things may happen if your starting gate block is 7"
+            },
+            {
+                "Name": "Bewitching",
+                "Effect": "Short・Weaken girls in the back when leading in the Opening Leg"
+            },
+            {
+                "Name": "Mono Poisoner",
+                "Effect": "medium・Slows down girls in the front if you're behind in Final Leg"
+            },
+            {
+                "Name": "Glamorous Perturbation",
+                "Effect": "Leader・Lightly narrows the field of vision of girls in the back when in front in Final Leg"
+            },
+            {
+                "Name": "Conjurer",
+                "Effect": "Long・Narrows the field of vision of girls in the front in Final Leg"
+            },
+            {
+                "Name": "A Charming Whisper",
+                "Effect": "medium・Confuses the girl right in front of you in middle Leg"
+            },
+            {
+                "Name": "Watching All Directions",
+                "Effect": "Betweener・Flusters other girls in Final Leg"
+            }
+        ],
+        "白": [
+            {
+                "Name": "Focus",
+                "Effect": "Improve Starts, slightly decreases delay of Late Starts"
+            },
+            {
+                "Name": "Straight Accel",
+                "Effect": "Slightly increases acceleration on straights"
+            },
+            {
+                "Name": "Corner Accel ",
+                "Effect": "〇：華麗なコーナーワークで加速力がわずかにあがる"
+            },
+            {
+                "Name": "Groundwork",
+                "Effect": "Slightly increase acceleration when many skills are activated during the Opening Leg"
+            },
+            {
+                "Name": "Slight Detour",
+                "Effect": "When blocked during Last Spurt, become slightly better at navigating through it"
+            },
+            {
+                "Name": "Mountain Climber",
+                "Effect": "Become slightly better at uphills"
+            },
+            {
+                "Name": "Frontrunner",
+                "Effect": "Runner・moving forwards becomes slightly easier during the Opening Leg"
+            },
+            {
+                "Name": "Next Steps",
+                "Effect": "Runner・Slightly increases acceleration behind in middle Leg"
+            },
+            {
+                "Name": "Press Forward, Ready!",
+                "Effect": "Runner・Keeping the lead position on the final corner becomes slightly easier"
+            },
+            {
+                "Name": "Clever Step",
+                "Effect": "Leader・Taking position becomes very slightly smoother"
+            },
+            {
+                "Name": "Redo",
+                "Effect": "Leader・Slightly increases acceleration when behind in middle Leg"
+            },
+            {
+                "Name": "Straight Down",
+                "Effect": "Leader・Become slightly better at downhills"
+            },
+            {
+                "Name": "Hard Worker",
+                "Effect": "Betweener・Passing becomes slightly easier to succeed"
+            },
+            {
+                "Name": "Between the Lines",
+                "Effect": "Betweener・Slightly increases acceleration during the Final Leg"
+            },
+            {
+                "Name": "Straight Shot",
+                "Effect": "Last Spurt Slightly increases acceleration on straights＜作戦・Chaser ＞"
+            },
+            {
+                "Name": "Sprinting Gear",
+                "Effect": "Slightly increases acceleration on straights＜Short Distance ＞"
+            },
+            {
+                "Name": "Countermeasures",
+                "Effect": "Short・Passing becomes slightly easier when in the front in middle Leg"
+            },
+            {
+                "Name": "Acceleration",
+                "Effect": "mile・Slightly increase acceleration when passing in middle Leg"
+            },
+            {
+                "Name": "Updraft",
+                "Effect": "mile・Slightly increases passing ability when behind in the Final Leg"
+            },
+            {
+                "Name": "Straight Skill",
+                "Effect": "Slightly increases speed on straights"
+            },
+            {
+                "Name": "Clever Cornerer ",
+                "Effect": "Become better at corners, slightly increased speed"
+            },
+            {
+                "Name": "Up The Pace",
+                "Effect": "Slightly increases speed when passing during the middle Leg"
+            },
+            {
+                "Name": "Hold Your Tail High",
+                "Effect": "Slightly increase acceleration when many skills are activated during the Opening Leg"
+            },
+            {
+                "Name": "Last Leg",
+                "Effect": "Slightly increases speed at the Last Spurt"
+            },
+            {
+                "Name": "Big Fan",
+                "Effect": "Slightly increase speed when many girls are nearby"
+            },
+            {
+                "Name": "Slipstream",
+                "Effect": "When following right behind a girl, become slightly less affected by wind resistance"
+            },
+            {
+                "Name": "Playtime's Over!",
+                "Effect": "Slightly increase speed when a girl has been following you for a while"
+            },
+            {
+                "Name": "Runner's Straight ",
+                "Effect": "〇：Slightly increases speed on straights＜作戦・Runner ＞"
+            },
+            {
+                "Name": "Runner's Corner ",
+                "Effect": "〇：Runner・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Lead Pride",
+                "Effect": "Runner・Become slightly harder to pass in the Opening Leg"
+            },
+            {
+                "Name": "Fast Paced",
+                "Effect": "Runner・moving forwards becomes slightly easier during the Opening Leg"
+            },
+            {
+                "Name": "Leader's Straights ",
+                "Effect": "〇：Slightly increases speed on straights＜作戦・Leader ＞"
+            },
+            {
+                "Name": "Leaders Corner ",
+                "Effect": "〇：Leader・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Passing Preparations",
+                "Effect": "Leader・Passing becomes slightly easier on the Final corner"
+            },
+            {
+                "Name": "Betweener's Straights ",
+                "Effect": "Slightly increases speed on straights＜作戦・Betweener ＞"
+            },
+            {
+                "Name": "Betweener's Corner ",
+                "Effect": "〇：Betweener・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Position Swiper",
+                "Effect": "Betweener・Slightly increases speed during the middle Leg"
+            },
+            {
+                "Name": "Outside Pass, Ready!",
+                "Effect": "Betweener・Slightly increases speed when passing from the outside on the final corner"
+            },
+            {
+                "Name": "100K Horsepower",
+                "Effect": "Betweener・Slightly increases speed on uphills"
+            },
+            {
+                "Name": "Chasers Straights ",
+                "Effect": "〇：Slightly increases speed on straights＜作戦・Chaser ＞"
+            },
+            {
+                "Name": "Chaser's Corner ",
+                "Effect": "〇：Chaser・Slightly increase speed on corners"
+            },
+            {
+                "Name": "Master Trickster",
+                "Effect": "Chaser・Get ready to pass during the Final Leg and become slightly better at positioning"
+            },
+            {
+                "Name": "Short Distance Straights ",
+                "Effect": "〇：Slightly increases speed on straights＜Short Distance ＞"
+            },
+            {
+                "Name": "Short Distance Corners ",
+                "Effect": "〇：Short・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Big Lead",
+                "Effect": "Short・Slightly easier to keep the lead if you lead with big margin in the middle Leg"
+            },
+            {
+                "Name": "Draw Forward",
+                "Effect": "Short・Spurts become slightly easier when in the back of the pack during the Final Leg"
+            },
+            {
+                "Name": "Mile Straights ",
+                "Effect": "〇：Slightly increases speed on straights＜Mile ＞"
+            },
+            {
+                "Name": "Mile Corner ",
+                "Effect": "〇：mile・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Positive Planning",
+                "Effect": "mile・When in the lead in Opening Leg, extending the lead becomes a little easier"
+            },
+            {
+                "Name": "Shift Gears",
+                "Effect": "Short・Passing becomes slightly easier when in the front in middle Leg"
+            },
+            {
+                "Name": "Rival Spirit",
+                "Effect": "mile・Passing becomes slightly easier to succeed"
+            },
+            {
+                "Name": "Medium Distance Straights ",
+                "Effect": "〇：Slightly increases speed on straights＜Medium Distance ＞"
+            },
+            {
+                "Name": "Medium Distance Corner ",
+                "Effect": "〇：medium・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Uptempo",
+                "Effect": "medium・Slightly easier to take a good position during the middle Leg if you're leading"
+            },
+            {
+                "Name": "Stand Your Ground",
+                "Effect": "medium・When overtaken in the Final Leg, retaking your place becomes slightly easier"
+            },
+            {
+                "Name": "Long Distance Straight ",
+                "Effect": "〇：Slightly increases speed on straights＜Long Distance ＞"
+            },
+            {
+                "Name": "Long Distance Corner ",
+                "Effect": "〇：Long・Slightly increases speed on corners"
+            },
+            {
+                "Name": "Keep the Lead",
+                "Effect": "Short・Slightly easier to keep the lead if you lead with big margin in the middle Leg"
+            },
+            {
+                "Name": "Press the Attack",
+                "Effect": "Long・Slightly increases speed when passing in the Final Leg"
+            },
+            {
+                "Name": "King of the Castle",
+                "Effect": "Long・Slightly increases speed when near the inner fence during the Final Leg"
+            },
+            {
+                "Name": "Recommendation",
+                "Effect": "Dirt・Slightly increase speed when competing for position during the middle Leg"
+            },
+            {
+                "Name": "Position Sense",
+                "Effect": "Become a little better at taking position during the Opening Leg of the race"
+            },
+            {
+                "Name": "Calculated Preparations",
+                "Effect": "レース中盤でゴールに向けて準備を少し整える"
+            },
+            {
+                "Name": "Improvise",
+                "Effect": "Become a little better at taking position during the Opening Leg of the race"
+            },
+            {
+                "Name": "Danger Avoidance",
+                "Effect": "Runner・Become a bit harder to surround in Opening Leg"
+            },
+            {
+                "Name": "Inazuma Step",
+                "Effect": "medium・Become lightly harder to box in if behind in middle Leg"
+            },
+            {
+                "Name": "Reading Comprehension",
+                "Effect": "Betweener・Slightly sharpens observation skills during the middle Leg, widening field of vision a little"
+            },
+            {
+                "Name": "See Right Through",
+                "Effect": "Chaser・Grasp the situation when moving left-right, slightly widening field of vision"
+            },
+            {
+                "Name": "Tactician",
+                "Effect": "Chaser・Slightly widens field of vision when behind in Final Leg"
+            },
+            {
+                "Name": "Hawkeye",
+                "Effect": "medium・Lightly sharpens observation skills during the Opening Leg, widening field of vision"
+            },
+            {
+                "Name": "Straight Recovery",
+                "Effect": "Slightly recover stamina on straights"
+            },
+            {
+                "Name": "Corner Recovery ",
+                "Effect": "〇：Slightly recover stamina through efficient cornering"
+            },
+            {
+                "Name": "Undercover",
+                "Effect": "Remain composed and slightly recover stamina in Opening Leg if front-side is crowded"
+            },
+            {
+                "Name": "Crowded Calm",
+                "Effect": "Slightly recover stamina when boxed in during the middle Leg"
+            },
+            {
+                "Name": "Keep the Pace",
+                "Effect": "Slightly recover stamina when passed in the middle Leg"
+            },
+            {
+                "Name": "Shake It Out",
+                "Effect": "Slightly recover stamina if many skills activate during the Final Leg"
+            },
+            {
+                "Name": "Triple 7s",
+                "Effect": "Slightly improve mood when the remaining distance is 777m"
+            },
+            {
+                "Name": "Leave it to vigour!",
+                "Effect": "Runner・Become slightly harder to tire out on uphills"
+            },
+            {
+                "Name": "Stamina Keep",
+                "Effect": "Leader・Slightly harder to tire out during the Opening Leg"
+            },
+            {
+                "Name": "Favorite Place",
+                "Effect": "Leader・Slightly harder to tire out during the Opening Leg"
+            },
+            {
+                "Name": "Nutritional Supplements",
+                "Effect": "Leader・Slightly recover stamina in middle Leg"
+            },
+            {
+                "Name": "A Little Break",
+                "Effect": "Leader・Slightly recover stamina in middle Leg"
+            },
+            {
+                "Name": "On Standby",
+                "Effect": "Chaser・Become slightly harder to tire out during the middle Leg"
+            },
+            {
+                "Name": "Serene",
+                "Effect": "Chaser・When front is crowded, slightly calm down remain composed"
+            },
+            {
+                "Name": "Winding Down",
+                "Effect": "Chaser・Become slightly harder to tire out on downhills"
+            },
+            {
+                "Name": "Wait and See",
+                "Effect": "Short・Slightly harder to tire when in the back during the middle Leg"
+            },
+            {
+                "Name": "Progress Peek",
+                "Effect": "mile・Become slightly harder to tire when in the back of the pack during the Opening Leg"
+            },
+            {
+                "Name": "Light Step",
+                "Effect": "medium・Become slightly harder to tire out from left-right movements"
+            },
+            {
+                "Name": "Bright Future",
+                "Effect": "medium・Become slightly harder to tire out when in the lead during the middle Leg"
+            },
+            {
+                "Name": "Deep Breaths",
+                "Effect": "Long・Take a breath when entering straights and become slightly harder to tire out"
+            },
+            {
+                "Name": "Pass Expert",
+                "Effect": "Long・Become slightly harder to tire when passing"
+            },
+            {
+                "Name": "Backup Belly",
+                "Effect": "Long・Slightly recovers running willpower after exhausting your strength"
+            },
+            {
+                "Name": "Right Turns ",
+                "Effect": "〇：Become a little better at clockwise tracks"
+            },
+            {
+                "Name": "Left Turns ",
+                "Effect": "〇：Become a little better at left counterclockwise track"
+            },
+            {
+                "Name": "Spring Girl ",
+                "Effect": "〇：Become a little better at races in the Spring"
+            },
+            {
+                "Name": "Summer Girl ",
+                "Effect": "〇：Become a little better at races in the Summer"
+            },
+            {
+                "Name": "Autumn Girl ",
+                "Effect": "〇：Become a little better at races in the Autumn"
+            },
+            {
+                "Name": "Winter Girl ",
+                "Effect": "〇：Become a little better at races in the Winter"
+            },
+            {
+                "Name": "Underdog ",
+                "Effect": "Become a little better at showing off your ability when 4th favorite or below"
+            },
+            {
+                "Name": "Outer Gate Affinity ",
+                "Effect": "〇：Become a little better at races when starting at gate block 6-8"
+            },
+            {
+                "Name": "The One ",
+                "Effect": "〇：Showing off your ability becomes a little easier when no other girls share your strategy"
+            },
+            {
+                "Name": "Lone Wolf",
+                "Effect": "Raises your abilities a little if you're the only girl with Lone Wolf's Heart"
+            },
+            {
+                "Name": "Sympathy",
+                "Effect": "Increases ability a little if there are many girls with Sympathetic Heart"
+            },
+            {
+                "Name": "Hanshin Racetrack ",
+                "Effect": "〇：Become a little better at Hanshin Racetrack"
+            },
+            {
+                "Name": "Tokyo Racetrack ",
+                "Effect": "〇：Become a little better at Tokyo Racetrack"
+            },
+            {
+                "Name": "Nakayama Racetrack ",
+                "Effect": "〇：Become a little better at Nakayama Racetrack"
+            },
+            {
+                "Name": "Sapporo Racetrack ",
+                "Effect": "〇：Become a little better at Sapporo Racetrack"
+            },
+            {
+                "Name": "Ooi Racetrack ",
+                "Effect": "〇：Become a little better at Ooi Racetrack"
+            },
+            {
+                "Name": "Kyoto Racetrack ",
+                "Effect": "〇：Become a little better at Kyoto Racetrack"
+            },
+            {
+                "Name": "Kokura Racetrack ",
+                "Effect": "〇：Become a little better at Ogura Racetrack"
+            },
+            {
+                "Name": "Hakodate Racetrack ",
+                "Effect": "〇：Become a little better at Hakodate Racetrack"
+            },
+            {
+                "Name": "Core Distance ",
+                "Effect": "〇：根幹距離（400ｍの倍数）が少し得意になる"
+            },
+            {
+                "Name": "非Core Distance ",
+                "Effect": "〇：Become a little better at Non-Core Distances (Not multiples of 400m)"
+            },
+            {
+                "Name": "Track Condition (Good) ",
+                "Effect": "〇：Become a little better on tracks in Good condition"
+            },
+            {
+                "Name": "Wicked Path ",
+                "Effect": "〇：Become a little better on Slightly Poor, Poor, and Bad condition tracks◎：Become better on Slightly Poor, Poor, and Bad condition tracks"
+            },
+            {
+                "Name": "Competitive Spirit ",
+                "Effect": "〇：Become a little better at showing off your ability when at least 6 other girls share your strategy"
+            },
+            {
+                "Name": "Sunny Days ",
+                "Effect": "〇：Become a little better at races on Sunny Days◎：Become better at races on Sunny Days"
+            },
+            {
+                "Name": "Cloudy Days ",
+                "Effect": "〇：Become a little better at races on a Cloudy Day◎：Become better at races on a Cloudy Day"
+            },
+            {
+                "Name": "Rainy Day ",
+                "Effect": "〇：Become a little better at races on a Rainy Day◎：Become better at races on a Rainy Day"
+            },
+            {
+                "Name": "Snowy Days ",
+                "Effect": "〇：Become a little better at races on Snowy Days◎：Become better at races on Snowy Days"
+            },
+            {
+                "Name": "Eyes On You ",
+                "Effect": "〇：Become a little better at showing off your ability when sharing a strategy with the crowd favorite"
+            },
+            {
+                "Name": "Runner's Tricks ",
+                "Effect": "Runner・Taking a good position becomes a little easier"
+            },
+            {
+                "Name": "Leaders Tricks ",
+                "Effect": "Runner・Taking a good position becomes a little easier"
+            },
+            {
+                "Name": "Betweener's Tricks ",
+                "Effect": "Runner・Taking a good position becomes a little easier"
+            },
+            {
+                "Name": "Chasers Tricks ",
+                "Effect": "Runner・Taking a good position becomes a little easier"
+            },
+            {
+                "Name": "Inner Gate Affinity ",
+                "Effect": "〇：Become a little better at races when starting at gate block 1-3"
+            },
+            {
+                "Name": "Lucky Seven",
+                "Effect": "A little good thing may happen if your starting gate block is 7"
+            },
+            {
+                "Name": "Restart",
+                "Effect": "Runner・When failing to take the lead during the Opening Leg, girls in front will become flustered"
+            },
+            {
+                "Name": "Opener",
+                "Effect": "mile・Slightly slows down girls in the front if you're behind in Opening Leg"
+            },
+            {
+                "Name": "Faltering Runners",
+                "Effect": "Instil hesitation and slows down girls with <Strategy・Runner> in the Final Leg"
+            },
+            {
+                "Name": "Faltering Leaders",
+                "Effect": "Instil hesitation and slows down girls with <Strategy・Runner> in the Final Leg"
+            },
+            {
+                "Name": "Faltering Betweeners",
+                "Effect": "Instil hesitation and slows down girls with <Strategy・Runner> in the Final Leg"
+            },
+            {
+                "Name": "Faltering Chasers",
+                "Effect": "Instil hesitation and slows down girls with <Strategy・Runner> in the Final Leg"
+            },
+            {
+                "Name": "Sightlines",
+                "Effect": "Chaser・Slightly unnerve girls you set your sights on in the Final Leg"
+            },
+            {
+                "Name": "Final Nail",
+                "Effect": "Short・Slightly weaken girls in the back when leading in the Opening Leg"
+            },
+            {
+                "Name": "Speed Eater",
+                "Effect": "mile・Slightly steal speed of girls behind you when leading during in middle Leg"
+            },
+            {
+                "Name": "Binding Chains",
+                "Effect": "medium・Slightly slows down girls in the front if you're behind in Final Leg"
+            },
+            {
+                "Name": "Derangement",
+                "Effect": "Leader・Slightly narrows the field of view of girls in the back when in Front in Final Leg"
+            },
+            {
+                "Name": "Smoke Screen",
+                "Effect": "Long・Lightly narrows the field of vision of girls in the front in Final Leg"
+            },
+            {
+                "Name": "Frantic Runners",
+                "Effect": "When girls with <Strategy・Runner> become frantic, they take longer to calm down"
+            },
+            {
+                "Name": "Frantic Leaders",
+                "Effect": "When girls with <Strategy・Runner> become frantic, they take longer to calm down"
+            },
+            {
+                "Name": "Frantic Betweeners",
+                "Effect": "When girls with <Strategy・Runner> become frantic, they take longer to calm down"
+            },
+            {
+                "Name": "Frantic Chasers",
+                "Effect": "When girls with <Strategy・Runner> become frantic, they take longer to calm down"
+            },
+            {
+                "Name": "Runners Restraint",
+                "Effect": "Restrain and slightly tire out girls with <Strategy・Runner> in the Opening Leg"
+            },
+            {
+                "Name": "Panicked Runners",
+                "Effect": "Panic and slightly tire out girls with <Strategy・Runner> in middle Leg"
+            },
+            {
+                "Name": "Leaders Restraint",
+                "Effect": "Restrain and slightly tire out girls with <Strategy・Runner> in the Opening Leg"
+            },
+            {
+                "Name": "Panicked Leaders",
+                "Effect": "Panic and slightly tire out girls with <Strategy・Runner> in middle Leg"
+            },
+            {
+                "Name": "Betweeners Restraint",
+                "Effect": "Restrain and slightly tire out girls with <Strategy・Runner> in the Opening Leg"
+            },
+            {
+                "Name": "Panicked Betweener",
+                "Effect": "Panic and slightly tire out girls with <Strategy・Runner> in middle Leg"
+            },
+            {
+                "Name": "Chasers Restraint",
+                "Effect": "Restrain and slightly tire out girls with <Strategy・Runner> in the Opening Leg"
+            },
+            {
+                "Name": "Panicked Chasers",
+                "Effect": "Panic and slightly tire out girls with <Strategy・Runner> in middle Leg"
+            },
+            {
+                "Name": "Trick (Front)",
+                "Effect": "Tire out girls behind you if you're in the front in the middle Leg"
+            },
+            {
+                "Name": "Trick (Back)",
+                "Effect": "Tire out girls in the front if you're behind in the middle Leg"
+            },
+            {
+                "Name": "Sharp Gaze",
+                "Effect": "Betweener・Slightly flusters other girls during in Final Leg"
+            },
+            {
+                "Name": "No Running Allowed",
+                "Effect": "Short・When behind in Opening Leg, slightly panic girls in the front"
+            },
+            {
+                "Name": "A Gentle Whisper",
+                "Effect": "medium・Slightly confuses the girl right in front of you in middle Leg"
+            },
+            {
+                "Name": "Stamina Eater",
+                "Effect": "Long・Slightly steal stamina of girls in the front when behind in middle Leg"
+            }
+        ]
+    }
+}
