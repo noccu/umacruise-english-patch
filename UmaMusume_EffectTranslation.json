@@ -1,212 +1,250 @@
-﻿{
-    "Effect": [
-        {
-            "originEffect": "出走したレース場やバ場状態などに関するスキルヒント",
-            "effect": "Track / Race Condition Hint "
-        },
-        {
-            "originEffect": "体力",
-            "effect": "Energy "
-        },
-        {
-            "originEffect": "の最大値",
-            "effect": "Max "
-        },
-        {
-            "originEffect": "5種すべて",
-            "effect": "All 5 Stats "
-        },
-        {
-            "originEffect": "スキルpt",
-            "effect": "Skill Point "
-        },
-        {
-            "originEffect": "種の中からランダムで",
-            "effect": " Stats, Random"
-        },
-        {
-            "originEffect": "5種ステータス",
-            "effect": "All 5 Stats "
-        },
-        {
-            "originEffect": "パワー",
-            "effect": "Power "
-        },
-        {
-            "originEffect": "直前のトレ項目",
-            "effect": "Last Training Stats "
-        },
-        {
-            "originEffect": "直前のトレーニング種別",
-            "effect": "Last Training Stats "
-        },
-        {
-            "originEffect": "絆ゲージ",
-            "effect": "Bond Gauge "
-        },
-        {
-            "originEffect": "秋川理事長",
-            "effect": "President Akikawa "
-        },
-        {
-            "originEffect": "スピード",
-            "effect": "Speed "
-        },
-        {
-            "originEffect": "根性",
-            "effect": "Guts "
-        },
-        {
-            "originEffect": "賢さ",
-            "effect": "Wisdom "
-        },
-        {
-            "originEffect": "やる気",
-            "effect": "Mood "
-        },
-        {
-            "originEffect": "上に同じ",
-            "effect": "Same as above "
-        },
-        {
-            "originEffect": "スタミナ",
-            "effect": "Stamina "
-        },
-        {
-            "originEffect": "愛嬌",
-            "effect": "Charming "
-        },
-        {
-            "originEffect": "ランダム",
-            "effect": "Random "
-        },
-        {
-            "originEffect": "練習上手",
-            "effect": "Good Practice"
-        },
-        {
-            "originEffect": "ヒントレベル",
-            "effect": "Hint Lv "
-        },
-        {
-            "originEffect": "ヒントLv",
-            "effect": "Hint Lv "
-        },
-        {
-            "originEffect": "種",
-            "effect": " Stats "
-        },
-        {
-            "originEffect": "[成功]",
-            "effect": "[Success]"
-        },
-        {
-            "originEffect": "[失敗",
-            "effect": "[Failure "
-        },
-        {
-            "originEffect": "太り気味",
-            "effect": "Overweight "
-        },
-        {
-            "originEffect": "片頭痛",
-            "effect": "Migraine"
-        },
-        {
-            "originEffect": "スキルPt",
-            "effect": "Skill Point "
-        },
-        {
-            "originEffect": "注目株",
-            "effect": "Rising Star"
-        },
-        {
-            "originEffect": "練習ベタ",
-            "effect": "Bad Practice "
-        },
-        {
-            "originEffect": "失敗時",
-            "effect": "Failed"
-        },
-        {
-            "originEffect": "成功時",
-            "effect": "Success"
-        },
-        {
-            "originEffect": "ダウン",
-            "effect": "Down "
-        },
-        {
-            "originEffect": "全ステ",
-            "effect": "All Stats "
-        },
-        {
-            "originEffect": "選択したステ",
-            "effect": "Selected Stats "
-        },
-        {
-            "originEffect": "夜ふかし気味",
-            "effect": "Insomnia"
-        },
-        {
-            "originEffect": "なまけ癖",
-            "effect": "Lazy Habit"
-        },
-        {
-            "originEffect": "肌あれ",
-            "effect": "Rough Skin"
-        },
-        {
-            "originEffect": "切れ者",
-            "effect": "Sharp "
-        },
-        {
-            "originEffect": "小さなほころび",
-            "effect": "Cracking"
-        },
-        {
-            "originEffect": "大輪の輝き",
-            "effect": "Shining"
-        },
-        {
-            "originEffect": "ラストスパートの",
-            "effect": "Last Spurt "
-        },
-        {
-            "originEffect": "乙名史記者",
-            "effect": "Otonashi Etsuko"
-        },
-        {
-            "originEffect": "短距離",
-            "effect": "Short Distance "
-        },
-        {
-            "originEffect": "マイル",
-            "effect": "Mile "
-        },
-        {
-            "originEffect": "中距離",
-            "effect": "Medium Distance "
-        },
-        {
-            "originEffect": "長距離",
-            "effect": "Long Distance "
-        },
-        {
-            "originEffect": "逃げ",
-            "effect": "Runner "
-        },
-        {
-            "originEffect": "先行",
-            "effect": "Leader "
-        },
-        {
-            "originEffect": "差し",
-            "effect": "Betweener "
-        },
-        {
-            "originEffect": "追込",
-            "effect": "Chaser "
-        }
-    ]
-}
+[
+    {
+        "originEffect": "【",
+        "effect": "["
+    },
+    {
+        "originEffect": "】",
+        "effect": "]"
+    },
+    {
+        "originEffect": "出走したレース場やバ場状態などに関するスキルヒント",
+        "effect": "Track / Race Condition Hint "
+    },
+    {
+        "originEffect": "体力",
+        "effect": "Energy "
+    },
+    {
+        "originEffect": "パワー",
+        "effect": "Power "
+    },
+    {
+        "originEffect": "スピード",
+        "effect": "Speed "
+    },
+    {
+        "originEffect": "根性",
+        "effect": "Guts "
+    },
+    {
+        "originEffect": "賢さ",
+        "effect": "Wisdom "
+    },
+    {
+        "originEffect": "スタミナ",
+        "effect": "Stamina "
+    },
+    {
+        "originEffect": "やる気",
+        "effect": "Mood "
+    },
+    {
+        "originEffect": "の?絆ゲージ",
+        "effect": "Bond Gauge "
+    },
+    {
+        "originEffect": "スキルpt",
+        "effect": "Skill Pt "
+    },
+    {
+        "originEffect": "の?ヒント(?:レベル|Lv)",
+        "effect": " Hint Lv "
+    },
+    {
+        "originEffect": "の最大値",
+        "effect": "Max "
+    },
+    {
+        "originEffect": "秋川理事長",
+        "effect": "President Akikawa "
+    },
+    {
+        "originEffect": "乙名史記者",
+        "effect": "Otonashi Etsuko"
+    },
+    {
+        "originEffect": "アオハル杯",
+        "effect": "Aoharu Hai"
+    },
+    {
+        "originEffect": "ランダム(\\d)種",
+        "effect": "$1 random stat(s) "
+    },
+    {
+        "originEffect": "(\\d)種の中からランダムで(\\d)種",
+        "effect": "From $1 stats, $2 random stats "
+    },
+    {
+        "originEffect": "5種(?:すべて|ステータス)",
+        "effect": "All 5 Stats "
+    },
+    {
+        "originEffect": "直前のトレ項目|直前のトレーニング種別",
+        "effect": "Last Training Stats "
+    },
+    {
+        "originEffect": "全ステ",
+        "effect": "All Stats "
+    },
+    {
+        "originEffect": "種",
+        "effect": " Stats "
+    },
+    {
+        "originEffect": "選択したステ",
+        "effect": "Selected Stats "
+    },
+    {
+        "originEffect": "上に同じ",
+        "effect": "Same as above "
+    },
+    {
+        "originEffect": "以下ランダムで",
+        "effect": "Randomly one of: "
+    },
+    {
+        "originEffect": "ランダムで?",
+        "effect": "Randomly gain "
+    },
+    {
+        "originEffect": "<打ち切り>",
+        "effect": "End"
+    },
+    {
+        "originEffect": "ダウン",
+        "effect": "Down"
+    },
+    {
+        "originEffect": "アップ",
+        "effect": "Up"
+    },
+    {
+        "originEffect": "^(.+)になる",
+        "effect": "Become $1"
+    },
+    {
+        "originEffect": "^.*お出かけできるようにな(?:る|った)",
+        "effect": "Can start dating"
+    },
+    {
+        "originEffect": "\\[成功\\]",
+        "effect": "[Success]"
+    },
+    {
+        "originEffect": "\\[失敗\\]",
+        "effect": "[Failure]"
+    },
+    {
+        "originEffect": "失敗時",
+        "effect": "Failure: "
+    },
+    {
+        "originEffect": "成功時",
+        "effect": "Success: "
+    },
+    {
+        "originEffect": "イベント(?:終了|打ち切り)",
+        "effect": "Event chain ended"
+    },
+    {
+        "originEffect": "練習上手",
+        "effect": "Good Practice"
+    },
+    {
+        "originEffect": "愛嬌",
+        "effect": "Charming"
+    },
+    {
+        "originEffect": "注目株",
+        "effect": "Rising Star"
+    },
+    {
+        "originEffect": "太り気味",
+        "effect": "Overweight"
+    },
+    {
+        "originEffect": "片頭痛",
+        "effect": "Migraine"
+    },
+    {
+        "originEffect": "練習ベタ",
+        "effect": "Bad Practice"
+    },
+    {
+        "originEffect": "夜ふかし気味",
+        "effect": "Insomnia"
+    },
+    {
+        "originEffect": "なまけ癖",
+        "effect": "Lazy Habit"
+    },
+    {
+        "originEffect": "肌あれ",
+        "effect": "Rough Skin"
+    },
+    {
+        "originEffect": "切れ者",
+        "effect": "Sharp"
+    },
+    {
+        "originEffect": "小さなほころび",
+        "effect": "Cracking"
+    },
+    {
+        "originEffect": "大輪の輝き",
+        "effect": "Shining"
+    },
+    {
+        "originEffect": "ラストスパートの",
+        "effect": "Last Spurt "
+    },
+    {
+        "originEffect": "短距離",
+        "effect": "Short Distance "
+    },
+    {
+        "originEffect": "マイル",
+        "effect": "Mile "
+    },
+    {
+        "originEffect": "中距離",
+        "effect": "Medium Distance "
+    },
+    {
+        "originEffect": "長距離",
+        "effect": "Long Distance "
+    },
+    {
+        "originEffect": "逃げ",
+        "effect": "Runner "
+    },
+    {
+        "originEffect": "先行",
+        "effect": "Leader "
+    },
+    {
+        "originEffect": "差し",
+        "effect": "Betweener "
+    },
+    {
+        "originEffect": "追込",
+        "effect": "Chaser "
+    },
+    {
+        "originEffect": "＋",
+        "effect": "+"
+    },
+    {
+        "originEffect": "－",
+        "effect": "-"
+    },
+    {
+        "originEffect": "＜",
+        "effect": "<"
+    },
+    {
+        "originEffect": "＞",
+        "effect": ">"
+    }
+]
