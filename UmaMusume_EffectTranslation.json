@@ -1,151 +1,35 @@
 [
     {
-        "originEffect": "【",
+        "originEffect": "【|［",
         "effect": "["
     },
     {
-        "originEffect": "】",
+        "originEffect": "】|］",
         "effect": "]"
     },
     {
-        "originEffect": "出走したレース場やバ場状態などに関するスキルヒント",
-        "effect": "Track / Race Condition Hint "
+        "originEffect": "、",
+        "effect": ","
     },
     {
-        "originEffect": "体力",
-        "effect": "Energy "
+        "originEffect": "？",
+        "effect": "?"
     },
     {
-        "originEffect": "パワー",
-        "effect": "Power "
+        "originEffect": "＋",
+        "effect": "+"
     },
     {
-        "originEffect": "スピード",
-        "effect": "Speed "
+        "originEffect": "－|‐",
+        "effect": "-"
     },
     {
-        "originEffect": "根性",
-        "effect": "Guts "
+        "originEffect": "＜",
+        "effect": "<"
     },
     {
-        "originEffect": "賢さ",
-        "effect": "Wisdom "
-    },
-    {
-        "originEffect": "スタミナ",
-        "effect": "Stamina "
-    },
-    {
-        "originEffect": "やる気",
-        "effect": "Mood "
-    },
-    {
-        "originEffect": "の?絆ゲージ",
-        "effect": "Bond Gauge "
-    },
-    {
-        "originEffect": "スキルpt",
-        "effect": "Skill Pt "
-    },
-    {
-        "originEffect": "の?ヒント(?:レベル|Lv)",
-        "effect": " Hint Lv "
-    },
-    {
-        "originEffect": "の最大値",
-        "effect": "Max "
-    },
-    {
-        "originEffect": "秋川理事長",
-        "effect": "President Akikawa "
-    },
-    {
-        "originEffect": "乙名史記者",
-        "effect": "Otonashi Etsuko"
-    },
-    {
-        "originEffect": "アオハル杯",
-        "effect": "Aoharu Hai"
-    },
-    {
-        "originEffect": "ランダム(\\d)種",
-        "effect": "$1 random stat(s) "
-    },
-    {
-        "originEffect": "(\\d)種の中からランダムで(\\d)種",
-        "effect": "From $1 stats, $2 random stats "
-    },
-    {
-        "originEffect": "5種(?:すべて|ステータス)",
-        "effect": "All 5 Stats "
-    },
-    {
-        "originEffect": "直前のトレ項目|直前のトレーニング種別",
-        "effect": "Last Training Stats "
-    },
-    {
-        "originEffect": "全ステ",
-        "effect": "All Stats "
-    },
-    {
-        "originEffect": "種",
-        "effect": " Stats "
-    },
-    {
-        "originEffect": "選択したステ",
-        "effect": "Selected Stats "
-    },
-    {
-        "originEffect": "上に同じ",
-        "effect": "Same as above "
-    },
-    {
-        "originEffect": "以下ランダムで",
-        "effect": "Randomly one of: "
-    },
-    {
-        "originEffect": "ランダムで?",
-        "effect": "Randomly gain "
-    },
-    {
-        "originEffect": "<打ち切り>",
-        "effect": "End"
-    },
-    {
-        "originEffect": "ダウン",
-        "effect": "Down"
-    },
-    {
-        "originEffect": "アップ",
-        "effect": "Up"
-    },
-    {
-        "originEffect": "^(.+)になる",
-        "effect": "Become $1"
-    },
-    {
-        "originEffect": "^.*お出かけできるようにな(?:る|った)",
-        "effect": "Can start dating"
-    },
-    {
-        "originEffect": "\\[成功\\]",
-        "effect": "[Success]"
-    },
-    {
-        "originEffect": "\\[失敗\\]",
-        "effect": "[Failure]"
-    },
-    {
-        "originEffect": "失敗時",
-        "effect": "Failure: "
-    },
-    {
-        "originEffect": "成功時",
-        "effect": "Success: "
-    },
-    {
-        "originEffect": "イベント(?:終了|打ち切り)",
-        "effect": "Event chain ended"
+        "originEffect": "＞",
+        "effect": ">"
     },
     {
         "originEffect": "練習上手",
@@ -196,8 +80,174 @@
         "effect": "Shining"
     },
     {
+        "skill": true
+    },
+    {
+        "race": true
+    },
+    {
+        "originEffect": "出走したレース場やバ場状態などに関するスキルヒント",
+        "effect": "Track / Race Condition Hint"
+    },
+    {
+        "originEffect": "(?:秋川)?理事長",
+        "effect": "President Akikawa "
+    },
+    {
+        "originEffect": "乙名史記者",
+        "effect": "Otonashi Etsuko"
+    },
+    {
+        "originEffect": "樫本理子",
+        "effect": "Kashimoto Riko"
+    },
+    {
+        "originEffect": "アオハル杯",
+        "effect": "Aoharu Hai"
+    },
+    {
+        "originEffect": "ランダムに?(\\d)種を?",
+        "effect": "$1 Random stat(s) "
+    },
+    {
+        "originEffect": "(\\d)種の中からランダムで(\\d)種",
+        "effect": "From $1 stats, $2 random stats "
+    },
+    {
+        "originEffect": "5種(?:すべて|ステータス)",
+        "effect": "All 5 Stats "
+    },
+    {
+        "originEffect": "直前のトレ項目|(?:直前の)?トレーニング種別|直前にトレーニングしたステ",
+        "effect": "Last Trained Stat(s) "
+    },
+    {
+        "originEffect": "全ステ",
+        "effect": "All Stats "
+    },
+    {
+        "originEffect": "選択したステ",
+        "effect": "Selected Stats "
+    },
+    {
+        "originEffect": "上に同じ",
+        "effect": "Same as above"
+    },
+    {
+        "originEffect": "効果なし",
+        "effect": "No effect"
+    },
+    {
+        "originEffect": "以下ランダムで",
+        "effect": "Randomly one of: "
+    },
+    {
+        "originEffect": "^(.*)\\(確率付与\\)",
+        "effect": "Randomly gain $1"
+    },
+    {
+        "originEffect": "(?:ランダム|確率)(?:で|に)?(.*)(?:になる)?",
+        "effect": "Randomly gain $1"
+    },
+    {
+        "originEffect": "^.*お出かけ(?:できるように|可能に?)な(?:る|った)",
+        "effect": "Can start dating"
+    },
+    {
+        "originEffect": "次のトレーニングが(\\d)種類だけになる",
+        "effect": "Next training locked to $1 random type(s)"
+    },
+    {
+        "originEffect": "選択肢なしイベント(「結果：フラッシュプラン」)が発生しない",
+        "effect": "Chain event $1 does not trigger"
+    },
+    {
+        "originEffect": "目標レースが「(.*)」「(.*)」に確定",
+        "effect": "「$2」 Race objective changes to 「$1」"
+    },
+    {
+        "originEffect": "目標が「(.*)」に",
+        "effect": "Set objective to「$1」"
+    },
+    {
+        "originEffect": "ダウン",
+        "effect": "Down"
+    },
+    {
+        "originEffect": "アップ",
+        "effect": "Up"
+    },
+    {
+        "originEffect": "<打ち切り>",
+        "effect": "<End>"
+    },
+    {
+        "originEffect": "または",
+        "effect": " or "
+    },
+    {
+        "originEffect": "^(.+)になる",
+        "effect": "Become $1"
+    },
+    {
+        "originEffect": "夏合宿中に発生",
+        "effect": "Activates during Summer Camp"
+    },
+    {
+        "originEffect": "イベント(?:終了|打ち切り)",
+        "effect": "Event chain ended"
+    },
+    {
+        "originEffect": "<パターン(\\d)>",
+        "effect": "<Pattern $1>"
+    },
+    {
+        "originEffect": "大成功時?",
+        "effect": "Big Success"
+    },
+    {
+        "originEffect": "(?:成功|当たり)(\\d)",
+        "effect": "Success $1"
+    },
+    {
+        "originEffect": "(失敗|はずれ)(\\d)",
+        "effect": "Failure $1"
+    },
+    {
+        "originEffect": "成功時?|当たり",
+        "effect": "Success"
+    },
+    {
+        "originEffect": "失敗時?|はずれ",
+        "effect": "Failure"
+    },
+    {
         "originEffect": "ラストスパートの",
         "effect": "Last Spurt "
+    },
+    {
+        "originEffect": "体力",
+        "effect": "Energy "
+    },
+    {
+        "originEffect": "パワー",
+        "effect": "Power "
+    },
+    {
+        "originEffect": "スピード",
+        "effect": "Speed "
+    },
+    {
+        "originEffect": "根性",
+        "effect": "Guts "
+    },
+    {
+        "originEffect": "賢さ",
+        "effect": "Wisdom "
+    },
+    {
+        "originEffect": "スタミナ",
+        "effect": "Stamina "
     },
     {
         "originEffect": "短距離",
@@ -232,19 +282,47 @@
         "effect": "Chaser "
     },
     {
-        "originEffect": "＋",
-        "effect": "+"
+        "originEffect": "やる気",
+        "effect": "Mood "
     },
     {
-        "originEffect": "－",
-        "effect": "-"
+        "originEffect": "の?絆(?:ゲージ)?",
+        "effect": "Bond Gauge "
     },
     {
-        "originEffect": "＜",
-        "effect": "<"
+        "originEffect": "スキルpt",
+        "effect": "Skill Pt "
     },
     {
-        "originEffect": "＞",
-        "effect": ">"
+        "originEffect": "の?ヒント(?:レベル|Lv)?",
+        "effect": " Hint Lv "
+    },
+    {
+        "originEffect": "の?最大値",
+        "effect": "Max "
+    },
+    {
+        "originEffect": "（単ステ）",
+        "effect": "(single status)"
+    },
+    {
+        "originEffect": "種",
+        "effect": " Stats "
+    },
+    {
+        "originEffect": "を獲得",
+        "effect": ""
+    },
+    {
+        "originEffect": "」 ",
+        "effect": "」"
+    },
+    {
+        "originEffect": "/ ([+\\-])",
+        "effect": "/$1"
+    },
+    {
+        "originEffect": " {2,}",
+        "effect": " "
     }
 ]
