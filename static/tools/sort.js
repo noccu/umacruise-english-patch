@@ -9,58 +9,100 @@ const oldfile = process.argv[3] || "UmaMusumeLibrary.json",
     newFile = process.argv[2];
 var oldData,
     newData;
-var sortedData = {};
+const sortedData = {};
 
 function readFiles() {
     oldData = JSON.parse(fs.readFileSync(oldfile, "utf8"));
     newData = JSON.parse(fs.readFileSync(newFile, "utf8"));
 }
 
-//takes new file and updates old to the same key order
+// Takes new file and updates old to the same key order
 function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
     if (depth > 2) return;
     for (let [newKey, newVal] of Object.entries(newJson)) {
+        let entity = oldJson[newKey]
+        // Copy keys before chards/cards
         if (depth < 2) {
             sortedJson[newKey] = {};
         }
-        // Uma or Card name
+        // Copy char/card objects from old file
+        // newKey = char/card name
         else if (depth == 2) {
-            sortedJson[newKey] = oldJson[newKey];
+            if (!entity) {
+                let recover = attemptEntityRecovery(newVal, oldJson);
+                if (recover) {
+                    console.warn(`Recovered ${newKey} as ${recover.oldEntityName}\n`);
+                    ({oldEntity: entity, oldEntityName: newKey} = recover);
+                }
+                else {
+                    // Add new values after exhausting options
+                    // console.log(`Adding new key: ${newKey}`);
+                    entity = newVal;
+                }
+            }
+            sortedJson[newKey] = entity;
         }
-
-        sort(newVal, oldJson[newKey], sortedJson[newKey], depth + 1);
+        
+        // Recurse, note use of newVal is not affected by entity recovery
+        sort(newVal, entity, sortedJson[newKey], depth + 1);
     }
 
-    //rarity, keys = umas or cards
+    //This depth is the list for a given rarity -> keys = chars/cards
     if (depth == 2) {
         let oldKeys = Object.keys(oldJson),
             sortedKeys = Object.keys(sortedJson);
-        // if (oldKeys.length != sortedKeys.length) {
-        //     console.warn("len mismatch");
-        // }
+
+        //Search each file for keys missing in the other
         let missing = false;
-        sortedKeys.forEach(k => {
+        sortedKeys.forEach(k => { // First those missing in the old file, showing mostly new additions.
             if (!oldKeys.includes(k)) {
-                if (!missing) {
-                    console.log(`[Missing in ${oldfile}]`);
+                if (!missing) { // Print the heading for the file once
+                    console.log(`[New keys in ${oldfile}]`);
                     missing = true;
                 }
-                console.log(`Missing key: ${k}`);
+                console.log(`Added new key: ${k}`); // Log all missing keys
             }
         })
         if (missing) console.log(""); //newline
         missing = false;
-        oldKeys.forEach(k => {
+        oldKeys.forEach(k => { // Then those missing in the new file, more often showing issues.
             if (!sortedKeys.includes(k)) {
                 if (!missing) {
-                    console.log(`[Missing in ${newFile}]`);
+                    console.log(`[Missing in ${newFile} (requires checking!)]`);
                     missing = true;
                 }
                 console.log(`Missing key: ${k}`);
+                // Most of the time it's a translation issue on the key, so let's add it and let the diff deal with it
+                // It's not necessarily easier to diff but it helps prevent accidental deletions.
+                // We could do this in the newData loop above but then we can't log things as nicely for checks.
+                // sortedJson[k] = oldJson[k];
             }
         })
         if (missing) console.log(""); //newline
     }
+}
+
+//If a char/card key isn't found in previous data, check if it isn't a translation/data error.
+function attemptEntityRecovery(newEntity, oldEntityList) {
+    // List event names
+    let matchEvents = newEntity.Event.map(ev => Object.keys(ev)[0])
+        // Go through old char/cards
+        for (let [oldEntityName, oldEntity] of Object.entries(oldEntityList)) {
+            // Go through each's event array
+            let matches = 0,
+                i = 0, max = oldEntity.Event.length / 3;
+            for (let event of oldEntity.Event) {
+                // Check if the first event's name exists in our new list
+                if (i > max && matches / i < 0.5) break;
+                let eventName = Object.keys(event)[0]
+                if (matchEvents.includes(eventName)) {
+                    matches++;
+                }
+                i++;
+            }
+            if (matches / matchEvents.length > 0.8) return {oldEntity, oldEntityName};
+        }
+        return;
 }
 
 function writeFile() {
