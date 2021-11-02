@@ -3447,11 +3447,11 @@
             "ご令嬢の風格": [
               {
                 "Option": "かっこいいなと思って",
-                "Effect": "Stamina +10\nPower +10\nBecome Randomly gain 「Good Practice〇」"
+                "Effect": "Stamina +10\nPower +10\nRandomly gain 「Good Practice〇」"
               },
               {
                 "Option": "隣に立つ努力をしないとと思って",
-                "Effect": "Wisdom +20\nBecome Randomly gain 「Good Practice〇」"
+                "Effect": "Wisdom +20\nRandomly gain 「Good Practice〇」"
               }
             ]
           },
@@ -10803,7 +10803,7 @@
               },
               {
                 "Option": "玉藻前的な妖怪！？",
-                "Effect": "「100K Horsepower」Hint Lv +2\nBecome Randomly gain Rising Star"
+                "Effect": "「100K Horsepower」Hint Lv +2\nRandomly gain Rising Star"
               }
             ]
           },
@@ -18079,7 +18079,7 @@
             "池の覇者 ②": [
               {
                 "Option": "（すごいオーラだ！）",
-                "Effect": "Energy Max +4\nStamina +10\n「Uptempo」Hint Lv +1\nBond Gauge +5"
+                "Effect": "[Success]==========\nEnergy Max +4\nStamina +10\n「Uptempo」Hint Lv +1\nBond Gauge +5[Failure]==========\nGuts +10\nBond Gauge -5"
               },
               {
                 "Option": "（力押し過ぎないか……？）",
