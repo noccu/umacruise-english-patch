@@ -10482,23 +10482,23 @@
           {
             "ダンスレッスン": [
               {
-                "Option": "",
-                "Effect": ""
+                "Option": "可愛い振り付け",
+                "Effect": "Wisdom +10"
               },
               {
-                "Option": "",
-                "Effect": ""
+                "Option": "ブレイクダンス",
+                "Effect": "Power +10"
               }
             ]
           },
           {
             "追加の自主トレ": [
               {
-                "Option": "",
+                "Option": "それなら付き合うよ",
                 "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
               },
               {
-                "Option": "",
+                "Option": "小敵と見て侮るなかれ",
                 "Effect": "Energy +5"
               }
             ]
@@ -10506,15 +10506,15 @@
           {
             "新年の抱負": [
               {
-                "Option": "",
-                "Effect": ""
+                "Option": "「賢良方正」常に最善の選択を",
+                "Effect": "Wisdom +10"
               },
               {
-                "Option": "",
+                "Option": "「十全健康」心も体も大切に",
                 "Effect": "Energy +20"
               },
               {
-                "Option": "",
+                "Option": "「武芸百般」多様な技を用いる",
                 "Effect": "Skill Pt +20"
               }
             ]
@@ -10522,15 +10522,15 @@
           {
             "初詣": [
               {
-                "Option": "",
+                "Option": "「医食同源」食事で健康に気を配る",
                 "Effect": "Energy +30"
               },
               {
-                "Option": "",
+                "Option": "「全知全能」最強の皇帝になる",
                 "Effect": "All 5 Stats +5"
               },
               {
-                "Option": "",
+                "Option": "「風流韻事」洒落の技術を磨く",
                 "Effect": "Skill Pt +35"
               }
             ]
@@ -10538,11 +10538,11 @@
           {
             "夏合宿（2年目）にて": [
               {
-                "Option": "",
+                "Option": "いっぱい食べてパワーをつけよう",
                 "Effect": "Power +10"
               },
               {
-                "Option": "",
+                "Option": "たまにはトレーニングを我慢してみる",
                 "Effect": "Guts +10"
               }
             ]
@@ -10550,11 +10550,11 @@
           {
             "レース入着": [
               {
-                "Option": "",
+                "Option": "でも、まずはお疲れ様",
                 "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
               },
               {
-                "Option": "",
+                "Option": "次こそ\"皇帝\"の走りを見せよう",
                 "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
               }
             ]
@@ -10562,11 +10562,11 @@
           {
             "レース勝利": [
               {
-                "Option": "",
+                "Option": "ご褒美を上げよう",
                 "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
               },
               {
-                "Option": "",
+                "Option": "次も勝とうな！",
                 "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
               }
             ]
@@ -10598,11 +10598,11 @@
           {
             "お大事に！": [
               {
-                "Option": "",
+                "Option": "しっかり休め",
                 "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
-                "Option": "",
+                "Option": "それなら……！",
                 "Effect": "Same as above"
               }
             ]
