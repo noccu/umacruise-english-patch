@@ -10308,6 +10308,18 @@
       "[Archer of the White Moon] Symboli Rudolf": {
         "Event": [
           {
+            "皇帝の飽食": [
+              {
+                "Option": "ちょっと量が多くないか？",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "よし、バッチリ味見しよう",
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              }
+            ]
+          },
+          {
             "経験を授けよ": [
               {
                 "Option": "じゃあ射的のコツを！",
