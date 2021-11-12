@@ -1,0 +1,26 @@
+name: Create Release
+
+on:
+  push:
+    branches: [ static ]
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Zip JSON files
+        run: zip -j UmaUmaCruise_EN-patch.zip static/*.json
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Latest update"
+          files: UmaUmaCruise_EN-patch.zip
