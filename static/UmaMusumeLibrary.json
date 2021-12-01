@@ -4505,6 +4505,234 @@
           }
         ]
       },
+      "[Miraculous White Star] Oguri Cap": {
+        "Event": [
+          {
+            "聖夜に並んで走るため": [
+              {
+                "Option": "どこで競うの?",
+                "Effect": "Skill Pt +30"
+              },
+              {
+                "Option": "焦ってやる必要はないよ",
+                "Effect": "Speed +10\nPower +5"
+              }
+            ]
+          },
+          {
+            "先取り大人のクリスマス！？": [
+              {
+                "Option": "今までで最高のプレゼントだよ",
+                "Effect": "Energy +20\nMood +1\n「Winter Girl ○」Hint Lv +2"
+              },
+              {
+                "Option": "‥‥‥じゃあ、今年はサンタさん来ないかも?",
+                "Effect": "Speed +10\nWisdom +20\n「Winter Girl ○」Hint Lv +2"
+              }
+            ]
+          },
+          {
+            "みんなのオグリキャップ": [
+              {
+                "Option": "彼女の夢を叶えてみせます！",
+                "Effect": "「Nutritional Supplements」Hint Lv +2\nBecome 「Charming〇」(Randomly gain )"
+              },
+              {
+                "Option": "不束者ですがよろしくお願いします",
+                "Effect": "Power +10\nGuts +5"
+              }
+            ]
+          },
+          {
+            "託された想い": [
+              {
+                "Option": "俺の想いも一緒だ！",
+                "Effect": "Stamina +10\nPower +10"
+              },
+              {
+                "Option": "みんなと一緒に勝とう！",
+                "Effect": "Wisdom +20"
+              }
+            ]
+          },
+          {
+            "レースとグルメで満腹に": [
+              {
+                "Option": "早めに行って観戦場所を確保しよう",
+                "Effect": "Energy +10\nSkill Pt +15"
+              },
+              {
+                "Option": "レースもグルメも楽しもう！",
+                "Effect": "「Nakayama Racetrack ○」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "オグリの大食い選手権": [
+              {
+                "Option": "思いっきり戦ってこい！",
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              },
+              {
+                "Option": "ほどほどにセーブしてほしい",
+                "Effect": "Energy +10\nPower +5\nSkill Pt +5"
+              }
+            ]
+          },
+          {
+            "迷いウマ娘": [
+              {
+                "Option": "くまなく探そう",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "物産展へ行ってみよう",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "畑でビルドアップ": [
+              {
+                "Option": "雑草を抜いてしまおう",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "畑を耕そう",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "力強いステップがよかった",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "流れるような動きがよかった",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "その覚悟、受け取った！",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
+              },
+              {
+                "Option": "他人のペースに乱されないで",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "ジムで鍛えよう!",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "たくさん食べて健康な1年にしよう！",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "得意なことを増やそう！",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "健康祈願で『無事是名ウマ娘！』",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "最強を目指して『怪物になる！』",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "出来ることを増やす『技術を習得！』",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "夏合宿（2年目）にて": [
+              {
+                "Option": "さらにパワーをつけよう！",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "気持ちで負けないようにしよう！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "焦る必要はないよ",
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "協力は惜しまないよ！",
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース勝利": [
+              {
+                "Option": "今日はご馳走ね！",
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "次も全力で頑張ろう",
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "次は期待しているよ！",
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "早速トレーニングだね！",
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "グルメイベント": [
+              {
+                "Option": "食事は適量が1番",
+                "Effect": "Energy +10,Skill Pt +5"
+              },
+              {
+                "Option": "腹が減っては力が出ない！",
+                "Effect": "Energy +30\nSkill Pt +10\nSpeed -5\nPower +5\nBecome Overweight"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "でもちゃんと休もう",
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+              },
+              {
+                "Option": "本当に?",
+                "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
       "[Quercus Civilis] Air Groove": {
         "Event": [
           {
@@ -7101,6 +7329,246 @@
           }
         ]
       },
+      "[Twisted Line] Mejiro Dober": {
+        "Event": [
+          {
+            "メジロの色": [
+              {
+                "Option": "その意気！",
+                "Effect": "Stamina +20"
+              },
+              {
+                "Option": "いきなり無理する必要はない",
+                "Effect": "Power +20"
+              }
+            ]
+          },
+          {
+            "香りの魔術師": [
+              {
+                "Option": "ドーベルは普段なに使ってるの?",
+                "Effect": "Wisdom +20"
+              },
+              {
+                "Option": "おすすめを選んでほしい",
+                "Effect": "Guts +10\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "ワンクッション親子": [
+              {
+                "Option": "お母さんのことが苦手なの？",
+                "Effect": "Speed +20\nRandomly gain 「Charming〇」"
+              },
+              {
+                "Option": "ベルちゃん？",
+                "Effect": "Power +20\nRandomly gain 「Charming〇」"
+              }
+            ]
+          },
+          {
+            "今のアタシは……": [
+              {
+                "Option": "もっと活躍して立派なところを見せよう",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "お父さんはドーベルを認めてくれているよ",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "カラオケチャレンジ": [
+              {
+                "Option": "ドーベルが挑戦します！",
+                "Effect": "[Success]==========\nEnergy +10\nAll 5 Stats +5\n[Failure]==========\nStamina +5\nGuts +10"
+              },
+              {
+                "Option": "ライアンの優しさを今は受け取っておこう(失敗)",
+                "Effect": "Energy +10"
+              }
+            ]
+          },
+          {
+            "嵐の大特訓": [
+              {
+                "Option": "あ、憧れを追い続ける強い意志‥‥‥！",
+                "Effect": "Energy -10\nStamina +20"
+              },
+              {
+                "Option": "不安に打ち勝つパワーかな！？",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "きゅんきゅんティータイム!?": [
+              {
+                "Option": "おいしい紅茶との出会いのためだよ！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "ドーベルなりの言葉でいいんじゃない？",
+                "Effect": "Wisdom +５\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "ゆたかなる友情": [
+              {
+                "Option": "漫画を貸してあげたら？",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "野球観戦、一緒にするとか！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "ヤミナベス女王杯！？": [
+              {
+                "Option": "じゃあ材料を揃えよう！善は急げ！",
+                "Effect": "Speed +15"
+              },
+              {
+                "Option": "思い出づくりを楽しんでおいで",
+                "Effect": "「Autumn Girl ○」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "見える範囲からやっていこう",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "世界配信、目指す?",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "見てるから思いっきりやろう！",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
+              },
+              {
+                "Option": "やっぱり許可できない",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "かるた、やろう！",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "お雑煮、食べよう！",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "書初め、しよう！",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "甘酒を飲もう",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "お守りを買おう",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "願い事をしよう",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "夏合宿（2年目）にて": [
+              {
+                "Option": "灼熱の筋力強化メニュー",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "地獄の闘魂強化メニュー",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "自分を褒めるのも大事",
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "立ち止まってられないね",
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース勝利": [
+              {
+                "Option": "全力を見せてもらえた",
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "まだまだ伸びしろを感じた",
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "貴方ならできるよ",
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "今日の経験を糧にしよう！",
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "想いの重さ＞砂糖の重さ": [
+              {
+                "Option": "それは食べすぎじゃない？",
+                "Effect": "Energy +10,Skill Pt +5"
+              },
+              {
+                "Option": "食べ尽くして吟味しよう！",
+                "Effect": "Energy +30\nSkill Pt +10\nSpeed -5\nPower +5\nBecome Overweight"
+              }
+            ]
+          },
+          {
+            "無茶は厳禁": [
+              {
+                "Option": "今は体を大切にしよう",
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+              },
+              {
+                "Option": "治ったら取り返そう！",
+                "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
       "[Top of Joyful] Tokai Teio": {
         "Event": [
           {
@@ -7251,7 +7719,7 @@
             "気づいちゃった！": [
               {
                 "Option": "テイオーの走りが好きだから",
-                "Effect": "Speed +5\nStamina"
+                "Effect": "Speed +5\nStamina +5"
               },
               {
                 "Option": "約束を守りたいから",
@@ -7399,6 +7867,286 @@
               },
               {
                 "Option": "ならまだ頑張ってみよう！",
+                "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Noel Rouge Carol] Biwa Hayahide": {
+        "Event": [
+          {
+            "ゲームに関する実践証明": [
+              {
+                "Option": "有名パズルゲーム",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "コアなレースゲーム",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "かくれんぼマイスター": [
+              {
+                "Option": "俺が鬼をするよ",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "ビワハヤヒデが鬼な!",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "カフェで読書を": [
+              {
+                "Option": "素敵な趣味だな",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "他にもおすすめの店があれば教えて",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "明暗を分かつ": [
+              {
+                "Option": "あの店にも何か武器があればいいのに",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "宣伝を手伝うことならできるかも",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "暴れ龍との攻防": [
+              {
+                "Option": "近場で済ませた方が・・・・・",
+                "Effect": "Power +5\nGuts +10"
+              },
+              {
+                "Option": "まぁ、関西に行ったついでなら",
+                "Effect": "「Hanshin Racetrack ○」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "緊急プレゼンテーション": [
+              {
+                "Option": "君だからこその説得力だった",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "君の理論は心に響くな",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "こっちまで勇気をもらったよ",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "お願い、お姉さん！": [
+              {
+                "Option": "ハヤヒデの選んだ色っぽいマニキュア",
+                "Effect": "Speed +15"
+              },
+              {
+                "Option": "タイシンの選んだクールな耳飾り",
+                "Effect": "Stamina +15"
+              }
+            ]
+          },
+          {
+            "理論に基づいた昔ばなし": [
+              {
+                "Option": "君なりにやってみてもいいかも",
+                "Effect": "Power +20"
+              },
+              {
+                "Option": "いっそ勉強会にしてみる？",
+                "Effect": "Guts +20"
+              }
+            ]
+          },
+          {
+            "助っ人参上！": [
+              {
+                "Option": "1日だけ体験してみたら？",
+                "Effect": "Stamina +5\nSkill Pt +15"
+              },
+              {
+                "Option": "妹を見てもらうっていう条件で入ったら？",
+                "Effect": "「Press the Attack」Hint Lv 2"
+              }
+            ]
+          },
+          {
+            "もうひとつの星": [
+              {
+                "Option": "インパクトで勝負！後ろ姿だ！",
+                "Effect": "Energy -10\nSpeed +30\nGuts +10\n「冬ウマ娘」Hint Lv 2"
+              },
+              {
+                "Option": "主役らしく普通に渡そう",
+                "Effect": "Energy +15\nSkill Pt +20\n「冬ウマ娘」Hint Lv 2"
+              }
+            ]
+          },
+          {
+            "料理と姉妹の思い出": [
+              {
+                "Option": "力がつく栄養いっぱいのカレー",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "スタミナがつく肉厚ハンバーグ",
+                "Effect": "Stamina +5\nWisdom +5"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "本人に聞こう",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "一緒に踊ってみたら?",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "俺も付き合うよ",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
+              },
+              {
+                "Option": "ライバルなら、信じてあげよう",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "理論",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "食事",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "技術",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "ハヤヒデが元気でいられますように",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "勝利を掴むために能力を上げたい",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "たくさん技術を磨きたい",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "バ・ナ・ナ・先・輩♪": [
+              {
+                "Option": "・・・目を覚ませ、バナナ先輩",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "脳もバナナを求めているはず！",
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              }
+            ]
+          },
+          {
+            "夏合宿（2年目）にて": [
+              {
+                "Option": "OK、灼熱のエアロビクス地獄だ!!",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "追加で40kmマラソンしようか",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "・・・いい部分もあったぞ!",
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "君の言うとおりだ",
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース勝利": [
+              {
+                "Option": "おめでとう!",
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "\"まだ\"一歩、だ",
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "",
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "グルメイベント": [
+              {
+                "Option": "",
+                "Effect": "Energy +10,Skill Pt +5"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy +30\nSkill Pt +10\nSpeed -5\nPower +5\nBecome Overweight"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "",
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+              },
+              {
+                "Option": "",
                 "Effect": "Same as above"
               }
             ]
@@ -7555,7 +8303,7 @@
             "気づいちゃった！": [
               {
                 "Option": "テイオーの走りが好きだから",
-                "Effect": "Speed +5\nStamina"
+                "Effect": "Speed +5\nStamina +5"
               },
               {
                 "Option": "約束を守りたいから",
@@ -8563,7 +9311,7 @@
             "完成！究極フォーム！": [
               {
                 "Option": "……やっちゃうか！",
-                "Effect": "[Success]==========\nPower +30\n[Failure Failure]==========\nEnergy -10\nPower +30\n[Failure Failure]==========\nEnergy -15\nPower +30\nWisdom -10"
+                "Effect": "[Success]==========\nPower +30\n[Failure 1]==========\nEnergy -10\nPower +30\n[Failure 2]==========\nEnergy -15\nPower +30\nWisdom -10"
               },
               {
                 "Option": "やめておこう……",
@@ -17881,7 +18629,7 @@
           }
         ]
       },
-      "Resonating Strain Biwa Hayahide": {
+      "[Resonating Strain] Biwa Hayahide": {
         "Event": [
           {
             "ぎりぎり様相論": [
@@ -18420,6 +19168,170 @@
             ]
           }
         ]
+      },
+      "[Get Movin'! Live It Up! Party On!] Daitaku Helios": {
+        "Event": [
+          {
+            "笑顔伝説・爆誕！ ①": [
+              {
+                "Option": "注目度を上げるとか？",
+                "Effect": "[Success]==========\nEnergy -5\nPower +15\n「Frontrunner」Hint Lv +1\nBond Gauge +5\n[Failure]==========\nEnergy -5\nPower +15\nBond Gauge +5"
+              },
+              {
+                "Option": "今のままで充分だと思う！",
+                "Effect": "Energy +10\nSpeed +15\n「Leaders Corner ○」Hint Lv +1\n※ Event chain ended"
+              }
+            ]
+          },
+          {
+            "太陽とエンカウント☆": [
+              {
+                "Option": "覚悟を決めて熱唱する",
+                "Effect": "Power +10\nBond Gauge +5"
+              },
+              {
+                "Option": "合いの手で盛り上げる",
+                "Effect": "「Rising Star」\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "笑顔フォーエバー": [
+              {
+                "Option": "そこは気合でこらえて！",
+                "Effect": "Speed +5\nPower +10\nBond Gauge +5"
+              },
+              {
+                "Option": "一旦気を静めよう",
+                "Effect": "「伏兵◯」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Formation: PARTY] Mayano Top Gun": {
+        "Event": [
+          {
+            "なんでもない日の……♪ ①": [
+              {
+                "Option": "素敵なお父さんだね",
+                "Effect": "Mood +1\nSpeed +20\nGuts +10\n「真っ向勝負」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "誰かを気遣える素敵な”大人”だね",
+                "Effect": "Wisdom +15\nBond Gauge +5"
+              },
+              {
+                "Option": "じゃあ私からも何かあげようか？",
+                "Effect": "Energy +20\nStamina +10\n「Competitive Spirit ○」Hint Lv 1"
+              }
+            ]
+          },
+          {
+            "マヤノ的おやつ会議！": [
+              {
+                "Option": "新フレーバーに挑戦！",
+                "Effect": "Stamina +5\nGuts +5\nBond Gauge +5"
+              },
+              {
+                "Option": "テッパンが1番！",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "マヤノ的ファッション会議！": [
+              {
+                "Option": "最新の技有りコーデ！",
+                "Effect": "「Straight Skill」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "動きやすい機能美コーデ！",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Stubborn Malkuth] Narita Taishin": {
+        "Event": [
+          {
+            "素直トレーニング！ ②": [
+              {
+                "Option": "いい友達だね",
+                "Effect": "Power +10\n「Light Step」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "今度は2人に素直になってもらおう！",
+                "Effect": "Stamina +10\n「Pass Expert」Hint Lv 1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "別に、ほっといて": [
+              {
+                "Option": "せめて応援させて!",
+                "Effect": "Stamina +5\nSkill Pt +15\nBond Gauge +5"
+              },
+              {
+                "Option": "でも、力になりたいんだ",
+                "Effect": "Power +5\nSkill Pt +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "別に、邪魔しないで": [
+              {
+                "Option": "遅くならないようにな",
+                "Effect": "「Press the Attack」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "無理はよくない",
+                "Effect": "Skill Pt +30\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Snow-Crystal Day] Marvelous Sunday": {
+        "Event": [
+          {
+            "キラッと輝くマーベラス☆ ②": [
+              {
+                "Option": "疲れてるのかも……",
+                "Effect": "Energy +10\nBond Gauge +5"
+              },
+              {
+                "Option": "もう1度この目で確かめてみたい……！",
+                "Effect": "「曇りの日」Hint Lv 2\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "問答無用のマーベラス☆": [
+              {
+                "Option": "最近、力が出なくて",
+                "Effect": "Energy +10\nSpeed +5\nBond Gauge +5"
+              },
+              {
+                "Option": "もっとやる気を出したいんだ",
+                "Effect": "Mood +1\nSpeed +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "マーベラスにするために☆": [
+              {
+                "Option": "自分から全力でぶつかっていくとか…？",
+                "Effect": "Energy +10\nMood +1\nBond Gauge +5"
+              },
+              {
+                "Option": "関西人みたいなノリと勢いで、とか…？",
+                "Effect": "「Hanshin Racetrack ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
       }
     },
     "SR": {
@@ -18683,7 +19595,7 @@
           }
         ]
       },
-      "[カワイイ+カワイイは～？] Mayano Top Gun": {
+      "[Cute + Cute is~?] Mayano Top Gun": {
         "Event": [
           {
             "マヤノ的おやつ会議！": [
@@ -19562,6 +20474,46 @@
               {
                 "Option": "懇願しない",
                 "Effect": "Bond Gauge +5\nSkill Pt +15"
+              }
+            ]
+          }
+        ]
+      },
+      "[Fussy Supervisor] Vodka": {
+        "Event": [
+          {
+            "黄昏サボタージュ ①": [
+              {
+                "Option": "反省の態度を見せよう！",
+                "Effect": "Energy Max +4\nPower +10\nBond Gauge +5"
+              },
+              {
+                "Option": "素直に謝ればいい",
+                "Effect": "Speed +15\n「Mile Corner ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "憧れのセリフ": [
+              {
+                "Option": "見た目をワイルドにしてみたら？",
+                "Effect": "Power +10\nBond Gauge +5"
+              },
+              {
+                "Option": "ワイルドなポーズをとってみたら？",
+                "Effect": "Power +5\nSkill Pt +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "大通りの強敵": [
+              {
+                "Option": "脇道を使う",
+                "Effect": "「Slight Detour」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "全力疾走で向かう",
+                "Effect": "Power +5\nSkill Pt +15\nBond Gauge +5"
               }
             ]
           }
