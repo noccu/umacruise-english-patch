@@ -14815,7 +14815,7 @@
               },
               {
                 "Option": "すごいところを見せてやろう",
-                "Effect": "「コーナー巧者」Hint Lv +1"
+                "Effect": "「Clever Cornerer」Hint Lv +1"
               }
             ]
           },
@@ -18667,7 +18667,7 @@
               },
               {
                 "Option": "走って頭をからっぽにしよう",
-                "Effect": "Energy -5\nSpeed +5\nPower +5\nバッドコンディションが解消\nBond Gauge +5"
+                "Effect": "Energy -5\nSpeed +5\nPower +5\nRemove bad condition\nBond Gauge +5"
               }
             ]
           },
@@ -19059,7 +19059,7 @@
               },
               {
                 "Option": "元気いっぱいなのがいい！",
-                "Effect": "Speed +10\nPower +5\nカレンチャンBond Gauge +5"
+                "Effect": "Speed +10\nPower +5\nBond Gauge +5"
               }
             ]
           },
@@ -19203,7 +19203,7 @@
               },
               {
                 "Option": "一旦気を静めよう",
-                "Effect": "「伏兵◯」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Underdog ○」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -19215,7 +19215,7 @@
             "なんでもない日の……♪ ①": [
               {
                 "Option": "素敵なお父さんだね",
-                "Effect": "Mood +1\nSpeed +20\nGuts +10\n「真っ向勝負」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Mood +1\nSpeed +20\nGuts +10\n「Head-to-head」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "誰かを気遣える素敵な”大人”だね",

@@ -190,6 +190,10 @@
         "effect": "Become $1"
     },
     {
+        "originEffect": "バッドコンディションが解消",
+        "effect": "Remove bad condition"
+    },
+    {
         "originEffect": "夏合宿中に発生",
         "effect": "Activates during Summer Camp"
     },
