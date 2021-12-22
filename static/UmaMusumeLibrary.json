@@ -1745,6 +1745,306 @@
           }
         ]
       },
+      "[Noble Seamair] Fine Motion": {
+        "Event": [
+          {
+            "殿下と映画観賞会": [
+              {
+                "Option": "意外なものが好きなんだな",
+                "Effect": "Power +10\nGuts +10"
+              },
+              {
+                "Option": "別の映画も見た方がいいかも……",
+                "Effect": "Wisdom +10\nSkill Pt +15\nRandomly gain 「Rising Star」"
+              }
+            ]
+          },
+          {
+            "殿下がバザーにやってきた！": [
+              {
+                "Option": "バザーは楽しめた？",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "頼もしい護衛だったな",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "殿下の華麗なるたしなみ": [
+              {
+                "Option": "力強さに圧倒されて……",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "学びが多い会だなぁと思って",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "よしよし殿下": [
+              {
+                "Option": "じゃあとことん『今』を楽しもう！",
+                "Effect": "Stamina +10\nGuts +10"
+              },
+              {
+                "Option": "だったらもっと甘えなさい！",
+                "Effect": "Wisdom +20"
+              }
+            ]
+          },
+          {
+            "こういうの、ロマンでしょう？": [
+              {
+                "Option": "おみそれしました!",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "ちょっと反則技な気も・・・・・",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "異国の地ならなんでも": [
+              {
+                "Option": "気を使わせているような……",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "そう……かな！？",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "大義であります": [
+              {
+                "Option": "こちらこそ",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "仰せのままに",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "よ、よし・・・・・もっと頑張る！",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "殿下、推し文化に触れる": [
+              {
+                "Option": "ファインだって誰かの推しだよ",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "ファインには推しはいる？",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "約束のシャムロック": [
+              {
+                "Option": "きっと覚悟は伝わったよ！",
+                "Effect": "Power +20"
+              },
+              {
+                "Option": "いつも以上にカッコよかったよ！",
+                "Effect": "Speed +20"
+              }
+            ]
+          },
+          {
+            "Love Ramen": [
+              {
+                "Option": "チャーシュー麺",
+                "Effect": "Energy +30\nSkill Pt +15"
+              },
+              {
+                "Option": "油そば",
+                "Effect": "Stamina +20\nPower +10"
+              },
+              {
+                "Option": "担々麺",
+                "Effect": "「All I Have」Hint Lv +3"
+              }
+            ]
+          },
+          {
+            "殿下と刺激的なお茶会": [
+              {
+                "Option": "さすがの切り替えスピード・・・・・！",
+                "Effect": "Speed +5\nGuts +5"
+              },
+              {
+                "Option": "スタミナが続く限り、楽しもう！",
+                "Effect": "Stamina +5\nPower +5"
+              }
+            ]
+          },
+          {
+            "遠くの地より花は来りて": [
+              {
+                "Option": "2人で作った料理とか？",
+                "Effect": "Stamina +10\nSkill Pt +15"
+              },
+              {
+                "Option": "未来のレースの挑戦状を封入する",
+                "Effect": "「Leader コーナー◯」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "Who Will Escort Me?": [
+              {
+                "Option": "天皇賞（秋）",
+                "Effect": "Speed +10\nBecome ※ 最終目標が天皇賞（秋）"
+              },
+              {
+                "Option": "エリザベス女王杯",
+                "Effect": "Wisdom +10\nBecome ※ 最終目標がエリザベス女王杯"
+              },
+              {
+                "Option": "マイルCS",
+                "Effect": "Guts +10\nBecome ※ 最終目標がMile CS"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "踊りを見られる日が楽しみだよ",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "ファインらしさも取り入れてみたら？",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "懐かしのアイルランド料理": [
+              {
+                "Option": "レースに支障が来たら送り主も悲しむかも",
+                "Effect": "Energy +10,Skill Pt +5"
+              },
+              {
+                "Option": "しっかり食べよう！",
+                "Effect": "Energy +30\nSkill Pt +10\nSpeed -5\nPower +5\nBecome Overweight"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "先着10名限定福袋",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "よりどりパン詰め合わせ福袋",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "おもちゃ福袋",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "お正月お料理堪能コース",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "成長祈願!詣でまくりコース",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "飛び道具！？滝行コース",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "夏合宿（2年目）にて": [
+              {
+                "Option": "ここは”力”で・・・・・",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "愚直に説得！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "",
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース勝利": [
+              {
+                "Option": "",
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "",
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              },
+              {
+                "Option": "",
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "",
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+              },
+              {
+                "Option": "",
+                "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
       "[pf.Victory formula...] Biwa Hayahide": {
         "Event": [
           {
@@ -2967,7 +3267,7 @@
               },
               {
                 "Option": "何も言うことはない！",
-                "Effect": "「Keep the Pace」Hint Lv +1"
+                "Effect": "「Pace Keep」Hint Lv +1"
               }
             ]
           },
@@ -4535,11 +4835,11 @@
             "みんなのオグリキャップ": [
               {
                 "Option": "彼女の夢を叶えてみせます！",
-                "Effect": "「Nutritional Supplements」Hint Lv +2\nBecome 「Charming〇」(Randomly gain )"
+                "Effect": "「Nutritional Supplements」Hint Lv +2\nRandomly gain 「Charming〇」"
               },
               {
                 "Option": "不束者ですがよろしくお願いします",
-                "Effect": "Power +10\nGuts +5"
+                "Effect": "Power +10\nGuts +5\nRandomly gain 「Charming〇」"
               }
             ]
           },
@@ -4728,6 +5028,58 @@
               {
                 "Option": "本当に?",
                 "Effect": "Same as above"
+              }
+            ]
+          },
+          {
+            "気になる隣の晩ご飯！": [
+              {
+                "Option": "急いで帰ってご飯を食べよう",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "何か食べて帰るか？",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "オグリ、頑張る": [
+              {
+                "Option": "お客さんを故郷のみんなだと思うんだ！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "お客さんをにんじんだと思うんだ！",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "オグリ、成長する": [
+              {
+                "Option": "練習の成果が出たな",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "また1つ成長したな！",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "同年代に囲まれるのも慣れてきたか？",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "高みのライバル": [
+              {
+                "Option": "走り方が似てるな",
+                "Effect": "Speed +5\nStamina +5"
+              },
+              {
+                "Option": "同着だな",
+                "Effect": "Power +5\nWisdom +5"
               }
             ]
           }
@@ -5623,7 +5975,7 @@
             "Meant To Be♪": [
               {
                 "Option": "もう一度チャンスをくれる？",
-                "Effect": "「Keep the Pace」Hint Lv +2"
+                "Effect": "「Pace Keep」Hint Lv +2"
               },
               {
                 "Option": "もちろん、1番大切だよ",
@@ -6867,7 +7219,7 @@
               },
               {
                 "Option": "何も言うことはない！",
-                "Effect": "「Keep the Pace」Hint Lv +1"
+                "Effect": "「Pace Keep」Hint Lv +1"
               }
             ]
           },
@@ -7603,7 +7955,7 @@
               },
               {
                 "Option": "いい友だちが出来たんだな",
-                "Effect": "「Passing Preparations」Hint Lv +1"
+                "Effect": "「Breakaway Prep」Hint Lv +1"
               }
             ]
           },
@@ -7979,11 +8331,11 @@
             "助っ人参上！": [
               {
                 "Option": "1日だけ体験してみたら？",
-                "Effect": "Stamina +5\nSkill Pt +15"
+                "Effect": "Stamina +5\nSkill Pt +15\nRandomly gain 「Sharp」"
               },
               {
                 "Option": "妹を見てもらうっていう条件で入ったら？",
-                "Effect": "「Press the Attack」Hint Lv 2"
+                "Effect": "「Press the Attack」Hint Lv 2\nRandomly gain 「Sharp」"
               }
             ]
           },
@@ -8008,6 +8360,18 @@
               {
                 "Option": "スタミナがつく肉厚ハンバーグ",
                 "Effect": "Stamina +5\nWisdom +5"
+              }
+            ]
+          },
+          {
+            "彼女の新たな側面": [
+              {
+                "Option": "行き先が絞れそうなスイープを探そう",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "探す場所が多そうなマーベラスを探そう",
+                "Effect": "Stamina +10"
               }
             ]
           },
@@ -8199,7 +8563,7 @@
               },
               {
                 "Option": "いい友だちが出来たんだな",
-                "Effect": "「Passing Preparations」Hint Lv +1"
+                "Effect": "「Breakaway Prep」Hint Lv +1"
               }
             ]
           },
@@ -9451,7 +9815,7 @@
               },
               {
                 "Option": "こう、変則的なやつで……",
-                "Effect": "「Passing Preparations」Hint Lv +1"
+                "Effect": "「Breakaway Prep」Hint Lv +1"
               }
             ]
           },
@@ -10767,7 +11131,7 @@
               },
               {
                 "Option": "お手本を見せるよ",
-                "Effect": "「Passing Preparations」Hint Lv +1"
+                "Effect": "「Breakaway Prep」Hint Lv +1"
               }
             ]
           },
@@ -11343,7 +11707,7 @@
               },
               {
                 "Option": "・・・・・そして君は何を狩るつもり？",
-                "Effect": "「Passing Preparations」Hint Lv +2"
+                "Effect": "「Breakaway Prep」Hint Lv +2"
               }
             ]
           },
@@ -15375,7 +15739,7 @@
               },
               {
                 "Option": "実際どっちが上なんだ？",
-                "Effect": "「Outside Pass, Ready!」Hint Lv +1"
+                "Effect": "「Outside Pass Prep」Hint Lv +1"
               }
             ]
           },
@@ -16939,7 +17303,7 @@
             "//絶対欲しい": [
               {
                 "Option": "自分に合う手段を探してみては？",
-                "Effect": "「Keep the Pace」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Pace Keep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "自分で手に入れるべき",
@@ -17019,7 +17383,7 @@
             "かわいかったら見に来てね☆": [
               {
                 "Option": "逃げる",
-                "Effect": "Energy -10\nPower +10\nBond Gauge +5\n「Press Forward, Ready!」Hint Lv +1"
+                "Effect": "Energy -10\nPower +10\nBond Gauge +5\n「Outrunning Prep」Hint Lv +1"
               },
               {
                 "Option": "ダウンロードしてみる",
@@ -17375,7 +17739,7 @@
               },
               {
                 "Option": "魔法の言葉を教えよう",
-                "Effect": "Stamina +5\nSkill Pt +10\nBond Gauge +5\n「Outside Pass, Ready!」Hint Lv +1"
+                "Effect": "Stamina +5\nSkill Pt +10\nBond Gauge +5\n「Outside Pass Prep」Hint Lv +1"
               }
             ]
           },
@@ -17511,7 +17875,7 @@
             "怖くないもん！①": [
               {
                 "Option": "2人で走ればあっという間だよ",
-                "Effect": "Speed +10\nBond Gauge +5"
+                "Effect": "[Success]==========\nSpeed +10\nBond Gauge +5\n[Failure]==========\n※Event chain ended\nEnergy -10\nSpeed +10"
               },
               {
                 "Option": "オバケに待ち伏せされてるかも",
@@ -17919,7 +18283,7 @@
             "花咲く、いつか！ ③": [
               {
                 "Option": "結果はすぐには出ない",
-                "Effect": "[Success]==========\nEnergy -15\nStamina +20\nSkill Pt +10\n「Speed Star」Hint Lv +3\n[Failure]==========\nEnergy -15\nStamina +10\nSkill Pt +5\n「Passing Preparations」Hint Lv +3\nBond Gauge +5"
+                "Effect": "[Success]==========\nEnergy -15\nStamina +20\nSkill Pt +10\n「Speed Star」Hint Lv +3\n[Failure]==========\nEnergy -15\nStamina +10\nSkill Pt +5\n「Breakaway Prep」Hint Lv +3\nBond Gauge +5"
               },
               {
                 "Option": "もう克服は諦めるか？",
@@ -18447,7 +18811,7 @@
             "あくまで薦められただけ": [
               {
                 "Option": "ペースを考えたほうがいいよ",
-                "Effect": "「Keep the Pace」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Pace Keep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "一気読みは体力使うよ？",
@@ -18687,7 +19051,7 @@
             "(美味しい)おせっかい": [
               {
                 "Option": "大根おろしで食べるペースアップ！",
-                "Effect": "「Up The Pace」Hint Lv +1"
+                "Effect": "「Pace Up」Hint Lv +1"
               },
               {
                 "Option": "寮で天ぷら祭りだ！",
@@ -18743,7 +19107,7 @@
             "意外な一面": [
               {
                 "Option": "まずは体力をつけてみては？",
-                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Up The Pace」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
+                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
               },
               {
                 "Option": "何度でも挑戦してみましょう！",
@@ -18963,7 +19327,7 @@
             "ステータス『つまらない？』 ①": [
               {
                 "Option": "今のままでいいと思う!",
-                "Effect": "Speed +10\n「Leave it to vigour!」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Speed +10\n「Leave it to vigour」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "表情を変えずに済む仮想は?",
@@ -19215,7 +19579,7 @@
             "なんでもない日の……♪ ①": [
               {
                 "Option": "素敵なお父さんだね",
-                "Effect": "Mood +1\nSpeed +20\nGuts +10\n「Head-to-head」Hint Lv +1\nBond Gauge +5"
+                "Effect": "[Success]==========\nMood +1\nSpeed +20\nGuts +10\n「Head-to-head」Hint Lv +1\nBond Gauge +5\n[Failure]==========\nEnergy -10\nMood +1\nGuts +10\nBond Gauge +5"
               },
               {
                 "Option": "誰かを気遣える素敵な”大人”だね",
@@ -19223,7 +19587,7 @@
               },
               {
                 "Option": "じゃあ私からも何かあげようか？",
-                "Effect": "Energy +20\nStamina +10\n「Competitive Spirit ○」Hint Lv 1"
+                "Effect": "<End>\nEnergy +20\nStamina +10\n「Competitive Spirit ○」Hint Lv 1\n※ Event chain ended"
               }
             ]
           },
@@ -19282,6 +19646,10 @@
           {
             "別に、邪魔しないで": [
               {
+                "Option": "(選択肢なしの場合)",
+                "Effect": "「Press the Attack」Hint Lv +1\nBond Gauge +5"
+              },
+              {
                 "Option": "遅くならないようにな",
                 "Effect": "「Press the Attack」Hint Lv +1\nBond Gauge +5"
               },
@@ -19332,6 +19700,46 @@
             ]
           }
         ]
+      },
+      "[Solo・Chase Helix] Manhattan Cafe": {
+        "Event": [
+          {
+            "ミツケテ ②": [
+              {
+                "Option": "早く休んで朝にまた走れば?",
+                "Effect": "Stamina +10\nWisdom +10\n「Long Distance Corner ○」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "無理はよくない",
+                "Effect": "Energy +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "夜の独走": [
+              {
+                "Option": "……いつもこんなに走り込んでいるの？",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              },
+              {
+                "Option": "……すごい集中力だね",
+                "Effect": "Energy +10\nStamina +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "静けさを嗜む": [
+              {
+                "Option": "リラックスタイムだったのかな？",
+                "Effect": "Stamina +5\nSkill Pt +15\nBond Gauge +5"
+              },
+              {
+                "Option": "こんな暗い所にひとりでも、怖くないんだね",
+                "Effect": "「Non-Core Distances ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
       }
     },
     "SR": {
@@ -19353,7 +19761,7 @@
             "あくまで薦められただけ": [
               {
                 "Option": "ペース考えたほうがいいよ",
-                "Effect": "「Keep the Pace」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Pace Keep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "一気読みは体力使うよ？",
@@ -19545,7 +19953,7 @@
             "ミスディレクション": [
               {
                 "Option": "最終コーナーのコツ",
-                "Effect": "「Passing Preparations」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Breakaway Prep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "走りのテクニック",
@@ -19877,7 +20285,7 @@
             "（美味しい）おせっかい": [
               {
                 "Option": "大根おろし",
-                "Effect": "「Up The Pace」Hint Lv +1"
+                "Effect": "「Pace Up」Hint Lv +1"
               },
               {
                 "Option": "天ぷら祭り",
@@ -20145,7 +20553,7 @@
             "(美味しい)おせっかい": [
               {
                 "Option": "大根おろしで食べるペースアップ！",
-                "Effect": "「Up The Pace」Hint Lv +1"
+                "Effect": "「Pace Up」Hint Lv +1"
               },
               {
                 "Option": "寮で天ぷら祭りだ！",
@@ -20401,7 +20809,7 @@
             "下地あってのネイルっしょ": [
               {
                 "Option": "オシャレな上にお得ってことだね",
-                "Effect": "[Success]==========\nEnergy +10\n「Up The Pace」Hint Lv +3\nBond Gauge +5\n[Failure]==========\n「Up The Pace」Hint Lv +1"
+                "Effect": "[Success]==========\nEnergy +10\n「Pace Up」Hint Lv +3\nBond Gauge +5\n[Failure]==========\n「Pace Up」Hint Lv +1"
               },
               {
                 "Option": "勝負に真剣なのはカッコいいと思う",
@@ -20514,6 +20922,46 @@
               {
                 "Option": "全力疾走で向かう",
                 "Effect": "Power +5\nSkill Pt +15\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Smiling Through the Mud] Inari One": {
+        "Event": [
+          {
+            "おうすうちゃん！ ②": [
+              {
+                "Option": "スピードは抑えてほしい‥‥‥",
+                "Effect": "Energy -5\nMood +1\nSpeed +3\nPower +3\nGuts +3\nBond Gauge +5"
+              },
+              {
+                "Option": "いつも通り走って大丈夫!",
+                "Effect": "Energy -5\nSpeed +10\n「Ooi Racetrack ○」Hint Lv +3\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "喧嘩だワッショイ": [
+              {
+                "Option": "健闘を讃えてあげよう",
+                "Effect": "Energy -5\nPower +15\nBond Gauge +5"
+              },
+              {
+                "Option": "飲み物を差し入れるとか",
+                "Effect": "Mood Up\nGuts +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "神輿だワッショイ": [
+              {
+                "Option": "突き進む躍動感?",
+                "Effect": "Skill Pt +15\nBond Gauge +5"
+              },
+              {
+                "Option": "観客がいないからでは?",
+                "Effect": "「京都レース場◯」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -20651,7 +21099,7 @@
             "ミスディレクション": [
               {
                 "Option": "最終コーナーのコツ",
-                "Effect": "「Passing Preparations」Hint Lv +1\nBond Gauge +7"
+                "Effect": "「Breakaway Prep」Hint Lv +1\nBond Gauge +7"
               },
               {
                 "Option": "走りのテクニック",
@@ -20767,7 +21215,7 @@
               },
               {
                 "Option": "集団をかき分けるイメージで走ろう！",
-                "Effect": "「Passing Preparations」Hint Lv +1"
+                "Effect": "「Breakaway Prep」Hint Lv +1"
               }
             ]
           }
@@ -21155,7 +21603,7 @@
             "あくまで薦められただけ": [
               {
                 "Option": "ペースを考えたほうがいいよ",
-                "Effect": "「Keep the Pace」Hint Lv +1"
+                "Effect": "「Pace Keep」Hint Lv +1"
               },
               {
                 "Option": "一気読みは体力使うよ？",
@@ -21351,7 +21799,7 @@
             "//絶対欲しい": [
               {
                 "Option": "自分に合う手段を探してみては？",
-                "Effect": "「Keep the Pace」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Pace Keep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "自力で手に入れるべき",
@@ -21463,7 +21911,7 @@
             "かわいかったら見に来てね☆": [
               {
                 "Option": "逃げる",
-                "Effect": "Energy -10\nPower +10\n「Press Forward, Ready!」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Energy -10\nPower +10\n「Outrunning Prep」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "ダウンロードしてみる",
@@ -21771,7 +22219,7 @@
             "（美味しい）おせっかい": [
               {
                 "Option": "大根おろし食べるペースアップ！",
-                "Effect": "「Up The Pace」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Pace Up」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "寮天ぷら祭りだ！",
@@ -22427,7 +22875,7 @@
             "意外な一面": [
               {
                 "Option": "まずは体力をつけてみては？",
-                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Up The Pace」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
+                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
               },
               {
                 "Option": "何度でも挑戦してみましょう！",
@@ -22572,6 +23020,34 @@
               {
                 "Option": "整列して効率よく撮影しよう！",
                 "Effect": "「Final Nail」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Tracen Academy] Inari One": {
+        "Event": [
+          {
+            "喧嘩だワッショイ": [
+              {
+                "Option": "健闘を讃えてあげよう",
+                "Effect": "Energy -5\nPower +15\nBond Gauge +5"
+              },
+              {
+                "Option": "飲み物を差し入れるとか",
+                "Effect": "Mood Up\nGuts +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "神輿だワッショイ": [
+              {
+                "Option": "突き進む躍動感?",
+                "Effect": "Skill Pt +15\nBond Gauge +5"
+              },
+              {
+                "Option": "観客がいないからでは?",
+                "Effect": "「京都レース場◯」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
