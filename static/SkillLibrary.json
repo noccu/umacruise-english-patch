@@ -58,7 +58,7 @@
                 "Effect": "Short・Passing becomes easier when in the front in middle Leg"
             },
             {
-                "Name": "Accel Full Throttle!",
+                "Name": "Full Power Accel!",
                 "Effect": "mile・Increases acceleration when passing in middle Leg"
             },
             {
@@ -146,7 +146,7 @@
                 "Effect": "Become better at taking a good track position during the Opening Leg"
             },
             {
-                "Name": "Magician of the Lane",
+                "Name": "Lane Magician",
                 "Effect": "Become better at taking a good track position during the Opening Leg"
             },
             {
@@ -226,7 +226,7 @@
                 "Effect": "medium・Become harder to tire out from left-right movements"
             },
             {
-                "Name": "The One Who Clears The Path",
+                "Name": "Trailblazer",
                 "Effect": "medium・Become harder to tire out when in the lead during the middle Leg"
             },
             {
@@ -254,11 +254,11 @@
                 "Effect": "Leader・Lightly narrows the field of vision of girls in the back when in front in Final Leg"
             },
             {
-                "Name": "Conjurer",
+                "Name": "Illusionist",
                 "Effect": "Long・Narrows the field of vision of girls in the front in Final Leg"
             },
             {
-                "Name": "A Charming Whisper",
+                "Name": "Charming Whispers",
                 "Effect": "medium・Confuses the girl right in front of you in middle Leg"
             },
             {
@@ -300,7 +300,7 @@
                 "Effect": "Runner・Slightly increases acceleration behind in middle Leg"
             },
             {
-                "Name": "Press Forward, Ready!",
+                "Name": "Outrunning Prep",
                 "Effect": "Runner・Keeping the lead position on the final corner becomes slightly easier"
             },
             {
@@ -352,7 +352,7 @@
                 "Effect": "Become better at corners, slightly increased speed"
             },
             {
-                "Name": "Up The Pace",
+                "Name": "Pace Up",
                 "Effect": "Slightly increases speed when passing during the middle Leg"
             },
             {
@@ -400,7 +400,7 @@
                 "Effect": "〇：Leader・Slightly increases speed on corners"
             },
             {
-                "Name": "Passing Preparations",
+                "Name": "Breakaway Prep",
                 "Effect": "Leader・Passing becomes slightly easier on the Final corner"
             },
             {
@@ -416,7 +416,7 @@
                 "Effect": "Betweener・Slightly increases speed during the middle Leg"
             },
             {
-                "Name": "Outside Pass, Ready!",
+                "Name": "Outside Pass Prep",
                 "Effect": "Betweener・Slightly increases speed when passing from the outside on the final corner"
             },
             {
@@ -564,7 +564,7 @@
                 "Effect": "Slightly recover stamina when boxed in during the middle Leg"
             },
             {
-                "Name": "Keep the Pace",
+                "Name": "Pace Keep",
                 "Effect": "Slightly recover stamina when passed in the middle Leg"
             },
             {
@@ -820,7 +820,7 @@
                 "Effect": "Leader・Slightly narrows the field of view of girls in the back when in Front in Final Leg"
             },
             {
-                "Name": "Smoke Screen",
+                "Name": "Deception",
                 "Effect": "Long・Lightly narrows the field of vision of girls in the front in Final Leg"
             },
             {
@@ -888,7 +888,7 @@
                 "Effect": "Short・When behind in Opening Leg, slightly panic girls in the front"
             },
             {
-                "Name": "A Gentle Whisper",
+                "Name": "Gentle Whispers",
                 "Effect": "medium・Slightly confuses the girl right in front of you in middle Leg"
             },
             {
