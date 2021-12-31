@@ -162,7 +162,11 @@
         "effect": "Chain event $1 does not trigger"
     },
     {
-        "originEffect": "目標レースが「(.*)」「(.*)」に確定",
+        "originEffect": "最終目標が(.+)になる",
+        "effect": "Final objective becomes $1"
+    },
+    {
+        "originEffect": "目標レースが「(.*)」「(.*)」に(?:確定|なる)",
         "effect": "「$2」 Race objective changes to 「$1」"
     },
     {
@@ -186,8 +190,8 @@
         "effect": " or "
     },
     {
-        "originEffect": "^(.+)になる",
-        "effect": "Become $1"
+        "originEffect": "^(.+)になる|^(.+)取得",
+        "effect": "Gain $1"
     },
     {
         "originEffect": "バッドコンディションが解消",
@@ -214,7 +218,7 @@
         "effect": "Success $1"
     },
     {
-        "originEffect": "(失敗|はずれ)(\\d)",
+        "originEffect": "(?:失敗|はずれ)(\\d)",
         "effect": "Failure $1"
     },
     {
@@ -312,6 +316,10 @@
     {
         "originEffect": "種",
         "effect": " Stats "
+    },
+    {
+        "originEffect": "低",
+        "effect": "[low chance] "
     },
     {
         "originEffect": "を獲得",
