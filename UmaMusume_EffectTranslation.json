@@ -146,7 +146,7 @@
         "effect": "Randomly gain $1"
     },
     {
-        "originEffect": "(?:ランダム|確率)(?:で|に)?(.*)(?:になる)?",
+        "originEffect": "(?:ランダム|確率)(?:で|に)?(.*)(?:に(?:なる)?)?$",
         "effect": "Randomly gain $1"
     },
     {
