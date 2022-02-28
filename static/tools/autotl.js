@@ -53,7 +53,7 @@ function readFiles() {
     console.log("Files read.")
 }
 
-function translate(json, depth = 0, char = true) {
+function translate(json, depth = 0, type = "char") {
     if (typeof json == "string") return;
     for (let [key, value] of Object.entries(json)) {
         if (key == "Effect") {
@@ -77,15 +77,16 @@ function translate(json, depth = 0, char = true) {
         else {
             // Uma or Card name, 
             if (depth == 2) {
-                let translatedKey = lookupNames(key, char);
+                let translatedKey = lookupNames(key, type);
                 if (key != translatedKey) {
                     json[translatedKey] = value;
                     delete json[key]
                 };
                 key = translatedKey;
             }
-            if (key == "Support") char = false;
-            translate(value, depth + 1, char);
+            if (key == "Support") type = "card";
+            else if (key == "MainStory") type = "story";
+            translate(value, depth + 1, type);
         }
     }
 }
@@ -94,7 +95,7 @@ function lookupSkills(str) {
     for (let [, m1, m2] of str.matchAll(/「([^a-z].+?)」|(.+?)のヒント/gi)) {
         let jpSkill = m1 || m2;
         if (!jpSkill) continue;
-        let enSkill = umaDbData.skillName[jpSkill.replace("〇", "○")];
+        let enSkill = umaDbData.skillName[jpSkill.replace(/[〇◯]/, "○")];
         if (enSkill) {
             if (!m1) { enSkill = `「${enSkill}」` };
             lookup.push({ jp: jpSkill, en: enSkill });
@@ -114,8 +115,9 @@ function lookupRaces(str) {
     return lookup;
 }
 
-function lookupNames(str, char) {
+function lookupNames(str, type) {
     //this function is a mess because of all the edge cases I had to deal with
+    if (type == "story") return str;
     let title, name;
     try {
         // Sometimes the title ([.*]) is missing, hence optional non capture group for it.
@@ -127,10 +129,10 @@ function lookupNames(str, char) {
         console.log(`Error transating ${str}\nAssuming an edge case and continuing\nError: ${e}`);
         debugger; //does nothing if not in a debug enviro
     }
-    let titleEN = umaDbData.titles[`[${title}]`] || `[${title}]`,
-        nameEN = umaDbData.umas[name] || name;
-
-    if (char) {
+    let nameEN = umaDbData.umas[name] || name;
+    
+    if (type == "char") {
+        let titleEN = umaDbData.titles[`[${title}]`] || `[${title}]`;
         return `${titleEN} ${nameEN}`;
     }
     else { //cards

@@ -1,58 +1,458 @@
 {
-    "MainStory": {
-        "None": {
-            "メインシナリオイベント": {
-                "Event": [
-                    {
-                        "上々の面構えッ！": [
-                            {
-                                "Option": "では、新しい練習用具をいただけますか？",
-                                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-                            },
-                            {
-                                "Option": "では、にんじんを分けていただけますか？",
-                                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-                            }
-                        ]
-                    },
-                    {
-                        "愉快ッ！密着取材！": [
-                            {
-                                "Option": "尊敬すべき理事長です",
-                                "Effect": "Stamina +10\nBond Gauge +5"
-                            },
-                            {
-                                "Option": "暴走することが多いような",
-                                "Effect": "Guts +10\nBond Gauge +5"
-                            }
-                        ]
-                    },
-                    {
-                        "トレーナー並の知識": [
-                            {
-                                "Option": "力強さが課題なんですが……",
-                                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-                            },
-                            {
-                                "Option": "スピードが課題なんですが……",
-                                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
-                            }
-                        ]
-                    },
-                    {
-                        "乙名史記者の徹底取材": [
-                            {
-                                "Option": "現状を真摯に受け止めます",
-                                "Effect": "Mood Up\nEnergy -15\nSpeed +5\nSkill Point +31\nOtonashi Etsuko Bond Gauge +15"
-                            },
-                            {
-                                "Option": "このまま突き進みます！！",
-                                "Effect": "Energy -20\nPower -20\nSkill Point +31\nOtonashi Etsuko Bond Gauge +10\nRandomly gain「Timid」"
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
+  "MainStory": {
+    "None": {
+      "メインシナリオイベント": {
+        "Event": [
+          {
+            "上々の面構えッ！": [
+              {
+                "Option": "では、新しい練習用具をいただけますか？",
+                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
+              },
+              {
+                "Option": "では、にんじんを分けていただけますか？",
+                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "愉快ッ！密着取材！": [
+              {
+                "Option": "尊敬すべき理事長です",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              },
+              {
+                "Option": "暴走することが多いような",
+                "Effect": "Guts +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "トレーナー並の知識": [
+              {
+                "Option": "力強さが課題なんですが……",
+                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
+              },
+              {
+                "Option": "スピードが課題なんですが……",
+                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
+              }
+            ]
+          },
+          {
+            "乙名史記者の徹底取材": [
+              {
+                "Option": "現状を真摯に受け止めます",
+                "Effect": "Mood Up\nEnergy -15\nSpeed +5\nSkill Pt +31\nOtonashi Etsuko Bond Gauge +15"
+              },
+              {
+                "Option": "このまま突き進みます！！",
+                "Effect": "Energy -20\nPower -20\nSkill Pt +31\nOtonashi Etsuko Bond Gauge +10\nGain Randomly gain 『Timid』"
+              }
+            ]
+          }
+        ]
+      },
+      "アオハル杯": {
+        "Event": [
+          {
+            "ついに集まったチームメンバー！": [
+              {
+                "Option": "チーム＜HOP CHEERS＞",
+                "Effect": "「Ruler of Mile」"
+              },
+              {
+                "Option": "チーム＜ハレノヒ・ランナーズ＞",
+                "Effect": "「Clairvoyance」"
+              },
+              {
+                "Option": "チーム＜にんじんぷりん＞",
+                "Effect": "「Indomitable Heart」\n==========\nチーム<ブルームス>\n「Cooldown」"
+              },
+              {
+                "Option": "チーム＜キャロッツ＞",
+                "Effect": "「Non-stop Girl」"
+              }
+            ]
+          }
+        ]
+      },
+      "Make a new track!!": {
+        "Event": [
+          {
+            "アグネスデジタル、爆死す": [
+              {
+                "Option": "ゴールドシチーの話が聞きたい！",
+                "Effect": "Mood +1"
+              },
+              {
+                "Option": "アドマイヤベガの話が聞きたい.....",
+                "Effect": "「Big Fan」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "アルダンからは逃げ切れない": [
+              {
+                "Option": "対処法に詳しいな、アルダン",
+                "Effect": "Speed +6\nGuts +6"
+              },
+              {
+                "Option": "お大事にな、パーマー",
+                "Effect": "「Runner's Straight◯」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ヴィクトリー倶楽部、参上！": [
+              {
+                "Option": "ここはとってもいいクラブだな！",
+                "Effect": "Stamina +6\nWisdom +6"
+              },
+              {
+                "Option": "2人の強さの秘訣がわかったよ",
+                "Effect": "「Short Distance Straights◯」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "カワイイを守りたい！": [
+              {
+                "Option": "大丈夫！守ってもらおう！",
+                "Effect": "Stamina +6\nPower +6"
+              },
+              {
+                "Option": "まずは落ち着かせるべきかも",
+                "Effect": "「Trick (Front)」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ゴルシちゃん主催！人狼は誰だ！？": [
+              {
+                "Option": "マンハッタンカフェが人狼だ！",
+                "Effect": "Power +6\nWisdom +6"
+              },
+              {
+                "Option": "……サトノダイヤモンドが人狼",
+                "Effect": "「Reading Comprehension」Hint Lv 1"
+              }
+            ]
+          },
+          {
+            "ゴルシを治せ！": [
+              {
+                "Option": "ナカヤマ、助けてくれ！",
+                "Effect": "Speed 6\nPower +6"
+              },
+              {
+                "Option": "ジョーダン、何かいい案はないか？",
+                "Effect": "「Derangement」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "サプライズ大作戦！": [
+              {
+                "Option": "彼女が素直に意見を聞く人って誰だろう？",
+                "Effect": "Mood +1"
+              },
+              {
+                "Option": "彼女の好きな花はなんだろう？",
+                "Effect": "「Trick (Front)」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "じいちゃん子たちの集い": [
+              {
+                "Option": "2人とも、おじいちゃんが大好きなんだね",
+                "Effect": "Stamina +6\nWisdom +6"
+              },
+              {
+                "Option": "気持ちがこもっていれば大丈夫だよ",
+                "Effect": "「Breakaway Prep」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "『全力』＆『普通』ダイエット": [
+              {
+                "Option": "『全力』で！",
+                "Effect": "Stamina +6\nGuts +6"
+              },
+              {
+                "Option": "ふ、『普通』でお願いします.....",
+                "Effect": "「Hard Worker」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "『退学』を賭けた勝負": [
+              {
+                "Option": "ヒット！カードをもう1枚！",
+                "Effect": "Stamina +6\nWisdom +6"
+              },
+              {
+                "Option": "スタンド。カードをストップするしかない",
+                "Effect": "「Triple 7s」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "タイキとパールと外国語": [
+              {
+                "Option": "使う単語を変えてみたら？",
+                "Effect": "Speed +6\nWisdom +6"
+              },
+              {
+                "Option": "言葉は不要なのかも？",
+                "Effect": "「Sympathy」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "タマモのゲームセンター奮闘記": [
+              {
+                "Option": "じゃあ俺はブルボンを！",
+                "Effect": "Guts +6\nWisdom +6"
+              },
+              {
+                "Option": "じゃあ俺はカワカミとウララを！",
+                "Effect": "「Rival Spirit」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ドキドキフルーツフェス": [
+              {
+                "Option": "バイトの立場を活かそう！",
+                "Effect": "Stamina +6\nPower +6"
+              },
+              {
+                "Option": "メジロの絆で助けよう",
+                "Effect": "「Runner's Straight◯」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "パワフル最強シンデレラ！": [
+              {
+                "Option": "貴方はそのままで素晴らしいよ",
+                "Effect": "Mood +1"
+              },
+              {
+                "Option": "もっと長所を伸ばそう！",
+                "Effect": "「Position Sense」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ひとり暮らしの生活": [
+              {
+                "Option": "大雑把な料理も君らしさだ",
+                "Effect": "Power +6\nGuts +6"
+              },
+              {
+                "Option": "自由な創作料理にチャレンジ",
+                "Effect": "「Pace Up」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ふたりと宿根草": [
+              {
+                "Option": "メジロアルダンは物知りだね",
+                "Effect": "Speed +6\nPower +6"
+              },
+              {
+                "Option": "なんで宿根草は一度枯れるのかな",
+                "Effect": "「On Standby」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ブライアンがヤキモチ？": [
+              {
+                "Option": "桜餅を買ってこようか？",
+                "Effect": "All Stats +4"
+              },
+              {
+                "Option": "代わりにご馳走できるものはない？",
+                "Effect": "「Stand Your Ground」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ベガとスピカ": [
+              {
+                "Option": "アヤベはどの星が好き？",
+                "Effect": "Speed +6\nWisdom +6"
+              },
+              {
+                "Option": "スズカはどの星が好き？",
+                "Effect": "「Fast Paced」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "マーベラス売りの少女": [
+              {
+                "Option": "癒されたい.....",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "最近カロリーが気になってて",
+                "Effect": "「Nutritional Supplements」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "マルゼンさんへの気持ち": [
+              {
+                "Option": "気持ちがこもっていれば、なんでも！",
+                "Effect": "Skill Pt +24"
+              },
+              {
+                "Option": "相手の趣味に合わせたほうがいいかも",
+                "Effect": "「Shift Gears」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "ワールドワイド・ウィンディ": [
+              {
+                "Option": "休み時間に昼寝しよう",
+                "Effect": "Speed +6\nGuts +6"
+              },
+              {
+                "Option": "ちゃんと夜に寝るべき",
+                "Effect": "「Master Trickster」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "委員たちの井戸端会議": [
+              {
+                "Option": "ゴールドシップに併走してもらう？",
+                "Effect": "Speed +6\nPower +6"
+              },
+              {
+                "Option": "風紀に対する\"想い\"をバトンにしよう！",
+                "Effect": "「Pass Expert」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "意外な美化委員": [
+              {
+                "Option": "そもそもなんで君が水やりを？",
+                "Effect": "Power +6\n Wisdom +6"
+              },
+              {
+                "Option": "大変そうだな、手伝うよ",
+                "Effect": "「Pace Keep」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "家族（？）でショッピング！": [
+              {
+                "Option": "おもちゃ屋で楽しく！",
+                "Effect": "Skill Pt +24"
+              },
+              {
+                "Option": "カフェでゆっくり",
+                "Effect": "「Deep Breaths」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "甘えたがりのお年頃": [
+              {
+                "Option": "『あーん』してもらうとか",
+                "Effect": "Speed +6\nWisdom +6"
+              },
+              {
+                "Option": "『お姉ちゃん』と呼ぶのはどうだろう",
+                "Effect": "「Gentle Whispers」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "語り合いたい！": [
+              {
+                "Option": "俺もその小説を読んでみようかな",
+                "Effect": "Stamina +6\nGuts +6"
+              },
+              {
+                "Option": "その本のおすすめポイントを教えて？",
+                "Effect": "「Shake It Out」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "同じ傘の下で": [
+              {
+                "Option": "これからはライバルだな！",
+                "Effect": "Speed +6\nGuts +6"
+              },
+              {
+                "Option": "今日は盛大にお祝いだね",
+                "Effect": "「Rainy Day◯」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "凸凹コンビ": [
+              {
+                "Option": "2人のコンビネーションは完ぺきだった",
+                "Effect": "Power +6\nGuts +6"
+              },
+              {
+                "Option": "ヒーローみたいだった",
+                "Effect": "「Sprinting Gear」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "怖くないって怖いです": [
+              {
+                "Option": "幽霊は怖いよね",
+                "Effect": "Stamina +6\nGuts +6"
+              },
+              {
+                "Option": "2人が幽霊平気なのはすごい……",
+                "Effect": "「Serene」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "名探偵のボクにお任せ！": [
+              {
+                "Option": "どうしたんだテイオー？",
+                "Effect": "Speed +6\nStamina +6"
+              },
+              {
+                "Option": "何か隠してない？",
+                "Effect": "「Slight Detour」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "目が離せないお嬢様たち": [
+              {
+                "Option": "どこまでも優しいね",
+                "Effect": "Guts +6\nWisdom +6"
+              },
+              {
+                "Option": "もう少し世間勉強が必要かも",
+                "Effect": "「Improvise」Hint Lv 1"
+              }
+            ]
+          }
+        ]
+      }
     }
+  }
 }

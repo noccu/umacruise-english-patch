@@ -295,11 +295,231 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Starry Nocturne] Admire Vega": {
+        "Event": [
+          {
+            "たった1つの使命": [
+              {
+                "Option": "私も、できる事を一緒に頑張るよ",
+                "Effect": "Power +10\nGuts +10"
+              },
+              {
+                "Option": "唯一、ではないと思う",
+                "Effect": "Speed +20\nGain 「Charming〇」(Randomly gain )"
+              }
+            ]
+          },
+          {
+            "想いよ届け": [
+              {
+                "Option": "モデルの仕事もやれそうだね",
+                "Effect": "Power +20"
+              },
+              {
+                "Option": "出来上がるのが楽しみだね",
+                "Effect": "Stamina +20"
+              }
+            ]
+          },
+          {
+            "アヤベさんのサンドウィッチ": [
+              {
+                "Option": "無難な具材を勧める",
+                "Effect": "「Straight Skill」Hint Lv +2"
+              },
+              {
+                "Option": "珍品(肉)を勧めてみる！",
+                "Effect": "Mood +1\nPower +10"
+              },
+              {
+                "Option": "珍品(魚)を勧めてみる！",
+                "Effect": "Mood +1\nWisdom +15\n「Medium Distance Straights ○」Hint Lv +2"
+              }
+            ]
+          },
+          {
+            "同室シスターにはかなわない": [
+              {
+                "Option": "善は急げだね！",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "力を借りてみよう",
+                "Effect": "Energy +5\nPower +5"
+              }
+            ]
+          },
+          {
+            "静かに通じて": [
+              {
+                "Option": "運命的なものがあるのかも",
+                "Effect": "Wisdom +20"
+              },
+              {
+                "Option": "いい友人だね",
+                "Effect": "Speed +20"
+              }
+            ]
+          },
+          {
+            "それは、当たり前": [
+              {
+                "Option": "わかる！『かっけー』よね！",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "ここは私に任せて",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "言葉+……": [
+              {
+                "Option": "なら、美味しく焼かないとね！",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "学びの多い1日だった",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "雲の向こう、宙のかなた": [
+              {
+                "Option": "力になれたみたいだね",
+                "Effect": "Power +10\nSkill Pt +15"
+              },
+              {
+                "Option": "観測のコツを伝えてあげたら？",
+                "Effect": "「Master Trickster」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "必殺アヤベさん": [
+              {
+                "Option": "これが”仕事人”の力……！",
+                "Effect": "Energy -10\nPower +20"
+              },
+              {
+                "Option": "根性のいる仕事だもんな",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "もふもふ審美眼": [
+              {
+                "Option": "子羊のためにはなった",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "他の事にも応用できたり？",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "夢で見た光景": [
+              {
+                "Option": "でも楽しかったな",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "いい姉妹だな",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "元気が出そうなホットスナック",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "リラックスできそうなインスタントスープ",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "頭が冴えそうなスイーツ",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "付き合うよ",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nPresident Akikawa Bond Gauge +5"
+              },
+              {
+                "Option": "明日のために力を残そう",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "力がつきそう！『BLTサンド』",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "元気が出そう！『オレンジサンド』",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "(めいっぱい健康でいられますように！)",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "(たくさんレースで活躍できますように)",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "(多くの楽しみを見つけられますように)",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "じゃあ、私が代わりに言うね",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "やってみる価値はある",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "ふわっふわスイート": [
+              {
+                "Option": "食べすぎないようにね",
+                "Effect": "Energy +10,Skill Pt +5"
+              },
+              {
+                "Option": "(このまま思う存分食べてもらおう)",
+                "Effect": "Energy +30\nSkill Pt +10\nSpeed -5\nPower +5\nGain 「Overweight」"
               }
             ]
           }
@@ -635,7 +855,7 @@
             "お大事に！": [
               {
                 "Option": "治ったら、遅れを取り戻そう！",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -755,7 +975,7 @@
               },
               {
                 "Option": "遠慮する",
-                "Effect": "No effect\n※ Chain event 「結果：フラッシュプラン」does not trigger"
+                "Effect": "No effect\n※Chain event 「結果：フラッシュプラン」does not trigger"
               }
             ]
           },
@@ -915,7 +1135,7 @@
             "お大事に！": [
               {
                 "Option": "今はしっかり休んで",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "続けられるのか？",
@@ -1071,7 +1291,7 @@
               },
               {
                 "Option": "遠慮する",
-                "Effect": "No effect\n※ Chain event 「結果：フラッシュプラン」does not trigger"
+                "Effect": "No effect\n※Chain event 「結果：フラッシュプラン」does not trigger"
               }
             ]
           },
@@ -1231,7 +1451,7 @@
             "お大事に！": [
               {
                 "Option": "今はしっかり休んで",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "続けられるのか？",
@@ -1307,7 +1527,7 @@
             "夜の学校のご老公？": [
               {
                 "Option": "よっ、世界最強最速！",
-                "Effect": "Mood Up\nGuts +5"
+                "Effect": "Mood +1\nGuts +5"
               },
               {
                 "Option": "後に斧を持った人影が！",
@@ -1355,7 +1575,7 @@
             "贈る花言葉": [
               {
                 "Option": "カモミールはどうだ？",
-                "Effect": "Mood Up\nWisdom +5"
+                "Effect": "Mood +1\nWisdom +5"
               },
               {
                 "Option": "カスミソウはどうだ？",
@@ -1495,7 +1715,7 @@
             "お大事に！": [
               {
                 "Option": "療養が一番の薬",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "根性で早く治そう！",
@@ -1723,7 +1943,7 @@
             "お大事に！": [
               {
                 "Option": "でもちゃんと休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "本当に?",
@@ -2019,7 +2239,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -2299,11 +2519,11 @@
             "お大事に！": [
               {
                 "Option": "……今日だけだぞ",
-                "Effect": "Mood Down\nPower -5(single status)"
+                "Effect": "Mood -1\nPower -5(single status)"
               },
               {
                 "Option": "実は元気でしょ？",
-                "Effect": "Mood Down\n1 Random stat(s) -10\n「Bad Practice」"
+                "Effect": "Mood -1\n1 Random stat(s) -10\n「Bad Practice」"
               }
             ]
           },
@@ -2323,11 +2543,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "……嫌いにならないよ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "早く治さないと嫌いになるかも",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               }
             ]
           }
@@ -2603,11 +2823,259 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Splendor・Grand Mikoshi] Kitasan Black": {
+        "Event": [
+          {
+            "緊急開店！キタちゃんマッサージ": [
+              {
+                "Option": "足",
+                "Effect": "Speed +20"
+              },
+              {
+                "Option": "腰",
+                "Effect": "Energy +10\nGuts +10"
+              },
+              {
+                "Option": "肩",
+                "Effect": "「Corner Recovery ○」Hint Lv +2"
+              }
+            ]
+          },
+          {
+            "先輩と！": [
+              {
+                "Option": "併走の相手お願いしたいかな！",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "一緒にご飯食べない？",
+                "Effect": "Energy +10"
+              }
+            ]
+          },
+          {
+            "寄ってらっしゃい見てらっしゃい！": [
+              {
+                "Option": "粋なお礼だな！",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "呼び込み、楽しかったしな",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "フォーゲットミーノット！": [
+              {
+                "Option": "諦めずに1度校内を回ろう！",
+                "Effect": "Stamina +20"
+              },
+              {
+                "Option": "誰かの助けが必要かも…",
+                "Effect": "Speed 20"
+              }
+            ]
+          },
+          {
+            "魔女さんとキタサン": [
+              {
+                "Option": "悪い魔女からのイビリに耐え忍んで……！？",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "スイープトウショウに嫌われたくないんだな",
+                "Effect": "Mood +1\nSpeed +5"
+              }
+            ]
+          },
+          {
+            "ほろ甘の思い出": [
+              {
+                "Option": "思い出の味なんだ？",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "お父さんたちのこと大好きなんだな",
+                "Effect": "Guts +5\nWisdom +5"
+              }
+            ]
+          },
+          {
+            "かわいいの才能！？": [
+              {
+                "Option": "思い出すんだ、ウマドルは――",
+                "Effect": "Stamina +10\nWisdom +10\nCharming〇"
+              },
+              {
+                "Option": "こっちファンサービスくださーい！",
+                "Effect": "Guts +20"
+              }
+            ]
+          },
+          {
+            "あなたの声なら": [
+              {
+                "Option": "誰か知り合いの声の似てるのかな？",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "演歌の発声のおかげかも",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "妖怪変化もなんのその": [
+              {
+                "Option": "本番が楽しみだな！",
+                "Effect": "Speed +5\nStamina +5"
+              },
+              {
+                "Option": "怖がりながら、頑張った成果だな！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "主役はみなさまお祭りワッショイ！": [
+              {
+                "Option": "ああ、楽しかったな！",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "全部キタサンのおかげだ",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "大変なこともあったような・・・？",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "陰に日なたに": [
+              {
+                "Option": "後ろ飾り紐の色にも意味が？",
+                "Effect": "Speed +10\nWisdom +10"
+              },
+              {
+                "Option": "その『願い』、俺と一緒に叶えよう！",
+                "Effect": "Power +20"
+              }
+            ]
+          },
+          {
+            "祭りを食せ！": [
+              {
+                "Option": "カロリーゼロにはならないと思うよ",
+                "Effect": "Energy +10\nスキル+5"
+              },
+              {
+                "Option": "思い切り堪能しよう！",
+                "Effect": "Energy +30\nスキル+10"
+              }
+            ]
+          },
+          {
+            "ちょいとドラマへの出演も目指し": [
+              {
+                "Option": "根性と優しさにあふれた子だからね",
+                "Effect": "Speed +5\nGuts +10"
+              },
+              {
+                "Option": "そして得たスキルで未来の銀幕スタァに...",
+                "Effect": "コーナー巧者〇"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "かけ声の活かし方を知りたいよな",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "クールになるには、とか？",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "レース勝利": [
+              {
+                "Option": "みんなお祭り騒ぎだったな",
+                "Effect": "Energy -15\nGuts +5\nスキル+33"
+              },
+              {
+                "Option": "引き続きトレーニング頑張ろう",
+                "Effect": "Energy -20\nGuts +5\nスキル+33"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "『秒で去ったあの人』",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "お父さんの曲、1時間メドレー",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "『俺は海だよ、おっかさん』",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "福笑い",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "寒中水泳",
+                "Effect": "All Stats ータス+5"
+              },
+              {
+                "Option": "新春登山",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "ゴールドシップの破天荒さ",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "ウオッカの反骨心",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "バレンタイン": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数6万人以上(一部4万人)",
+                "Effect": "「ウマ娘固有スキル」Hint Lv +1"
               }
             ]
           }
@@ -2619,7 +3087,7 @@
             "永劫続く追撃【エンドレスマイターン】": [
               {
                 "Option": "さすが、最高のサポートだ",
-                "Effect": "「Sharp Gaze」Hint Lv 2\nRandomly gain 「Rising Star」"
+                "Effect": "「Sharp Gaze」Hint Lv +2\nRandomly gain 「Rising Star」"
               },
               {
                 "Option": "サポートというか、攻撃のような…",
@@ -2643,7 +3111,7 @@
             "たゆまぬ気魂【バトルクライ】": [
               {
                 "Option": "これからも勇気を与える走りをしよう",
-                "Effect": "Mood Up\nPower +10"
+                "Effect": "Mood +1\nPower +10"
               },
               {
                 "Option": "次は、俺にも魔法をかけてほしいな",
@@ -2883,7 +3351,7 @@
             "お大事に！": [
               {
                 "Option": "今日は休んでまた頑張ろう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -2927,7 +3395,7 @@
               },
               {
                 "Option": "全力で応援する！！",
-                "Effect": "Mood Up\n1 Random stat(s) +10"
+                "Effect": "Mood +1\n1 Random stat(s) +10"
               }
             ]
           },
@@ -3199,7 +3667,7 @@
             "お大事に！": [
               {
                 "Option": "今日の練習は切り上げよう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "急いで練習に戻ろう",
@@ -3279,7 +3747,7 @@
               },
               {
                 "Option": "全力で応援する！！",
-                "Effect": "Mood Up\n1 Random stat(s) +10"
+                "Effect": "Mood +1\n1 Random stat(s) +10"
               }
             ]
           },
@@ -3479,7 +3947,7 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
@@ -3711,7 +4179,7 @@
             "お大事に！": [
               {
                 "Option": "すぐ治してたくさん走ろう！",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -3763,11 +4231,11 @@
             "『花は桜木、ウマ娘は‥‥‥』": [
               {
                 "Option": "大和撫子・グラスワンダー",
-                "Effect": "Power +20\nRandomly gain 「Good Practice◯」"
+                "Effect": "Power +20\nRandomly gain 「Good Practice〇」"
               },
               {
                 "Option": "武道少女・ヤエノムテキ",
-                "Effect": "Speed +20\nRandomly gain 「Good Practice◯」"
+                "Effect": "Speed +20\nRandomly gain 「Good Practice〇」"
               }
             ]
           },
@@ -3991,7 +4459,7 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
@@ -4331,7 +4799,7 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
@@ -4623,7 +5091,7 @@
             "お大事に！": [
               {
                 "Option": "しっかり休め",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "それなら……！",
@@ -4655,7 +5123,7 @@
               },
               {
                 "Option": "砂の城でも作る？",
-                "Effect": "Energy +10\nAll Stats +2\n※ Activates during Summer Camp"
+                "Effect": "Energy +10\nAll Stats +2\n※Activates during Summer Camp"
               }
             ]
           },
@@ -4891,7 +5359,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -5143,7 +5611,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -5387,11 +5855,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "無理しちゃダメ！",
-                "Effect": "[Success]==========\n「Good Practice〇」\n[Failure]==========\nMood -1\nLast Trained Stat(s) -5～10\nRandomly gain 「Bad Practice」"
+                "Effect": "[Success]==========\n「Good Practice〇」\n[Failure]==========\nMood -1\nLast Trained Stat(s) -5～-10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "今こそガッツだ！",
-                "Effect": "[Success]==========\n「Good Practice〇」\n[Failure]==========\nMood -1\nLast Trained Stat(s) -5～10\nRandomly gain 「Bad Practice」"
+                "Effect": "[Success]==========\n「Good Practice〇」\n[Failure]==========\nMood -1\nLast Trained Stat(s) -5～-10\nRandomly gain 「Bad Practice」"
               }
             ]
           },
@@ -5739,7 +6207,7 @@
             "お大事に！": [
               {
                 "Option": "君の役に立ちたい",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "これもトレーナーの仕事だ",
@@ -5755,7 +6223,7 @@
             "晴天の攻防": [
               {
                 "Option": "無理やりにでも連れていく",
-                "Effect": "[Success]==========\nSuccess\nSpeed +20\n[Failure]==========\nFailure\nMood Down\nSpeed +5"
+                "Effect": "[Success]==========\nSuccess\nSpeed +20\n[Failure]==========\nFailure\nMood -1\nSpeed +5"
               },
               {
                 "Option": "満足するまで休ませる",
@@ -5871,7 +6339,7 @@
               },
               {
                 "Option": "逃げを使っていこう",
-                "Effect": "「Betweeners Restraint」Hint Lv +1"
+                "Effect": "「Restrained Betweeners」Hint Lv +1"
               }
             ]
           },
@@ -5999,11 +6467,11 @@
             "お大事に！": [
               {
                 "Option": "しばらくは安静にしよう！",
-                "Effect": "Mood Down\nPower -5(single status)"
+                "Effect": "Mood -1\nPower -5(single status)"
               },
               {
                 "Option": "大丈夫そうなら、続ける？",
-                "Effect": "Mood Down\n1 Random stat(s) -10\n「Bad Practice」"
+                "Effect": "Mood -1\n1 Random stat(s) -10\n「Bad Practice」"
               }
             ]
           },
@@ -6023,11 +6491,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "とても心配だ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "復帰プランを練るよ！",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               }
             ]
           }
@@ -6315,7 +6783,7 @@
             "お大事に！": [
               {
                 "Option": "そう言わずに気をつけよう！",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "でも心配だから休もう",
@@ -6571,7 +7039,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -6715,7 +7183,7 @@
               },
               {
                 "Option": "民を救う英雄の話",
-                "Effect": "「Non-Core Distance ○」Hint Lv 1"
+                "Effect": "「Non-Core Distance ○」Hint Lv +1"
               }
             ]
           },
@@ -6831,7 +7299,7 @@
             "お大事に！": [
               {
                 "Option": "ああ・じゃあ休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "……わかった！",
@@ -6883,11 +7351,11 @@
             "新たな魅力を……": [
               {
                 "Option": "ドトウの真似をするとか",
-                "Effect": "「Binding Chains」Hint Lv +1\nRandomly gain 「Charming」"
+                "Effect": "「Binding Chains」Hint Lv +1\nRandomly gain 「Charming〇」"
               },
               {
                 "Option": "じっくり観察してみたら？",
-                "Effect": "Power +10\nRandomly gain 「Charming」"
+                "Effect": "Power +10\nRandomly gain 「Charming〇」"
               }
             ]
           },
@@ -6959,7 +7427,7 @@
               },
               {
                 "Option": "民を救う英雄の話",
-                "Effect": "「Non-Core Distance ○」Hint Lv 1"
+                "Effect": "「Non-Core Distance ○」Hint Lv +1"
               }
             ]
           },
@@ -7075,7 +7543,7 @@
             "お大事に！": [
               {
                 "Option": "ああ・じゃあ休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "……わかった！",
@@ -7259,7 +7727,7 @@
             "ボクとみんなとカップケーキ": [
               {
                 "Option": "半分こすればいい",
-                "Effect": "Energy +5\nMood UP"
+                "Effect": "Energy +5\nMood +1"
               },
               {
                 "Option": "勝負すればいい",
@@ -7415,7 +7883,7 @@
             "お大事に！": [
               {
                 "Option": "心配だからダメ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "ならまだ頑張ってみよう！",
@@ -7443,7 +7911,7 @@
             "好敵手と書いて友と呼ぶ！": [
               {
                 "Option": "お互い問題を出し合って競い合おう",
-                "Effect": "「Stamina Keep」Hint Lv +1～2"
+                "Effect": "「Stamina Keep」Hint Lv +1～+2"
               },
               {
                 "Option": "そんなに優劣をつけたいなら走ってくるんだ",
@@ -7455,7 +7923,7 @@
             "ワガハイがテイオー先輩だ!": [
               {
                 "Option": "生徒会長みたいでカッコよかった",
-                "Effect": "「Corner Accel ○」Hint Lv +1～2"
+                "Effect": "「Corner Accel ○」Hint Lv +1～+2"
               },
               {
                 "Option": "憧れの的として頑張って行こう!",
@@ -7563,7 +8031,7 @@
             "ボクとみんなとカップケーキ": [
               {
                 "Option": "半分こすればいい",
-                "Effect": "Energy +5\nMood UP"
+                "Effect": "Energy +5\nMood +1"
               },
               {
                 "Option": "勝負すればいい",
@@ -7719,7 +8187,7 @@
             "お大事に！": [
               {
                 "Option": "心配だからダメ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "ならまだ頑張ってみよう！",
@@ -7987,7 +8455,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -8087,7 +8555,7 @@
               },
               {
                 "Option": "思う存分やるといいよ！",
-                "Effect": "Energy -15\n1 Random stat(s) +10\nBig Success?\n∟Energy -15\n∟Mood Up\n∟2 Random stat(s) +15"
+                "Effect": "Energy -15\n1 Random stat(s) +10\nBig Success?\n└Energy -15\n└Mood +1\n└2 Random stat(s) +15"
               }
             ]
           },
@@ -8103,7 +8571,7 @@
               },
               {
                 "Option": "いや、思う存分やろう！",
-                "Effect": "<Pattern 1>\nEnergy -15\nMood Up\n2 Random stat(s) +15\n<Pattern 2>\nEnergy -15\n1 Random stat(s) +10"
+                "Effect": "<Pattern 1>\nEnergy -15\nMood +1\n2 Random stat(s) +15\n<Pattern 2>\nEnergy -15\n1 Random stat(s) +10"
               }
             ]
           },
@@ -8251,7 +8719,7 @@
             "お大事に": [
               {
                 "Option": "それで悪化したら大変だ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "わかった！トレーニングを再開しよう！",
@@ -8819,7 +9287,7 @@
             "お大事に！": [
               {
                 "Option": "じ、じっとして……",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "コラッ！安静に！",
@@ -8959,7 +9427,7 @@
             "凸凹ぶつかり稽古！？": [
               {
                 "Option": "早食い対決にしよう！",
-                "Effect": "[Success]==========\nSpeed +30\n「Countermeasures」Hint Lv 2\n[Failure]==========\nEnergy -5\nSpeed +10"
+                "Effect": "[Success]==========\nSpeed +30\n「Countermeasures」Hint Lv +2\n[Failure]==========\nEnergy -5\nSpeed +10"
               },
               {
                 "Option": "大食い対決にしよう！",
@@ -8991,7 +9459,7 @@
               },
               {
                 "Option": "お野菜メインの塩ちゃんこ",
-                "Effect": "Energy +40\nMood Up"
+                "Effect": "Energy +40\nMood +1"
               }
             ]
           },
@@ -9115,7 +9583,7 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
@@ -9347,11 +9815,11 @@
             "お大事に！": [
               {
                 "Option": "心配だから手当てさせて",
-                "Effect": "Mood Down\nPower -5(single status)\nRandomly gain 「Bad Practice」"
+                "Effect": "Mood -1\nPower -5(single status)\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "気を引き締めて練習しよう",
-                "Effect": "Mood Down\n1 Random stat(s) -10\n「Bad Practice」"
+                "Effect": "Mood -1\n1 Random stat(s) -10\n「Bad Practice」"
               }
             ]
           },
@@ -9371,11 +9839,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               }
             ]
           },
@@ -9759,7 +10227,7 @@
               },
               {
                 "Option": "妹を見てもらうっていう条件で入ったら？",
-                "Effect": "「Press the Attack」Hint Lv 2\nRandomly gain 「Sharp」"
+                "Effect": "「Press the Attack」Hint Lv +2\nRandomly gain 「Sharp」"
               }
             ]
           },
@@ -9767,11 +10235,11 @@
             "もうひとつの星": [
               {
                 "Option": "インパクトで勝負！後ろ姿だ！",
-                "Effect": "Energy -10\nSpeed +30\nGuts +10\n「Winter Girl」Hint Lv 2"
+                "Effect": "Energy -10\nSpeed +30\nGuts +10\n「Winter Girl」Hint Lv +2"
               },
               {
                 "Option": "主役らしく普通に渡そう",
-                "Effect": "Energy +15\nSkill Pt +20\n「Winter Girl」Hint Lv 2"
+                "Effect": "Energy +15\nSkill Pt +20\n「Winter Girl」Hint Lv +2"
               }
             ]
           },
@@ -9931,7 +10399,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -10091,7 +10559,7 @@
               },
               {
                 "Option": "未来のレースの挑戦状を封入する",
-                "Effect": "「Leader コーナー◯」Hint Lv +1"
+                "Effect": "「Leader's Corner ○」Hint Lv +1"
               }
             ]
           },
@@ -10099,15 +10567,15 @@
             "Who Will Escort Me?": [
               {
                 "Option": "天皇賞（秋）",
-                "Effect": "Speed +10\n※ Final objective becomes Tennou Sho (Fall)"
+                "Effect": "Speed +10\n※Final objective becomes Tennou Sho (Fall)"
               },
               {
                 "Option": "エリザベス女王杯",
-                "Effect": "Wisdom +10\n※ Final objective becomes Queen Elizabeth Cup"
+                "Effect": "Wisdom +10\n※Final objective becomes Queen Elizabeth Cup"
               },
               {
                 "Option": "マイルCS",
-                "Effect": "Guts +10\n※ Final objective becomes Mile CS"
+                "Effect": "Guts +10\n※Final objective becomes Mile CS"
               }
             ]
           },
@@ -10231,7 +10699,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -10371,11 +10839,11 @@
             "第一幕　スマイル": [
               {
                 "Option": "三冠路線",
-                "Effect": "Guts +10\n※ 「Kikka Sho」Race objective changes to 「Japan Derby」"
+                "Effect": "Guts +10\n※「Kikka Sho」Race objective changes to 「Japan Derby」"
               },
               {
                 "Option": "マイル路線",
-                "Effect": "Power +10\n※ 「Mile CS」Race objective changes to 「NHK Mile C」"
+                "Effect": "Power +10\n※「Mile CS」Race objective changes to 「NHK Mile C」"
               }
             ]
           },
@@ -10511,7 +10979,7 @@
             "お大事に！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "選択肢下",
@@ -10831,7 +11299,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -11135,11 +11603,11 @@
             "勝てなかったけど（GI後のイベント）": [
               {
                 "Option": "次こそもっと楽しいレースにしよう",
-                "Effect": "Energy -20\n1 Random stat(s) +5~9\nSkill Pt +40"
+                "Effect": "Energy -20\n1 Random stat(s) +5～+9\nSkill Pt +40"
               },
               {
                 "Option": "まだわかってないこともあるかも？",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +5~9\nSkill Pt +42~53"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +5～+9\nSkill Pt +42～+53"
               }
             ]
           },
@@ -11147,7 +11615,7 @@
             "お大事に！": [
               {
                 "Option": "まだまだ子供だなぁ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "わかった",
@@ -11199,7 +11667,7 @@
             "お姉さんの流儀☆": [
               {
                 "Option": "マルゼンスキーが適任だな",
-                "Effect": "Mood Up\nSpeed +5\nSkill Pt +10"
+                "Effect": "Mood +1\nSpeed +5\nSkill Pt +10"
               },
               {
                 "Option": "最初に飛び出すのも大人の仕事",
@@ -11319,11 +11787,11 @@
             "マブいドライブだっちゅ～の": [
               {
                 "Option": "海岸",
-                "Effect": "Mood Up\nSpeed +5"
+                "Effect": "Mood +1\nSpeed +5"
               },
               {
                 "Option": "知らない街",
-                "Effect": "Wisdom +5\nMood Up"
+                "Effect": "Wisdom +5\nMood +1"
               }
             ]
           },
@@ -11447,7 +11915,7 @@
             "お大事に！": [
               {
                 "Option": "軽くてもちゃんと休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "さすがヤング！トレーニングに戻ろう！",
@@ -11727,7 +12195,7 @@
             "お大事に！": [
               {
                 "Option": "無理はさせられない",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "……わかった",
@@ -11947,7 +12415,7 @@
             "お大事に！": [
               {
                 "Option": "心配だから休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -12227,7 +12695,7 @@
             "お大事に！": [
               {
                 "Option": "心配だから休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -12391,7 +12859,7 @@
             "にこにこ波乱日和": [
               {
                 "Option": "頑張ってトレーニングする",
-                "Effect": "Success\n└ Energy -5\n└ Mood Up\n└ 2 Random stat(s) +10\nFailure\n└ Energy -10\n└ Guts +10"
+                "Effect": "Success\n└Energy -5\n└Mood +1\n└2 Random stat(s) +10\nFailure\n└Energy -10\n└Guts +10"
               },
               {
                 "Option": "自重して休む",
@@ -12543,11 +13011,235 @@
             "お大事に！": [
               {
                 "Option": "痛いなら休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "無理をしないって約束できるなら",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Clinochlore Line] Mejiro Ardan": {
+        "Event": [
+          {
+            "ガラスのワルツ": [
+              {
+                "Option": "確かに、輝くようなダンスだった",
+                "Effect": "Power +10\nGuts +10"
+              },
+              {
+                "Option": "次からは相談もしてほしい",
+                "Effect": "Wisdom +20"
+              }
+            ]
+          },
+          {
+            "前門の母、後門の姉": [
+              {
+                "Option": "お姉さんっぽいところがあるからね",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "赤ちゃんにされるよりは‥‥‥",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "人と観る映画": [
+              {
+                "Option": "じゃあ、俺におすすめの映画も教えて",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "次は参加者を増やしてもいいかもな",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "乙女の語らい": [
+              {
+                "Option": "‥‥‥耐性がたりなかったのかな",
+                "Effect": "Mood +1\nGuts +5"
+              },
+              {
+                "Option": "紹介が上手くて感情移入しすぎたんだよ",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "アルダンの寄り道講座・初級編": [
+              {
+                "Option": "可愛かったよ",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "寄り道って楽しいな",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "アルダンの寄り道講座・変則編": [
+              {
+                "Option": "みんなで仲良く分けあおう！",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "まずはチャレンジだ！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "アルダンの寄り道講座・追憶編": [
+              {
+                "Option": "これからもいろんな寄り道がしたいな",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "いつでも、どんなことにも付き合うぞ！",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "いい羽休めになったみたいだな",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "思い出光る昼下がり": [
+              {
+                "Option": "微笑ましいなぁ",
+                "Effect": "Stamina +20"
+              },
+              {
+                "Option": "みんなのお姉ちゃんみたいだな",
+                "Effect": "Wisdom +20"
+              }
+            ]
+          },
+          {
+            "意外なたくましさ？": [
+              {
+                "Option": "アルダンはたくましい……な……！",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "お、俺も食べきる！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "史を顧みて": [
+              {
+                "Option": "波乱万丈なものが読みたい",
+                "Effect": "Power +25"
+              },
+              {
+                "Option": "初心者向けのものが読みたい",
+                "Effect": "「Leader's Tricks ○」Hint Lv +3"
+              },
+              {
+                "Option": "アルダンのお気に入りが読みたい",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "体が勝手に‥‥‥?": [
+              {
+                "Option": "そのまま羽を伸ばすのもいいんじゃ",
+                "Effect": "Speed +10\nSkill Pt +15"
+              },
+              {
+                "Option": "今だから出来る、とも言えるよ?",
+                "Effect": "「Breakaway Prep」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "信じ合うこと": [
+              {
+                "Option": "勝利へ向けての第一歩だね",
+                "Effect": "Speed +20"
+              },
+              {
+                "Option": "けれど？",
+                "Effect": "Guts +20"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "福笑い",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "お雑煮を食べに行く",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "凧揚げ",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "アルダンが元気でいいられますように",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "アルダンが強くなれますように",
+                "Effect": "All Stats ータス+5"
+              },
+              {
+                "Option": "アルダンが幸せになれますように",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "良薬は口に苦し": [
+              {
+                "Option": "過剰摂取になっちゃうよ",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "どんどん食べて体を強くしよう",
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "『力、入れてこうぜ。鬼辛肉増し麻婆豆腐』",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "『根性、アゲてけよ。鬼シビ汁なし担々麺』",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "踊り慣れたダンスをしよう",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "まずは‥‥‥真似して踊ってみよう!",
+                "Effect": "Wisdom +10"
               }
             ]
           }
@@ -12783,7 +13475,7 @@
             "無茶は厳禁": [
               {
                 "Option": "今は体を大切にしよう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "治ったら取り返そう！",
@@ -13039,7 +13731,7 @@
             "お大事に！": [
               {
                 "Option": "今日は休んだ方が良さそうだな",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "これからは周りに注意しないとな",
@@ -13175,7 +13867,7 @@
             "同室のあの子~そうだと思いましたわ~": [
               {
                 "Option": "いい友人なんだってね",
-                "Effect": "「Crowded Calm」Hint Lv 2"
+                "Effect": "「Crowded Calm」Hint Lv +2"
               },
               {
                 "Option": "貴方の夢を大事にしたいんだって",
@@ -13187,7 +13879,7 @@
             "ライバルのあの子~どんな舞台でも~": [
               {
                 "Option": "リスペクトしているんだね",
-                "Effect": "「Position Sense」Hint Lv 2\nRandomly gain 「Rising Star」"
+                "Effect": "「Position Sense」Hint Lv +2\nRandomly gain 「Rising Star」"
               },
               {
                 "Option": "大丈夫、貴方には貴方の良さがある",
@@ -13215,7 +13907,7 @@
               },
               {
                 "Option": "一気に飲み干す",
-                "Effect": "「Frontrunner」Hint Lv 1"
+                "Effect": "「Frontrunner」Hint Lv +1"
               }
             ]
           },
@@ -13315,7 +14007,7 @@
             "お大事に！": [
               {
                 "Option": "今日は休んだ方が良さそうだな",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "これからは周りに注意しないとな",
@@ -13655,7 +14347,7 @@
             "お大事に！": [
               {
                 "Option": "ちゃんと気を付けながらね",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "安静にしておこう",
@@ -13923,7 +14615,7 @@
             "お大事に！": [
               {
                 "Option": "ちゃんと気を付けながらね",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "安静にしておこう",
@@ -13967,7 +14659,7 @@
               },
               {
                 "Option": "スタート地点へ戻ろう",
-                "Effect": "Stamina +20\nRandomly gain 「Charming〇」\n※ Activates during Summer Camp"
+                "Effect": "Stamina +20\nRandomly gain 「Charming〇」\n※Activates during Summer Camp"
               }
             ]
           },
@@ -14015,7 +14707,7 @@
             "お姉さんの流儀☆": [
               {
                 "Option": "マルゼンスキーが適任だな",
-                "Effect": "Mood Up\nSpeed +5\nSkill Pt +10"
+                "Effect": "Mood +1\nSpeed +5\nSkill Pt +10"
               },
               {
                 "Option": "最初に飛び出すのも大人の仕事",
@@ -14111,11 +14803,11 @@
             "マブいドライブだっちゅ～の": [
               {
                 "Option": "海岸",
-                "Effect": "Mood Up\nSpeed +5"
+                "Effect": "Mood +1\nSpeed +5"
               },
               {
                 "Option": "知らない街",
-                "Effect": "Wisdom +5\nMood Up"
+                "Effect": "Wisdom +5\nMood +1"
               }
             ]
           },
@@ -14239,7 +14931,7 @@
             "お大事に！": [
               {
                 "Option": "軽くてもちゃんと休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "さすがヤング！トレーニングに戻ろう！",
@@ -14509,7 +15201,7 @@
             "お大事に！": [
               {
                 "Option": "本当に大丈夫ならやろうか",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -14809,7 +15501,7 @@
             "お大事に！": [
               {
                 "Option": "治ったら、遅れを取り戻そう！",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -14873,7 +15565,7 @@
             "夜の学校のご老公？": [
               {
                 "Option": "よっ、世界最強最速！",
-                "Effect": "Mood Up\nGuts +5"
+                "Effect": "Mood +1\nGuts +5"
               },
               {
                 "Option": "後に斧を持った人影が！",
@@ -14937,7 +15629,7 @@
             "贈る花言葉": [
               {
                 "Option": "カモミールはどうだ？",
-                "Effect": "Mood Up\nWisdom +5"
+                "Effect": "Mood +1\nWisdom +5"
               },
               {
                 "Option": "カスミソウはどうだ？",
@@ -15077,7 +15769,7 @@
             "お大事に！": [
               {
                 "Option": "療養が一番の薬",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "根性で早く治そう！",
@@ -15357,7 +16049,7 @@
             "お大事に！": [
               {
                 "Option": "今日は休んでまた頑張ろう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -15537,7 +16229,7 @@
               },
               {
                 "Option": "歴史に名を残すレベルですごい",
-                "Effect": "All 5 Stats +3\nSkill Pt +45~50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming〇」"
+                "Effect": "All 5 Stats +3\nSkill Pt +45～+50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming〇」"
               }
             ]
           },
@@ -15661,7 +16353,7 @@
             "お大事に！": [
               {
                 "Option": "今すぐプログラムをアップデートしよう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -15953,7 +16645,7 @@
             "お大事に！": [
               {
                 "Option": "君の役に立ちたい",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "これもトレーナーの仕事だ",
@@ -15997,7 +16689,7 @@
               },
               {
                 "Option": "野菜から順番に、確実に攻めよう……！",
-                "Effect": "Mood UP\nGuts +5"
+                "Effect": "Mood +1\nGuts +5"
               }
             ]
           },
@@ -16233,11 +16925,219 @@
             "お大事に！": [
               {
                 "Option": "危ないから今日はもう休もう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "これから気を付ければいいだけ",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Panpaka Tiltot] Matikanetannhauser": {
+        "Event": [
+          {
+            "恋は焼きサバの味": [
+              {
+                "Option": "なんだか美味しそうな話だったな",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "スパッと解決したな！",
+                "Effect": "Mood +1\nSpeed +5"
+              }
+            ]
+          },
+          {
+            "シュビビッと解決！": [
+              {
+                "Option": "君のやり方を続けてみよう",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "修理を頼んじゃおう",
+                "Effect": "Energy +5\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "神父マチタンと結婚式": [
+              {
+                "Option": "さすが神父様！",
+                "Effect": "Wisdom +20"
+              },
+              {
+                "Option": "みんなのお姉さんみたいだな",
+                "Effect": "Stamina +10\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "敏腕看板娘、誕生": [
+              {
+                "Option": "『普通』の殻を破ったな！",
+                "Effect": "Stamina +10\nPower +10\nRandomly gain 「Rising Star」"
+              },
+              {
+                "Option": "あとは知名度を高めるだけだ",
+                "Effect": "Guts +10\nWisdom +10\nRandomly gain 「Rising Star」"
+              }
+            ]
+          },
+          {
+            "お待ちかねのランチ": [
+              {
+                "Option": "思い切って購買部に戻ろう！",
+                "Effect": "Mood +1\nStamina +10"
+              },
+              {
+                "Option": "福が来るのをジッと待とう",
+                "Effect": "「Pace Keep」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "『普通』の先へ": [
+              {
+                "Option": "自信を持って受けておいで",
+                "Effect": "Power +20"
+              },
+              {
+                "Option": "一緒に気合を入れよう！",
+                "Effect": "Guts +20"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "遊びとダンスを組み合わせるのは？",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "教えるのを通じてダンススキルアップ！",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "走れ走れ、凧揚げ対決！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "粘ったもん勝ち、けん玉対決！",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "笑っちゃ負けよ、福笑い対決！",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "じゃあ、島を1週泳いでムキムキ！",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "それなら、限界マラソンで精神統一",
+                "Effect": ""
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "まずは体力を温存しよう！",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "せっかくなので、フルコース！",
+                "Effect": "All Stats ータス+5"
+              },
+              {
+                "Option": "新春、敵情視察！",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "定食パーティー": [
+              {
+                "Option": "食べすぎには注意だぞ",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "たくさん食べてきてね",
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              }
+            ]
+          },
+          {
+            "私だってやる時は……！？": [
+              {
+                "Option": "気にしなくていいよ",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "レースの結果で返してほしい！",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "おもてなしの反対": [
+              {
+                "Option": "今後に活かせばいい！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "無理はしなくていいよ",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "いつも、いつまでも！": [
+              {
+                "Option": "君らしい素敵なおもてなしだった",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "ワクワクする普通だな！",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "これからも変わらないでほしい",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "目指せ！頼れるお姉ちゃん": [
+              {
+                "Option": "ちゃんとお姉さんできてたぞ",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "むしろ逆……",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "マチタンの初代帽子": [
+              {
+                "Option": "マチタンの初代帽子",
+                "Effect": "Stamina +5\nWisdom +5"
+              },
+              {
+                "Option": "君がまた迷子になっても安心だな",
+                "Effect": "Speed +10"
               }
             ]
           }
@@ -16497,7 +17397,7 @@
             "お大事に！": [
               {
                 "Option": "まだまだ子供だなぁ",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "わかった",
@@ -16755,7 +17655,7 @@
             "お大事に！": [
               {
                 "Option": "",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -16903,7 +17803,7 @@
             "無茶は厳禁！": [
               {
                 "Option": "焦らないで、ゆっくり治そう",
-                "Effect": "Energy +10\nMood Down\nSpeed -20\nPower -10"
+                "Effect": "Energy +10\nMood -1\nSpeed -20\nPower -10"
               },
               {
                 "Option": "",
@@ -17007,7 +17907,7 @@
             "お大事に！": [
               {
                 "Option": "きっちり休ませる",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "頑張らせる",
@@ -17263,7 +18163,7 @@
             "お大事に！": [
               {
                 "Option": "まずケガを治そう",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -17567,7 +18467,7 @@
             "お大事に！": [
               {
                 "Option": "いや、ダメだからな",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "",
@@ -17819,7 +18719,7 @@
             "お大事に！": [
               {
                 "Option": "ごめん、でも心配で",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "わかった、ネイチャを信じる",
@@ -18103,7 +19003,7 @@
             "お大事に！": [
               {
                 "Option": "じ、じっとして……",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "コラッ！安静に！",
@@ -18387,7 +19287,7 @@
             "お大事に！": [
               {
                 "Option": "きっちり休ませる",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "頑張らせる",
@@ -18639,7 +19539,7 @@
             "お大事に！": [
               {
                 "Option": "念のため、今日は休もうか",
-                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
+                "Effect": "Failure\n└Mood -1\n└Last Trained Stat(s) -5～-10\n└Randomly gain 「Bad Practice」\nSuccess\n└「Good Practice〇」"
               },
               {
                 "Option": "気を引き締めよう",
@@ -18663,7 +19563,7 @@
               },
               {
                 "Option": "今のままで充分だと思う！",
-                "Effect": "Energy +10\nSpeed +15\n「Leader's Corner ○」Hint Lv +1\n※ Event chain ended"
+                "Effect": "Energy +10\nSpeed +15\n「Leader's Corner ○」Hint Lv +1\n※Event chain ended"
               }
             ]
           },
@@ -18715,7 +19615,7 @@
               },
               {
                 "Option": "進行度1で「全力」選択時",
-                "Effect": "[Success]==========\nStamina +15\nGuts +15\nSkill Pt +20\n「Facing Death」Hint Lv +3\nBond Gauge +5\n[Failure]==========\nMood -\nGuts +10\n「All I Have」Hint Lv +\nBond Gauge +5"
+                "Effect": "[Success]==========\nStamina +15\nGuts +15\nSkill Pt +20\n「Facing Death」Hint Lv +3\nBond Gauge +5\n[Failure]==========\nMood -1\nGuts +10\n「All I Have」Hint Lv +\nBond Gauge +5"
               }
             ]
           },
@@ -18811,7 +19711,7 @@
               },
               {
                 "Option": "名コンビだったね",
-                "Effect": "Energy -10\nMood Up\nStamina +5\nPower +5\nBond Gauge +5"
+                "Effect": "Energy -10\nMood +1\nStamina +5\nPower +5\nBond Gauge +5"
               },
               {
                 "Option": "‥‥‥もし霊がビビらなかったら?",
@@ -18895,7 +19795,7 @@
               },
               {
                 "Option": "そのままでいいと思うよ",
-                "Effect": "Energy +10～30\nBond Gauge +5"
+                "Effect": "Energy +10～+30\nBond Gauge +5"
               }
             ]
           },
@@ -18919,7 +19819,7 @@
               },
               {
                 "Option": "迷いのない走りだった！",
-                "Effect": "「Runners Restraint」Hint Lv 1\nBond Gauge +5"
+                "Effect": "「Restrained Runners」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -18948,6 +19848,34 @@
               {
                 "Option": "栄養ドリンクいる？",
                 "Effect": "「A Little Break」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[SPECIAL DREAMERS] Satono Diamond": {
+        "Event": [
+          {
+            "新しいもの、大好きです！": [
+              {
+                "Option": "ティーカップで飲むのか？",
+                "Effect": "Guts +10\nBond Gauge +5"
+              },
+              {
+                "Option": "メロンソーダは初めて？",
+                "Effect": "Energy -10\nStamina +20\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "難しいこと、大好きです！": [
+              {
+                "Option": "よし、やってみよう！",
+                "Effect": "Stamina +5\nGuts +10\nBond Gauge +5"
+              },
+              {
+                "Option": "まずは1度様子を見よう",
+                "Effect": "「Faltering Runners」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -19155,7 +20083,7 @@
               },
               {
                 "Option": "今度は2人に素直になってもらおう！",
-                "Effect": "Stamina +10\n「Pass Expert」Hint Lv 1\nBond Gauge +5"
+                "Effect": "Stamina +10\n「Pass Expert」Hint Lv +1\nBond Gauge +5"
               }
             ]
           },
@@ -19199,7 +20127,7 @@
               },
               {
                 "Option": "ご褒美があるとやる気が出るぞ",
-                "Effect": "Mood Up\nWisdom +5"
+                "Effect": "Mood +1\nWisdom +5"
               }
             ]
           },
@@ -19211,7 +20139,7 @@
               },
               {
                 "Option": "休んだほうがいいと伝える",
-                "Effect": "Energy +10\nMood Up\nBond Gauge +5"
+                "Effect": "Energy +10\nMood +1\nBond Gauge +5"
               }
             ]
           }
@@ -19337,6 +20265,58 @@
           }
         ]
       },
+      "[The Joy \"There\"] Agnes Digital": {
+        "Event": [
+          {
+            "ヲタクの責務": [
+              {
+                "Option": "でも推しのお願いなんだよね?",
+                "Effect": "Stamina +15\n「Nutritional Supplements」Hint Lv +1\nBond Gauge +"
+              },
+              {
+                "Option": "もっと自信を持って!",
+                "Effect": "Wisdom +15\n「Focus」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "ヲタクの推し活": [
+              {
+                "Option": "さすがウマ娘オタク‥‥‥",
+                "Effect": "Power +10\nSkill Pt +15\n「狙うは最前列!」Hint Lv +1"
+              },
+              {
+                "Option": "憧れは自分の力になるもんね",
+                "Effect": "Speed +35\n「Big Fan」Hint Lv +1\nBond Gauge +"
+              }
+            ]
+          },
+          {
+            "ウマ娘ちゃん欠乏症！": [
+              {
+                "Option": "大事をとって帰ったら？",
+                "Effect": "Energy +5\nSpeed +5\nBond Gauge +5"
+              },
+              {
+                "Option": "今からでも参加できるはず！",
+                "Effect": "Speed +5\nPower +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "エモのためなら雨の中でも！": [
+              {
+                "Option": "無理すると風邪引くよ",
+                "Effect": "「Rainy Day ○」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "真剣なんだね！",
+                "Effect": "「Wicked Path ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
       "[Surpassing That Back] Satono Diamond": {
         "Event": [
           {
@@ -19347,7 +20327,7 @@
               },
               {
                 "Option": "不幸が起こるか、確かめに行こう！",
-                "Effect": "[Success]==========\nEnergy +15\nStamina +10\nBond Gauge +5\n[Failure]==========\nMood Down\nGuts +20"
+                "Effect": "[Success]==========\nEnergy +15\nStamina +10\nBond Gauge +5\n[Failure]==========\nMood -1\nGuts +20"
               }
             ]
           },
@@ -19463,7 +20443,7 @@
             "思い出ほわほわ、わんこそば": [
               {
                 "Option": "たとえばどんなもの？",
-                "Effect": "Mood Up\nBond Gauge +5"
+                "Effect": "Mood +1\nBond Gauge +5"
               },
               {
                 "Option": "わんこそばが食べたくなってきたな",
@@ -19475,7 +20455,7 @@
             "学級委員長のすンげぇ特訓": [
               {
                 "Option": "ああ！学級委員長的な度胸を見習おう！",
-                "Effect": "Mood Up\nPower +5\nBond Gauge +5~7"
+                "Effect": "Mood +1\nPower +5\nBond Gauge +5～+7"
               },
               {
                 "Option": "ああ！学級委員長的な度胸な走りを見習おう！",
@@ -19487,7 +20467,7 @@
             "あたし、勝ちたいンです！": [
               {
                 "Option": "かっこいいところを見せよう！",
-                "Effect": "Mood Up+3\n「Non-stop Girl」Hint Lv +1\nBond Gauge +5~7"
+                "Effect": "Mood +3\n「Non-stop Girl」Hint Lv +1\nBond Gauge +5～+7"
               },
               {
                 "Option": "特訓の成果を見せてやろう！",
@@ -19511,7 +20491,7 @@
             "”シチースポット”を目指して": [
               {
                 "Option": "この地図だと、現在地と目的地は……",
-                "Effect": "Energy -10\nMood Up\nGuts +10\nBond Gauge +5"
+                "Effect": "Energy -10\nMood +1\nGuts +10\nBond Gauge +5"
               },
               {
                 "Option": "ナビのアプリを使うといいぞ",
@@ -19543,7 +20523,7 @@
               },
               {
                 "Option": "栄養ありそう",
-                "Effect": "Energy +10/20\nBond Gauge +5"
+                "Effect": "Energy +10/+20\nBond Gauge +5"
               }
             ]
           },
@@ -19647,7 +20627,7 @@
             "選んだ生き方": [
               {
                 "Option": "理事長室までひとっ走りしますよ！",
-                "Effect": "Energy +11~14\nMood +1\nBond Gauge +5"
+                "Effect": "Energy +11～+14\nMood +1\nBond Gauge +5"
               },
               {
                 "Option": "書類作成、お手伝いしますよ",
@@ -19731,7 +20711,7 @@
               },
               {
                 "Option": "もう1度この目で確かめてみたい……！",
-                "Effect": "「Cloudy Days」Hint Lv 2\nBond Gauge +5"
+                "Effect": "「Cloudy Days」Hint Lv +2\nBond Gauge +5"
               }
             ]
           },
@@ -19831,7 +20811,7 @@
             "気まぐれ天才魔法少女スイーピー": [
               {
                 "Option": "よし、いけーっ!",
-                "Effect": "[Success]==========\nMood Up\n「Straight Shot」Hint Lv +2\nBond Gauge +5\n[Failure]==========\nMood Down\nWisdom +5\nBond Gauge +5"
+                "Effect": "[Success]==========\nMood +1\n「Straight Shot」Hint Lv +2\nBond Gauge +5\n[Failure]==========\nMood -1\nWisdom +5\nBond Gauge +5"
               },
               {
                 "Option": "ちょっと待った‥‥‥!!",
@@ -20039,7 +21019,7 @@
               },
               {
                 "Option": "じゃあ私からも何かあげようか？",
-                "Effect": "<End>\nEnergy +20\nStamina +10\n「Competitive Spirit ○」Hint Lv 1\n※ Event chain ended"
+                "Effect": "<End>\nEnergy +20\nStamina +10\n「Competitive Spirit ○」Hint Lv +1\n※Event chain ended"
               }
             ]
           },
@@ -20111,7 +21091,47 @@
               },
               {
                 "Option": "魅力的になれる秘孔とか？",
-                "Effect": "Energy +10\nRandomly gain 2個ステUP+10\n「Big Fan」Hint Lv 3\nBond Gauge +5 "
+                "Effect": "Energy +10\nRandomly gain 2個ステUP+10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Little By Little] Mejiro Bright": {
+        "Event": [
+          {
+            "わたくし、捜しますわ～": [
+              {
+                "Option": "安心できる場所にいるかも……？",
+                "Effect": "Mood +1\nStamina +10\nBond Gauge +5"
+              },
+              {
+                "Option": "楽しい場所にいるかも……？",
+                "Effect": "Energy +10\nWisdom +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "のんびり、ゆったり。": [
+              {
+                "Option": "気になる部分をしっかりやってみては？",
+                "Effect": "Stamina +15/Guts +5\nBond Gauge +5"
+              },
+              {
+                "Option": "全体をざっくり覚えてみては？",
+                "Effect": "Speed +15\nPower +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "しっかり、じっくり。": [
+              {
+                "Option": "練習あるのみだね！",
+                "Effect": "Energy +10\n「Deep Breaths」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "ケガにだけは気をつけてな",
+                "Effect": "Wisdom +20\nBond Gauge +5"
               }
             ]
           }
@@ -20211,7 +21231,7 @@
               },
               {
                 "Option": "のんびりやるといいよ",
-                "Effect": "Energy +5～10\nMood Up\nBond Gauge +5"
+                "Effect": "Energy +5～+10\nMood +1\nBond Gauge +5"
               }
             ]
           },
@@ -20235,7 +21255,7 @@
               },
               {
                 "Option": "いろいろ試してみるとか？",
-                "Effect": "Energy +5\nSkill Pt +10\nBond Gauge +5～10"
+                "Effect": "Energy +5\nSkill Pt +10\nBond Gauge +5～+10"
               }
             ]
           },
@@ -20471,7 +21491,7 @@
             "あれもこれもで、悩んじゃいます!": [
               {
                 "Option": "美味しいものを食べるべきだ",
-                "Effect": "Energy +10\nMood Up\nBond Gauge +5"
+                "Effect": "Energy +10\nMood +1\nBond Gauge +5"
               },
               {
                 "Option": "思いついたところ全部に行こう！",
@@ -20523,7 +21543,7 @@
             "孤高のケフェウス": [
               {
                 "Option": "先に少しずつ片づけておこう！",
-                "Effect": "「Leaders Restraint」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Restrained Leaders」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "‥‥‥彼女の考えを尊重しよう",
@@ -20667,7 +21687,7 @@
               },
               {
                 "Option": "動画なんてどう？",
-                "Effect": "<End>\n※ Event chain ended\nSkill Pt +20\n「Playtime's Over!」Hint Lv +1\nBond Gauge -5"
+                "Effect": "<End>\n※Event chain ended\nSkill Pt +20\n「Playtime's Over!」Hint Lv +1\nBond Gauge -5"
               }
             ]
           },
@@ -20687,7 +21707,7 @@
             "”シチースポット”を目指して": [
               {
                 "Option": "この地図だと、現在地と目的地は……",
-                "Effect": "Energy -10\nMood Up\nGuts +10\nBond Gauge +5"
+                "Effect": "Energy -10\nMood +1\nGuts +10\nBond Gauge +5"
               },
               {
                 "Option": "ナビのアプリを使うといいぞ",
@@ -20723,7 +21743,7 @@
               },
               {
                 "Option": "栄養ありそう",
-                "Effect": "Energy +10/20\nBond Gauge +5"
+                "Effect": "Energy +10/+20\nBond Gauge +5"
               }
             ]
           },
@@ -20751,7 +21771,7 @@
               },
               {
                 "Option": "幸せは近くに転がっているかも",
-                "Effect": "※Event chain ended\nSkill Pt +40\n「Pass Expert」Hint Lv 1"
+                "Effect": "※Event chain ended\nSkill Pt +40\n「Pass Expert」Hint Lv +1"
               }
             ]
           },
@@ -20891,11 +21911,11 @@
             "意外な一面": [
               {
                 "Option": "まずは体力をつけてみては？",
-                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
+                "Effect": "[Success]==========\nEnergy +18\nMood +1\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
               },
               {
                 "Option": "何度でも挑戦してみましょう！",
-                "Effect": "Mood Up\nGuts +18\nBond Gauge \nCan start dating"
+                "Effect": "Mood +1\nGuts +18\nBond Gauge +5\nCan start dating"
               },
               {
                 "Option": "ちょっと今日は急いでいるので・・・・・",
@@ -21019,11 +22039,11 @@
             "思い出クローバー": [
               {
                 "Option": "最終コーナー",
-                "Effect": "「Clever Cornerer ○」Lv+1\nBond Gauge +5"
+                "Effect": "「Clever Cornerer ○」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "ラストの直線",
-                "Effect": "\tGuts +15\nBond Gauge +5"
+                "Effect": "Guts +15\nBond Gauge +5"
               }
             ]
           }
@@ -21039,7 +22059,7 @@
               },
               {
                 "Option": "それぞれに合った量の方が",
-                "Effect": "<End>\n※Event chain ended\nEnergy +10\nWisdom +10\nSkill Pt +10\n「Playtime's Over!」Hint Lv +3"
+                "Effect": "<End>\nEnergy +10\nWisdom +10\nSkill Pt +10\n「Playtime's Over!」Hint Lv +3\n※Event chain ended"
               }
             ]
           },
@@ -21173,6 +22193,46 @@
           }
         ]
       },
+      "[Peachy Backshot!] Narita Top Road": {
+        "Event": [
+          {
+            "期待をその背に！": [
+              {
+                "Option": "模擬レースでの活躍、楽しみにしてる！",
+                "Effect": "Energy -10\nSpeed +15\nStamina +15\n「Press the Attack」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "でも、根を詰め過ぎないようにな",
+                "Effect": "Energy +20\nSkill Pt +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "きっちり、点検！": [
+              {
+                "Option": "いったん休憩にしたら？",
+                "Effect": "Energy +20\nBond Gauge +5"
+              },
+              {
+                "Option": "急いで終わらせよう！",
+                "Effect": "Energy -10\nSpeed +25\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "しっかり、努力！": [
+              {
+                "Option": "練習あるのみ！",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              },
+              {
+                "Option": "あえて曲のテンポを上げてみては？",
+                "Effect": "「Uptempo」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
       "[Blustering! Breakneck! Flower Storm!] Sakura Bakushin O": {
         "Event": [
           {
@@ -21231,7 +22291,7 @@
             "どぎまぎアフタヌーンティー！": [
               {
                 "Option": "貴方たちで分け合えば食べきれる!",
-                "Effect": "Energy +10\nMood +"
+                "Effect": "Energy +10\nMood +1"
               },
               {
                 "Option": "テイクアウトにする？",
@@ -21271,7 +22331,7 @@
             "ミツケテ": [
               {
                 "Option": "早く休んで朝にまた走れば?",
-                "Effect": "[Success]==========\nStamina +10\nWisdom +10\n「Long Distance Corner ○」Hint Lv+1\nBond Gauge +5\n[Failure]==========\nEnergy +15\n「Long Distance コーナー◯」Lv+1\nGain 「Insomnia」\nBond Gauge +5"
+                "Effect": "[Success]==========\nStamina +10\nWisdom +10\n「Long Distance Corner ○」Hint Lv +1\nBond Gauge +5\n[Failure]==========\nEnergy +15\n「Long Distance Corner ○」Hint Lv +1\nGain 「Insomnia」\nBond Gauge +5"
               },
               {
                 "Option": "無理はよくない",
@@ -21311,7 +22371,7 @@
             "なかよし☆こよしちゃん〜探求編〜": [
               {
                 "Option": "たしかに『素敵な子』だね!",
-                "Effect": "Skill Pt +10~Bond Gauge +5"
+                "Effect": "Skill Pt +10\nBond Gauge +5"
               },
               {
                 "Option": "お、落ち着いて",
@@ -21507,7 +22567,7 @@
             "あぁ、友情": [
               {
                 "Option": "すごく力強かったぞ！",
-                "Effect": "Mood Up\nPower +5\nBond Gauge +5"
+                "Effect": "Mood +1\nPower +5\nBond Gauge +5"
               },
               {
                 "Option": "本番に備えるだけだな！",
@@ -21807,6 +22867,34 @@
           }
         ]
       },
+      "[At Day's End] Special Week": {
+        "Event": [
+          {
+            "曲がり角には、 気をつけます!": [
+              {
+                "Option": "ここで全力を出さないほうがいいぞ",
+                "Effect": "「Backup Belly」Hint Lv +1\nBond Gauge +4"
+              },
+              {
+                "Option": "急いで行ってあげて",
+                "Effect": "Guts +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "あれもこれもで、 悩んじゃいます!": [
+              {
+                "Option": "美味しいものを食べるべきだ",
+                "Effect": "Energy +10\nMood +1\nBond Gauge +5"
+              },
+              {
+                "Option": "思いついたところ全部に行こう！",
+                "Effect": "Energy -10\nStamina +15\nSkill Pt +15\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
       "[nail on Turf] Tosen Jordan": {
         "Event": [
           {
@@ -21837,7 +22925,7 @@
             "ターフにネイリスト": [
               {
                 "Option": "革新的だ！",
-                "Effect": "[Success]==========\nSkill Pt +40\nBond Gauge +5\n[Failure]==========\nMood Down\nSkill Pt +10"
+                "Effect": "[Success]==========\nSkill Pt +40\nBond Gauge +5\n[Failure]==========\nMood -1\nSkill Pt +10"
               },
               {
                 "Option": "やめた方が……",
@@ -22013,7 +23101,7 @@
             "人情ラプソディ": [
               {
                 "Option": "どうしてそこまで親身に？",
-                "Effect": "Mood Up\nSpeed +5\nBond Gauge +5"
+                "Effect": "Mood +1\nSpeed +5\nBond Gauge +5"
               },
               {
                 "Option": "優しいんだな",
@@ -22025,11 +23113,11 @@
             "商いの道は人の道": [
               {
                 "Option": "私も食べたくなってきた",
-                "Effect": "Speed +10\nSkill Pt +10\n「Leader コーナー◯」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Speed +10\nSkill Pt +10\n「Leader's Corner ○」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "どんどん売り込もう",
-                "Effect": "Stamina +10\nSkill Pt +10\n「Betweener コーナー◯」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Stamina +10\nSkill Pt +10\n「Betweener's Corner ○」Hint Lv +1\nBond Gauge +5"
               }
             ]
           },
@@ -22325,7 +23413,7 @@
               },
               {
                 "Option": "一旦気を静めよう",
-                "Effect": "「Underdog」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Underdog ○」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -22427,13 +23515,53 @@
           }
         ]
       },
+      "[First Magnitude Desire] Admire Vega": {
+        "Event": [
+          {
+            "共に在る幸福": [
+              {
+                "Option": "よかったな",
+                "Effect": "Energy +20\nSpeed +10\nBond Gauge +5"
+              },
+              {
+                "Option": "優しいんだな",
+                "Effect": "Wisdom +10\n「Good Practice〇」\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "不器用なトライアングラム": [
+              {
+                "Option": "力を合わせよう！",
+                "Effect": "Power +15\nBond Gauge +5"
+              },
+              {
+                "Option": "まずは落ち着かせよう",
+                "Effect": "Energy +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "孤高のケフェウス": [
+              {
+                "Option": "先に少しずつ片づけておこう！",
+                "Effect": "「Restrained Leaders」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "……彼女の考えを尊重しよう",
+                "Effect": "Wisdom +10\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
       "[Pearl of the World] Seeking the Pearl": {
         "Event": [
           {
             "言葉はノンノン♪ボディで語るの！": [
               {
                 "Option": "高らかに歌う",
-                "Effect": "Mood Up\n「Lucky Seven」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Mood +1\n「Lucky Seven」Hint Lv +1\nBond Gauge +5"
               },
               {
                 "Option": "ストレスを発散しながら踊る",
@@ -22441,7 +23569,7 @@
               },
               {
                 "Option": "満足げなポーズを取る",
-                "Effect": "Energy +15～30"
+                "Effect": "Energy +15～+30"
               }
             ]
           },
@@ -22577,7 +23705,7 @@
               },
               {
                 "Option": "大声で呼びかけよう！",
-                "Effect": "[Success]==========\nEnergy Max +4\nMood UP\nGuts +5\nWisdom +5\nBond Gauge +5\n[Failure]==========\nEnergy -10\nWisdom +5"
+                "Effect": "[Success]==========\nEnergy Max +4\nMood +1\nGuts +5\nWisdom +5\nBond Gauge +5\n[Failure]==========\nEnergy -10\nWisdom +5"
               }
             ]
           },
@@ -22685,7 +23813,7 @@
               },
               {
                 "Option": "飲み物を差し入れるとか",
-                "Effect": "Mood Up\nGuts +5\nBond Gauge +5"
+                "Effect": "Mood +1\nGuts +5\nBond Gauge +5"
               }
             ]
           },
@@ -22697,7 +23825,7 @@
               },
               {
                 "Option": "観客がいないからでは?",
-                "Effect": "「Kyoto Racetrack」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Kyoto Racetrack ○」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -22809,7 +23937,7 @@
               },
               {
                 "Option": "やりたいようにやればいい",
-                "Effect": "Mood Down\n「The One ○」Hint Lv +5"
+                "Effect": "Mood -1\n「The One ○」Hint Lv +5"
               }
             ]
           },
@@ -22821,7 +23949,7 @@
               },
               {
                 "Option": "正直に謝ったほうがいい",
-                "Effect": "Mood Down\n「Lone Wolf」Hint Lv +1"
+                "Effect": "Mood -1\n「Lone Wolf」Hint Lv +1"
               }
             ]
           },
@@ -22982,6 +24110,138 @@
               {
                 "Option": "こんな暗い所にひとりでも、怖くないんだね",
                 "Effect": "「Non-Core Distance ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Hear! An Exemplary Greeting!] Sakura Bakushin O": {
+        "Event": [
+          {
+            "あいさつはバクシン運動です！！": [
+              {
+                "Option": "身振り手振りで表現してみるとか",
+                "Effect": "Energy -10\nSpeed +30\nBond Gauge +5"
+              },
+              {
+                "Option": "いい標語を考えてみては",
+                "Effect": "Energy -10\nSkill Pt +30\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "優等生の一石二鳥！！": [
+              {
+                "Option": "雑巾がけで、スピード強化！",
+                "Effect": "Speed +15\nBond Gauge +5"
+              },
+              {
+                "Option": "資料室の整理で、パワーも強化！",
+                "Effect": "Speed +5\nPower +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "走りだすほどの！！": [
+              {
+                "Option": "読み終わったら借りてもいいか？",
+                "Effect": "「Draw Forward」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "参考に、走りを見せてもらえるか？",
+                "Effect": "Energy -10\nSpeed +10\nPower +5\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[To Your Hard-working Self!] Ines Fujin": {
+        "Event": [
+          {
+            "アナタの心にチャージ一発！": [
+              {
+                "Option": "よし、遊ぼう！",
+                "Effect": "Energy Max +4\nBond Gauge +5"
+              },
+              {
+                "Option": "まだ仕事が残ってるんだ……",
+                "Effect": "Mood +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "キミの心にいつでも……": [
+              {
+                "Option": "仲直り大成功！！",
+                "Effect": "Speed +10\n「Medium Distance Straights ○」Hint Lv +1\n「Sympathy」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "これで離れても寂しくないかな",
+                "Effect": ""
+              }
+            ]
+          },
+          {
+            "鬼ごっこ、なの！": [
+              {
+                "Option": "ゆるっと楽しむ",
+                "Effect": "Energy +?\nSpeed +5\nBond Gauge +5"
+              },
+              {
+                "Option": "本気で遊ぶ！",
+                "Effect": "「Fast Paced」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "あと10分、なの！": [
+              {
+                "Option": "悩んだら走り込み！",
+                "Effect": "Guts +15\nBond Gauge +5"
+              },
+              {
+                "Option": "フォームの確認はどう？",
+                "Effect": "Wisdom +15\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Pulse-Quickening Cooldown] Mejiro Ryan": {
+        "Event": [
+          {
+            "千里の道も筋トレから！": [
+              {
+                "Option": "君のプレゼン力もな",
+                "Effect": "Energy +25\nBond Gauge +5"
+              },
+              {
+                "Option": "筋トレあるのみ、だね！",
+                "Effect": "Stamina +10\nPower +５\n「Betweener's Straights ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "筋肉と共に明日へ！": [
+              {
+                "Option": "限界まで挑戦しよう！",
+                "Effect": "Energy -10\nPower +5\nBond Gauge +5"
+              },
+              {
+                "Option": "目標達成おめでとう！",
+                "Effect": "Energy Max +4\nPower +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "あくまで薦められただけ": [
+              {
+                "Option": "ペース考えたほうがいいよ",
+                "Effect": "「Pace Up」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "一気読みは体力使うよ？",
+                "Effect": "Energy +30\nBond Gauge +5"
               }
             ]
           }
@@ -23151,7 +24411,7 @@
               },
               {
                 "Option": "飲み物を差し入れるとか",
-                "Effect": "Mood Up\nGuts +5\nBond Gauge +5"
+                "Effect": "Mood +1\nGuts +5\nBond Gauge +5"
               }
             ]
           },
@@ -23163,7 +24423,7 @@
               },
               {
                 "Option": "観客がいないからでは?",
-                "Effect": "「Kyoto Racetrack」Hint Lv +1\nBond Gauge +5"
+                "Effect": "「Kyoto Racetrack ○」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -23427,7 +24687,7 @@
             "あぁ、友情": [
               {
                 "Option": "すごく力強かったぞ！",
-                "Effect": "Mood Up\nPower +5\nBond Gauge +5"
+                "Effect": "Mood +1\nPower +5\nBond Gauge +5"
               },
               {
                 "Option": "本番に備えるだけだな！",
@@ -23551,7 +24811,7 @@
             "甦れ！ゴルシ印のソース焼きそば！": [
               {
                 "Option": "……味に磨きをかけたら？",
-                "Effect": "Mood Up\nStamina +5"
+                "Effect": "Mood +1\nStamina +5"
               },
               {
                 "Option": "……明石焼きを売ったら？",
@@ -23667,7 +24927,7 @@
               },
               {
                 "Option": "まずは1度様子を見よう",
-                "Effect": "「Faltering Runners」Hint Lv 1\nBond Gauge +"
+                "Effect": "「Faltering Runners」Hint Lv +1\nBond Gauge +"
               }
             ]
           }
@@ -24071,7 +25331,7 @@
             "思い込んだら一直線！": [
               {
                 "Option": "それならスピードを優先したほうがいい",
-                "Effect": "Mood Down\nSpeed +20"
+                "Effect": "Mood -1\nSpeed +20"
               },
               {
                 "Option": "確かにパワーは大事！",
@@ -24256,6 +25516,34 @@
               {
                 "Option": "無理はよくない",
                 "Effect": "Skill Pt +30\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Tracen Academy] Narita Top Road": {
+        "Event": [
+          {
+            "きっちり、点検！": [
+              {
+                "Option": "いったん休憩にしたら？",
+                "Effect": "Energy +20\nBond Gauge +5"
+              },
+              {
+                "Option": "急いで終わらせよう！",
+                "Effect": "Energy -10\nSpeed +25\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "しっかり、努力！": [
+              {
+                "Option": "練習あるのみ！",
+                "Effect": "Stamina +10\nBond Gauge +5"
+              },
+              {
+                "Option": "あえて曲のテンポを上げてみては？",
+                "Effect": "「Uptempo」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -24563,7 +25851,7 @@
               },
               {
                 "Option": "迷いのない走りだった！",
-                "Effect": "「Runners Restraint」Hint Lv 1\nBond Gauge +5"
+                "Effect": "「Restrained Runners」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -24643,11 +25931,11 @@
             "マブいドライブだっちゅ～の": [
               {
                 "Option": "海岸",
-                "Effect": "Mood Up\nSpeed +5"
+                "Effect": "Mood +1\nSpeed +5"
               },
               {
                 "Option": "知らない街",
-                "Effect": "Mood Up\nWisdom +5"
+                "Effect": "Mood +1\nWisdom +5"
               }
             ]
           }
@@ -24967,7 +26255,7 @@
             "お花屋さんでの1ページ": [
               {
                 "Option": "水やり手伝おうか？",
-                "Effect": "Mood Up\nBond Gauge +5"
+                "Effect": "Mood +1\nBond Gauge +5"
               },
               {
                 "Option": "花の品出しをしてこようか？",
@@ -25035,11 +26323,11 @@
             "意外な一面": [
               {
                 "Option": "まずは体力をつけてみては？",
-                "Effect": "[Success]==========\nEnergy +18\nMood Up\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
+                "Effect": "[Success]==========\nEnergy +18\nMood +1\nStamina +12\n「Pace Up」Hint Lv +3\nBond Gauge +10\nCan start dating\n[Failure]==========\n「The One ○」Hint Lv +5\nBond Gauge -10"
               },
               {
                 "Option": "何度でも挑戦してみましょう！",
-                "Effect": "Mood Up\nGuts +18\nBond Gauge \nCan start dating"
+                "Effect": "Mood +1\nGuts +18\nBond Gauge +5\nCan start dating"
               },
               {
                 "Option": "ちょっと今日は急いでいるので・・・・・",
@@ -25051,11 +26339,11 @@
             "喜ぶ顔を思い浮かべて": [
               {
                 "Option": "ここは『大容量ハチミルク』で！",
-                "Effect": "[Aoharu Hai/URA]\nEnergy +24\nMood Up\nStamina +12\nGuts +6\nBond Gauge +5"
+                "Effect": "[Aoharu Hai/URA]\nEnergy +24\nMood +1\nStamina +12\nGuts +6\nBond Gauge +5"
               },
               {
                 "Option": "やはり『ウマスタ映えソーダ』で！",
-                "Effect": "[URA]\nMood Up\nSkill Pt +37\nBond Gauge +5"
+                "Effect": "[URA]\nMood +1\nSkill Pt +37\nBond Gauge +5"
               }
             ]
           },

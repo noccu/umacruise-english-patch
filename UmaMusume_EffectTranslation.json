@@ -122,7 +122,7 @@
         "effect": "Last Trained Stat(s) "
     },
     {
-        "originEffect": "全ステ",
+        "originEffect": "全ステ(?:ータス)?",
         "effect": "All Stats "
     },
     {
