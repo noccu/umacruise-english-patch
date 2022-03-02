@@ -2979,11 +2979,11 @@
             "祭りを食せ！": [
               {
                 "Option": "カロリーゼロにはならないと思うよ",
-                "Effect": "Energy +10\nスキル+5"
+                "Effect": "Energy +10\nSkill Pt +5"
               },
               {
                 "Option": "思い切り堪能しよう！",
-                "Effect": "Energy +30\nスキル+10"
+                "Effect": "Energy +30\nSkill Pt +10"
               }
             ]
           },
@@ -2995,7 +2995,7 @@
               },
               {
                 "Option": "そして得たスキルで未来の銀幕スタァに...",
-                "Effect": "コーナー巧者〇"
+                "Effect": "「Clever Cornerer ○」Hint Lv +1"
               }
             ]
           },
@@ -3015,11 +3015,11 @@
             "レース勝利": [
               {
                 "Option": "みんなお祭り騒ぎだったな",
-                "Effect": "Energy -15\nGuts +5\nスキル+33"
+                "Effect": "Energy -15\nGuts +5\nSkill Pt +33"
               },
               {
                 "Option": "引き続きトレーニング頑張ろう",
-                "Effect": "Energy -20\nGuts +5\nスキル+33"
+                "Effect": "Energy -20\nGuts +5\nSkill Pt +33"
               }
             ]
           },
@@ -3047,7 +3047,7 @@
               },
               {
                 "Option": "寒中水泳",
-                "Effect": "All Stats ータス+5"
+                "Effect": "All Stats +5"
               },
               {
                 "Option": "新春登山",
@@ -3075,7 +3075,7 @@
               },
               {
                 "Option": "ファン数6万人以上(一部4万人)",
-                "Effect": "「ウマ娘固有スキル」Hint Lv +1"
+                "Effect": "「Unique Skill」Hint Lv +1"
               }
             ]
           }
@@ -20903,11 +20903,13 @@
             "振り逃げランナウェイ": [
               {
                 "Option": "今日だけでも思いっきり逃げよう",
-                "Effect": "Energy -15\nStamina +10\nGuts +10\nBond Gauge +5"
+                "Effect": "Energy -5\nStamina +15\nGuts +10\n「Runner's Straight ○」Hint Lv +1\nBond Gauge +5",
+                "Edited": "02/03/2022"
               },
               {
                 "Option": "マイペースは大事かもしれない",
-                "Effect": "Energy -15\nGuts +10\nWisdom +10\nBond Gauge +5"
+                "Effect": "Energy -5\nGuts +10\nWisdom +15\n「Pace Keep」Hint Lv +1\nBond Gauge +5 ",
+                "Edited": "02/03/2022"
               }
             ]
           },

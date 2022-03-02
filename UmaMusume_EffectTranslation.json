@@ -114,7 +114,7 @@
         "effect": "From $1 stats, $2 random stats "
     },
     {
-        "originEffect": "5種(?:すべて|ステータス)",
+        "originEffect": "5種(?:すべて|ステ(?:ータス)?)",
         "effect": "All 5 Stats "
     },
     {
@@ -298,8 +298,12 @@
         "effect": "Bond Gauge "
     },
     {
-        "originEffect": "スキルpt",
+        "originEffect": "スキル(?:pt)?",
         "effect": "Skill Pt "
+    },
+    {
+        "originEffect": "ウマ娘固有スキル",
+        "effect": "Unique Skill"
     },
     {
         "originEffect": "の?ヒント(?:レベル|Lv)?",
