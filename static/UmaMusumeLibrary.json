@@ -20492,7 +20492,8 @@
             "思い出ほわほわ、わんこそば": [
               {
                 "Option": "たとえばどんなもの？",
-                "Effect": "Mood +1\nBond Gauge +5"
+                "Effect": "Mood +1\n「Inner Gate Affinity」Hint Lv +1\nBond Gauge +5",
+                "Edit": "2022-03-04"
               },
               {
                 "Option": "わんこそばが食べたくなってきたな",
@@ -20510,7 +20511,8 @@
               },
               {
                 "Option": "ああ！学級委員長的な度胸な走りを見習おう！",
-                "Effect": "Power +3\nGuts +3\nWisdom +3\nBond Gauge +5"
+                "Effect": "Power +10\nGuts +10\nWisdom +10\nBond Gauge +5",
+                "Edit": "2022-03-04"
               }
             ]
           },
@@ -20522,7 +20524,8 @@
               },
               {
                 "Option": "特訓の成果を見せてやろう！",
-                "Effect": "Power +3\nGuts +3\nWisdom +3\n「Non-stop Girl」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Power +10\nGuts +10\nWisdom +10\n「Non-stop Girl」Hint Lv +1\nBond Gauge +5",
+                "Edit": "2022-03-04"
               }
             ]
           },
