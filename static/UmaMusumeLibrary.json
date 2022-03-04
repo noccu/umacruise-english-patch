@@ -2002,6 +2002,34 @@
                 "Effect": "Power +5\nWisdom +5"
               }
             ]
+          },
+          {
+            "食いしん坊は伊達じゃない": [
+              {
+                "Option": "食事は適量が1番",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "腹が減っては力が出ない！",
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              }
+            ]
+          },
+          {
+            "オグリの大食い選手権": [
+              {
+                "Option": "思いっきり戦ってこい！",
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight」"
+              },
+              {
+                "Option": "ほどほどにセーブしてほしい",
+                "Effect": "Energy +10\nPower +5\nSkill Pt +5"
+              },
+              {
+                "Option": "食って食って……全てを食い尽くせ！",
+                "Effect": "Energy fully filled\nSpeed -20\nPower +20\nSkill Pt +20\nGain「Overweight」"
+              }
+            ]
           }
         ]
       },
@@ -2088,6 +2116,10 @@
               {
                 "Option": "ほどほどにセーブしてほしい",
                 "Effect": "Energy +10\nPower +5\nSkill Pt +5"
+              },
+              {
+                "Option": "食って食って……全てを食い尽くせ！",
+                "Effect": "Energy fully filled\nSpeed -20\nPower +20\nSkill Pt +20\nGain「Overweight」"
               }
             ]
           },
@@ -5616,6 +5648,22 @@
               {
                 "Option": "",
                 "Effect": "Same as above"
+              }
+            ]
+          },
+          {
+            "スペシャルウィーク、裏の顔": [
+              {
+                "Option": "……花道を飾ってきなさい",
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly one of: \nSpeed -5\nPower +5\n「Overweight"
+              },
+              {
+                "Option": "なら、腹八分目程度に……",
+                "Effect": "Energy +10\nPower +5\nSkill Pt +5"
+              },
+              {
+                "Option": "イェアー！ブルドーザー・マキシマム！",
+                "Effect": "Energy fully filled\nSpeed -20\nPower +20\nSkill Pt +20\nGain「Overweight」"
               }
             ]
           }
@@ -20335,7 +20383,8 @@
             "あなたにだけは絶対に": [
               {
                 "Option": "消灯時間まで見守る",
-                "Effect": "Energy -20\nStamina +30\n「Will of Steel」Hint Lv +1\nBond Gauge +5"
+                "Effect": "Energy -20\nStamina +40\n「Will of Steel」Hint Lv +1\nBond Gauge +5",
+                "Edit": "2022-03-04"
               },
               {
                 "Option": "そっとこの場を立ち去る",
@@ -20447,7 +20496,8 @@
               },
               {
                 "Option": "わんこそばが食べたくなってきたな",
-                "Effect": "Energy Max +4\nBond Gauge +5"
+                "Effect": "Energy Max +4\n「Nutritional Supplements」Hint Lv +1\nBond Gauge +5",
+                "Edit": "2022-03-04"
               }
             ]
           },
@@ -20455,7 +20505,8 @@
             "学級委員長のすンげぇ特訓": [
               {
                 "Option": "ああ！学級委員長的な度胸を見習おう！",
-                "Effect": "Mood +1\nPower +5\nBond Gauge +5～+7"
+                "Effect": "Mood +1\nPower +10\nBond Gauge +5～+7",
+                "Edit": "2022-03-04"
               },
               {
                 "Option": "ああ！学級委員長的な度胸な走りを見習おう！",
@@ -20904,12 +20955,12 @@
               {
                 "Option": "今日だけでも思いっきり逃げよう",
                 "Effect": "Energy -5\nStamina +15\nGuts +10\n「Runner's Straight ○」Hint Lv +1\nBond Gauge +5",
-                "Edited": "02/03/2022"
+                "Edited": "2022-03-02"
               },
               {
                 "Option": "マイペースは大事かもしれない",
                 "Effect": "Energy -5\nGuts +10\nWisdom +15\n「Pace Keep」Hint Lv +1\nBond Gauge +5 ",
-                "Edited": "02/03/2022"
+                "Edited": "2022-03-02"
               }
             ]
           },
@@ -21861,7 +21912,8 @@
             "ご利用は戦略的に☆": [
               {
                 "Option": "セイウンスカイに同意する",
-                "Effect": "Energy +10\nWisdom +5\nBond Gauge +5"
+                "Effect": "Energy +10\nMood +1\nWisdom +5\n「Danger Avoidance」Hint Lv +1\nBond Gauge +5",
+                "Edit": "2022-03-04"
               },
               {
                 "Option": "誤魔化されていると伝える",
@@ -22141,7 +22193,8 @@
               },
               {
                 "Option": "茶碗蒸し、美味しそうなのにね‥‥‥",
-                "Effect": "Energy +10\nBond Gauge +5"
+                "Effect": "Energy +15\nBond Gauge +5",
+                "Edit": "2022-03-04"
               }
             ]
           },
@@ -22153,7 +22206,8 @@
               },
               {
                 "Option": "というか、本当にただの清掃員‥‥‥？",
-                "Effect": "Energy +5\nSkill Pt +10\nBond Gauge +5"
+                "Effect": "Energy +10\nSkill Pt +10\nBond Gauge +5",
+                "Edit": "2022-03-04"
               }
             ]
           },
