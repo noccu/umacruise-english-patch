@@ -99,7 +99,7 @@
               },
               {
                 "Option": "お大事にな、パーマー",
-                "Effect": "「Runner's Straight◯」Hint Lv +1"
+                "Effect": "「Runner's Straight ○」Hint Lv +1"
               }
             ]
           },
@@ -111,7 +111,7 @@
               },
               {
                 "Option": "2人の強さの秘訣がわかったよ",
-                "Effect": "「Short Distance Straights◯」Hint Lv +1"
+                "Effect": "「Short Distance Straights ○」Hint Lv +1"
               }
             ]
           },
@@ -143,7 +143,7 @@
             "ゴルシを治せ！": [
               {
                 "Option": "ナカヤマ、助けてくれ！",
-                "Effect": "Speed 6\nPower +6"
+                "Effect": "Speed +6\nPower +6"
               },
               {
                 "Option": "ジョーダン、何かいい案はないか？",
@@ -231,7 +231,7 @@
               },
               {
                 "Option": "メジロの絆で助けよう",
-                "Effect": "「Runner's Straight◯」Hint Lv +1"
+                "Effect": "「Runner's Straight ○」Hint Lv +1"
               }
             ]
           },
@@ -399,7 +399,7 @@
               },
               {
                 "Option": "今日は盛大にお祝いだね",
-                "Effect": "「Rainy Day◯」Hint Lv +1"
+                "Effect": "「Rainy Day ○」Hint Lv +1"
               }
             ]
           },

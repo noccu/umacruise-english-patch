@@ -32,51 +32,51 @@
         "effect": ">"
     },
     {
-        "originEffect": "練習上手",
+        "originEffect": "練習上手〇?",
         "effect": "Good Practice"
     },
     {
-        "originEffect": "愛嬌",
+        "originEffect": "愛嬌〇?",
         "effect": "Charming"
     },
     {
-        "originEffect": "注目株",
+        "originEffect": "注目株〇?",
         "effect": "Rising Star"
     },
     {
-        "originEffect": "太り気味",
+        "originEffect": "太り気味〇?",
         "effect": "Overweight"
     },
     {
-        "originEffect": "片頭痛",
+        "originEffect": "片頭痛〇?",
         "effect": "Migraine"
     },
     {
-        "originEffect": "練習ベタ",
+        "originEffect": "練習ベタ〇?",
         "effect": "Bad Practice"
     },
     {
-        "originEffect": "夜ふかし気味",
+        "originEffect": "夜ふかし気味〇?",
         "effect": "Insomnia"
     },
     {
-        "originEffect": "なまけ癖",
+        "originEffect": "なまけ癖〇?",
         "effect": "Lazy Habit"
     },
     {
-        "originEffect": "肌あれ",
+        "originEffect": "肌あれ〇?",
         "effect": "Rough Skin"
     },
     {
-        "originEffect": "切れ者",
+        "originEffect": "切れ者〇?",
         "effect": "Sharp"
     },
     {
-        "originEffect": "小さなほころび",
+        "originEffect": "小さなほころび〇?",
         "effect": "Cracking"
     },
     {
-        "originEffect": "大輪の輝き",
+        "originEffect": "大輪の輝き〇?",
         "effect": "Shining"
     },
     {
@@ -102,8 +102,8 @@
         "effect": "Kashimoto Riko"
     },
     {
-        "originEffect": "アオハル杯",
-        "effect": "Aoharu Hai"
+        "originEffect": "アオハル杯?",
+        "effect": "Aoharu"
     },
     {
         "originEffect": "ランダムに?(\\d)種を?",
@@ -139,14 +139,14 @@
     },
     {
         "originEffect": "以下ランダムで",
-        "effect": "Randomly one of: "
+        "effect": "Randomly also: "
     },
     {
         "originEffect": "^(.*)\\(確率付与\\)",
         "effect": "Randomly gain $1"
     },
     {
-        "originEffect": "(?:ランダム|確率)(?:で|に)?(.*)(?:に(?:なる)?)?$",
+        "originEffect": "(?:ランダム|確率)(?:で|に)?(.+?)に?(?:なる)?$",
         "effect": "Randomly gain $1"
     },
     {
@@ -194,8 +194,8 @@
         "effect": "Gain $1"
     },
     {
-        "originEffect": "バッドコンディションが解消",
-        "effect": "Remove bad condition"
+        "originEffect": "バッドコンディション(?:が|を)(?:解消|治る)",
+        "effect": "Heal negative condition"
     },
     {
         "originEffect": "夏合宿中に発生",
@@ -328,6 +328,10 @@
     {
         "originEffect": "を獲得",
         "effect": ""
+    },
+    {
+        "originEffect": "(?<!「)(Overweight|Sharp|Charming)(?!」)",
+        "effect": "「$1」"
     },
     {
         "originEffect": "」 ",
