@@ -106,7 +106,7 @@
         "effect": "Aoharu"
     },
     {
-        "originEffect": "ランダムに?(\\d)種を?",
+        "originEffect": "ランダム(?:に|な)?(?:ステータス)?(\\d)種を?",
         "effect": "$1 Random stat(s) "
     },
     {
