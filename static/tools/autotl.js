@@ -1,9 +1,8 @@
 //* Run from static dir
 // This script translates event effects and uma/card names in the static english UmaMusumeLibrary.json file, using regexes and data from uma-db-translate.
-import csvParser from "csv-parse/lib/sync.js"
 import fs from "fs"
 import { exit } from "process";
-import { dirname, join } from "path";
+import { join } from "path";
 
 const inputFile = process.argv[3] && process.argv[3] != "-" ? process.argv[3] : "UmaMusumeLibrary.json",
     outFile = process.argv[4] || inputFile,
@@ -13,12 +12,12 @@ const inputFile = process.argv[3] && process.argv[3] != "-" ? process.argv[3] : 
 if (!dbTranslateDir) usage();
 
 const umaDbDir = {
-    skillName: join(dbTranslateDir, "skill-name.csv"),
-    umas: join(dbTranslateDir, "uma-name.csv"),
-    titles: join(dbTranslateDir, "uma-title.csv"),
-    fullCards: join(dbTranslateDir, "support-full-name.csv"),
-    cardTitles: join(dbTranslateDir, "support-title.csv"),
-    races: join(dbTranslateDir, "race-name.csv")
+    skillName: join(dbTranslateDir, "skill-name.json"),
+    umas: join(dbTranslateDir, "uma-name.json"),
+    titles: join(dbTranslateDir, "uma-title.json"),
+    fullCards: join(dbTranslateDir, "support-full-name.json"),
+    cardTitles: join(dbTranslateDir, "support-title.json"),
+    races: join(dbTranslateDir, "race-name.json")
 };
 var umaDbData = {},
     inputData,
@@ -38,17 +37,11 @@ function readFiles() {
             console.error(`Could not read ${path}: ${e}\n`);
             usage();
         }
-        umaDbData[type] = {};
-        csvParser(data, {
-            columns: true,
-            escape: "\\",
-            trim: true,
-            skip_empty_lines: true,
-            on_record: (rec) => {
-                umaDbData[type][rec.text] = rec.translation;
-                return null;
-            }
-        });
+        data = JSON.parse(data).text
+        for (let k of Object.keys(data)) {
+            data[k] = data[k].replace(/\\+n/, "")
+        }
+        umaDbData[type] = data
     }
     console.log("Files read.")
 }
