@@ -7,7 +7,8 @@ import { join } from "path";
 const inputFile = process.argv[3] && process.argv[3] != "-" ? process.argv[3] : "UmaMusumeLibrary.json",
     outFile = process.argv[4] || inputFile,
     tlFile = "../UmaMusume_EffectTranslation.json",
-    dbTranslateDir = process.argv[2];
+    dbTranslateDir = process.argv[2],
+    altMap = "tools/map.json";
 
 if (!dbTranslateDir) usage();
 
@@ -21,11 +22,13 @@ const umaDbDir = {
 };
 var umaDbData = {},
     inputData,
-    tlData;
+    tlData,
+    altData;
 
 function readFiles() {
     inputData = JSON.parse(fs.readFileSync(inputFile, "utf8"));
     tlData = JSON.parse(fs.readFileSync(tlFile, "utf8"));
+    altData = JSON.parse(fs.readFileSync(altMap, "utf8"));
 
     // Read the required uma-db files from the data dir
     for (let [type, path] of Object.entries(umaDbDir)) {
@@ -70,8 +73,8 @@ function translate(json, depth = 0, type = "char") {
         else {
             // Uma or Card name, 
             if (depth == 2) {
-                let translatedKey = lookupNames(key, type);
-                if (key != translatedKey) {
+                let [found, translatedKey] = lookupNames(key, type);
+                if (found) {
                     json[translatedKey] = value;
                     delete json[key]
                 };
@@ -109,9 +112,10 @@ function lookupRaces(str) {
 }
 
 function lookupNames(str, type) {
-    //this function is a mess because of all the edge cases I had to deal with
+    //Partial matches = found
     if (type == "story") return str;
     let title, name;
+    let found = true, res;
     try {
         // Sometimes the title ([.*]) is missing, hence optional non capture group for it.
         // The bracket format is also all over the place even though the game data itself simply uses []
@@ -119,27 +123,25 @@ function lookupNames(str, type) {
     }
     catch (e) {
         // assume it's a one-off from an edge case that fails the regex and continue...
-        console.log(`Error transating ${str}\nAssuming an edge case and continuing\nError: ${e}`);
+        console.log(`Error translating ${str}\nAssuming an edge case and continuing\nError: ${e}`);
         debugger; //does nothing if not in a debug enviro
     }
-    let nameEN = umaDbData.umas[name] || name;
+    name = altData[name] || name
+    let nameEN = umaDbData.umas[name]
+    if (!nameEN) {
+        found = false
+        nameEN = name;
+    }
     
-    if (type == "char") {
-        let titleEN = umaDbData.titles[`[${title}]`] || `[${title}]`;
-        return `${titleEN} ${nameEN}`;
+    title = altData[title] || title
+    let titleEN = ((type == "char") ? umaDbData.titles[`[${title}]`] : umaDbData.cardTitles[`[${title}]`])
+    if (!titleEN) {
+        found ||= false
+        titleEN = `[${title}]`;
     }
-    else { //cards
-        let fullName = umaDbData.fullCards[`[${title}]${name}`];
-        if (fullName) return fullName;
-        else {
-            let cardTitle = umaDbData.cardTitles[`[${title}]`] || `[${title}]`;
-            let res = str.replace(name, nameEN);
-            if (cardTitle) {
-                res = res.replace(`［${title}］`, cardTitle + " ");
-            }
-            return res;
-        }
-    }
+    else found = true
+
+    return [found, `${titleEN} ${nameEN}`];
 }
 
 function buildRegexes() {
