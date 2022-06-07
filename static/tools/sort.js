@@ -21,7 +21,7 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
     if (depth > 2) return;
     for (let [newKey, newVal] of Object.entries(newJson)) {
         let entity = oldJson[newKey]
-        // Copy keys before chards/cards
+        // Copy keys before chars/cards
         if (depth < 2) {
             sortedJson[newKey] = {};
         }
