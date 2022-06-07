@@ -6,7 +6,8 @@ import fs from "fs"
 import { exit } from "process";
 
 const oldfile = process.argv[3] || "UmaMusumeLibrary.json",
-    newFile = process.argv[2];
+    newFile = process.argv[2],
+    outFile = "UmaMusumeLibrary.sorted.json";
 var oldData,
     newData;
 const sortedData = {};
@@ -57,7 +58,7 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
         sortedKeys.forEach(k => { // First those missing in the old file, showing mostly new additions.
             if (!oldKeys.includes(k)) {
                 if (!missing) { // Print the heading for the file once
-                    console.log(`[New keys in ${oldfile}]`);
+                    console.log(`[New keys in ${outFile}]`);
                     missing = true;
                 }
                 console.log(`Added new key: ${k}`); // Log all missing keys
@@ -68,7 +69,7 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
         oldKeys.forEach(k => { // Then those missing in the new file, more often showing issues.
             if (!sortedKeys.includes(k)) {
                 if (!missing) {
-                    console.log(`[Missing in ${newFile} (requires checking!)]`);
+                    console.log(`[Missing in ${outFile} (requires checking!)]`);
                     missing = true;
                 }
                 console.log(`Missing key: ${k}`);
@@ -106,7 +107,7 @@ function attemptEntityRecovery(newEntity, oldEntityList) {
 }
 
 function writeFile() {
-    fs.writeFileSync("UmaMusumeLibrary.sorted.json", JSON.stringify(sortedData, null, 2), "utf-8");
+    fs.writeFileSync(outFile, JSON.stringify(sortedData, null, 2), "utf-8");
 }
 
 //* Main
