@@ -7001,7 +7001,8 @@
               },
               {
                 "Option": "みんな大変なんだな……",
-                "Effect": "Energy -10\nMood +1\nPower +10"
+                "Effect": "Energy -10\nMood +1\nPower +20",
+                "Edited": "2022-06-23"
               }
             ]
           },
@@ -7013,7 +7014,8 @@
               },
               {
                 "Option": "助っ人を呼ぶのは？",
-                "Effect": "Energy -10\nMood +1\nSpeed +10"
+                "Effect": "Energy -10\nMood +1\nSpeed +20",
+                "Edited": "2022-06-23"
               }
             ]
           },
@@ -27585,8 +27587,9 @@
       "[A First-magnitude Star Does Not Waver] Sirius Symboli": {
         "Event": [
           {
-            "水と油(イベント2回目)": [
+            "水と油": [
               {
+                "Edit": "name for ocr",
                 "Option": "ルドルフの全体重視な意見に同意する",
                 "Effect": "[Success]==========\nSpeed +15\nPower +15\nBond Gauge +5\n[Failure]==========\nEnergy -5\nSpeed +10\nBond Gauge -5"
               },
