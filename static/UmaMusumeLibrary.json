@@ -14611,7 +14611,8 @@
             "有言実行": [
               {
                 "Option": "丸一日集中した方がいい",
-                "Effect": "Energy -10\nPower +20\nPresident Akikawa Bond Gauge +10"
+                "Effect": "Energy -5\nPower +20\nPresident Akikawa Bond Gauge +10",
+                "Edited": "2022-06-26"
               },
               {
                 "Option": "効率的にいこう",
@@ -14623,7 +14624,8 @@
             "いついかなる時も": [
               {
                 "Option": "今日中に対応してあげよう",
-                "Effect": "Energy -10\nGuts +20\nPresident Akikawa Bond Gauge +10"
+                "Effect": "Energy -5\nGuts +20\nPresident Akikawa Bond Gauge +10",
+                "Edited": "2022-06-26"
               },
               {
                 "Option": "何か手伝えるかな",
@@ -17295,7 +17297,8 @@
             "有言実行": [
               {
                 "Option": "丸一日集中した方がいい",
-                "Effect": "Energy -10\nPower +20\nPresident Akikawa Bond Gauge +10"
+                "Effect": "Energy -5\nPower +20\nPresident Akikawa Bond Gauge +10",
+                "Edited": "2022-06-26"
               },
               {
                 "Option": "効率的にいこう",
@@ -17307,7 +17310,8 @@
             "いついかなる時も": [
               {
                 "Option": "今日中に対応してあげよう",
-                "Effect": "Energy -10\nGuts +20\nPresident Akikawa Bond Gauge +10"
+                "Effect": "Energy -5\nGuts +20\nPresident Akikawa Bond Gauge +10",
+                "Edited": "2022-06-26"
               },
               {
                 "Option": "何か手伝えるかな",
@@ -25988,7 +25992,7 @@
               },
               {
                 "Option": "現場に急行!",
-                "Effect": "Energy -10\n「根幹距離」Hint Lv +5\nBond Gauge +5"
+                "Effect": "Energy -10\n「Core Distance」Hint Lv +5\nBond Gauge +5"
               }
             ]
           }
