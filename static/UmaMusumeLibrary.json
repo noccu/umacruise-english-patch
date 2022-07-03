@@ -224,11 +224,11 @@
             "レース勝利！": [
               {
                 "Option": "努力が実を結んだな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ、ここから",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -236,11 +236,11 @@
             "レース入着": [
               {
                 "Option": "よし、一緒に頑張ろう！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -248,11 +248,11 @@
             "レース敗北": [
               {
                 "Option": "失敗は成功の基だよ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだこれから",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -481,11 +481,11 @@
             "レース入着": [
               {
                 "Option": "次こそ1着だ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと頑張らないとな",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -493,11 +493,11 @@
             "レース勝利": [
               {
                 "Option": "俺もだ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断しないようにな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -505,11 +505,11 @@
             "レース敗北": [
               {
                 "Option": "次の事を考えよう！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "負けたままでいいのか？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -785,11 +785,11 @@
             "レース勝利！": [
               {
                 "Option": "めちゃくちゃアガった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次もさらに自由に走っていこう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -797,11 +797,11 @@
             "レース入着": [
               {
                 "Option": "でも、確実に成長してる！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ、迷いを振り切ろう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -809,11 +809,11 @@
             "レース敗北": [
               {
                 "Option": "俺がついているぞ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "……その気持ちに嘘はないか？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -1065,11 +1065,11 @@
             "レース勝利！": [
               {
                 "Option": "努力が実を結んだな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ、ここから",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1077,11 +1077,11 @@
             "レース入着": [
               {
                 "Option": "よし、一緒に頑張ろう！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1089,11 +1089,11 @@
             "レース敗北": [
               {
                 "Option": "失敗は成功の基だよ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだこれから",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -1345,11 +1345,11 @@
             "レース入着": [
               {
                 "Option": "よく頑張ったね！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は1着！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint5"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint5"
               }
             ]
           },
@@ -1357,11 +1357,11 @@
             "レース勝利": [
               {
                 "Option": "誇らしいよ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も勝とうね！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1369,11 +1369,11 @@
             "レース敗北": [
               {
                 "Option": "まだ次がある",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "負けた理由を探ろう",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1589,11 +1589,11 @@
             "レース勝利": [
               {
                 "Option": "次の強者を探しに行こう!",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "帰ってからトレーニングする?",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1681,11 +1681,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1693,11 +1693,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -1925,11 +1925,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1937,11 +1937,11 @@
             "レース勝利！": [
               {
                 "Option": "おめでとう！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと上を目指そう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -1949,11 +1949,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2497,11 +2497,11 @@
             "レース勝利！": [
               {
                 "Option": "みんな、すごいって思うな！！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "（黙ってタイシンを見守る）",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2509,11 +2509,11 @@
             "レース入着": [
               {
                 "Option": "でも、いい走りだったぞ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ1着を目指そう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2521,11 +2521,11 @@
             "レース敗北": [
               {
                 "Option": "俺はタイシンの強さを信じているぞ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "悔しさをバネにトレーニングだ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -2785,11 +2785,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2797,11 +2797,11 @@
             "レース勝利": [
               {
                 "Option": "",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2809,11 +2809,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -2997,11 +2997,11 @@
             "レース勝利！": [
               {
                 "Option": "君が強いから勝てたんだよ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は実力で勝ったって言おう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3009,11 +3009,11 @@
             "レース入着": [
               {
                 "Option": "この辺で満足か？",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3021,11 +3021,11 @@
             "レース敗北": [
               {
                 "Option": "ああ、ネイチャなら大丈夫だ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "悔しさを誤魔かすな",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3777,11 +3777,11 @@
             "レース勝利!": [
               {
                 "Option": "おめでとう!",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "\"まだ\"一歩、だ",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3789,11 +3789,11 @@
             "レース入着": [
               {
                 "Option": "・・・いい部分もあったぞ!",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君の言うとおりだ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3801,11 +3801,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -3981,11 +3981,11 @@
             "レース入着": [
               {
                 "Option": "悪くない策だった！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は度肝を抜いてやろう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -3993,11 +3993,11 @@
             "レース勝利！": [
               {
                 "Option": "見事だった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次の作戦も練らないと",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4341,11 +4341,11 @@
             "レース勝利！": [
               {
                 "Option": "最高にかわいかったぞ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この先も気を抜けないと思った",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4353,11 +4353,11 @@
             "レース入着": [
               {
                 "Option": "ファル子は十分目立ってたぞ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら、その理想を実現しよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4365,11 +4365,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -4633,11 +4633,11 @@
             "レース入着": [
               {
                 "Option": "悪いレースじゃなかった",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "気合を入れていこう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4645,11 +4645,11 @@
             "レース勝利": [
               {
                 "Option": "最高だった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだいける！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4657,11 +4657,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4913,11 +4913,11 @@
             "レース勝利！": [
               {
                 "Option": "よくやったな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断は禁物だぞ",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4925,11 +4925,11 @@
             "レース入着": [
               {
                 "Option": "毎日頑張っている証拠だ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと頑張らないとな",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -4937,11 +4937,11 @@
             "レース敗北": [
               {
                 "Option": "でもよくやった",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "失敗をバネにしよう",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5101,11 +5101,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5113,11 +5113,11 @@
             "レース勝利！": [
               {
                 "Option": "いい走りで興奮した！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "強敵に備えてもっと鍛えよう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5457,11 +5457,11 @@
             "レース勝利！": [
               {
                 "Option": "やった、やったぞーっ！！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "更なる高みを目指そう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5469,11 +5469,11 @@
             "レース入着": [
               {
                 "Option": "マックィーンなら上がっていける！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと実力をつけよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5481,11 +5481,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -5733,11 +5733,11 @@
             "レース勝利！": [
               {
                 "Option": "やった、やったぞーっ！！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "更なる高みを目指そう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5745,11 +5745,11 @@
             "レース入着": [
               {
                 "Option": "マックイーンなら上がっていける！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと実力をつけよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -5757,11 +5757,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -6001,11 +6001,11 @@
             "レース勝利！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6013,11 +6013,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6025,11 +6025,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6261,11 +6261,11 @@
             "レース勝利！": [
               {
                 "Option": "素晴らしい走りだった",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次のレースも勝とう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6273,11 +6273,11 @@
             "レース入着": [
               {
                 "Option": "それでこそキング！！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ一流に相応しい結果を",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6285,11 +6285,11 @@
             "レース敗北": [
               {
                 "Option": "時の運",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "実力",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6541,11 +6541,11 @@
             "レース勝利！": [
               {
                 "Option": "さすが\"覇王\"オペラオー！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この勝利は、まだ序章のはず",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6553,11 +6553,11 @@
             "レース入着": [
               {
                 "Option": "いつも通りで安心した！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "てっきり、落ち込んでいるかと……",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6565,11 +6565,11 @@
             "レース敗北": [
               {
                 "Option": "次に1番輝くのは君だ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "……“覇王”の強さは、こんなものか？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -6745,11 +6745,11 @@
             "レース入着": [
               {
                 "Option": "焦る必要はないよ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "協力は惜しまないよ！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6757,11 +6757,11 @@
             "レース勝利": [
               {
                 "Option": "今日はご馳走ね！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も全力で頑張ろう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -6769,11 +6769,11 @@
             "レース敗北": [
               {
                 "Option": "次は期待しているよ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "早速トレーニングだね！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7191,11 +7191,11 @@
             "レース勝利！": [
               {
                 "Option": "さすがだ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断しないようにな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7203,11 +7203,11 @@
             "レース入着": [
               {
                 "Option": "悪くない結果だ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は一着をとろう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7215,11 +7215,11 @@
             "レース敗北": [
               {
                 "Option": "気持ちを入れ替えて",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "足りうるようになるんだ",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7455,11 +7455,11 @@
             "レース勝利！": [
               {
                 "Option": "次の勝負も頑張るぞ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断は禁物だ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7467,11 +7467,11 @@
             "レース入着": [
               {
                 "Option": "53点",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "相当いい走りだったよ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7479,11 +7479,11 @@
             "レース敗北": [
               {
                 "Option": "次は圧勝しよう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "いつもの調子はどうしたの？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7983,11 +7983,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -7995,11 +7995,11 @@
             "レース勝利！": [
               {
                 "Option": "おめでとう！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと上を目指そう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8007,11 +8007,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8275,11 +8275,11 @@
             "レース勝利！": [
               {
                 "Option": "1着おめでとう！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだ走り足りない？",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8287,11 +8287,11 @@
             "レース入着": [
               {
                 "Option": "次は逃げ切ろう！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "帰ってすぐにトレーニングだ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8299,11 +8299,11 @@
             "レース敗北": [
               {
                 "Option": "……もう走りたくなくなった？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -8567,11 +8567,11 @@
             "レース勝利！": [
               {
                 "Option": "よしよし",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "楽しくなかった？",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8579,11 +8579,11 @@
             "レース入着": [
               {
                 "Option": "……練習もしようね！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "期待してる",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8591,11 +8591,11 @@
             "レース敗北": [
               {
                 "Option": "…マヤノ次第かも？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8895,11 +8895,11 @@
             "レース勝利！": [
               {
                 "Option": "クリークの努力の結果だ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ油断できない",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8907,11 +8907,11 @@
             "レース入着": [
               {
                 "Option": "1着じゃなくても、いいレースだった！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この結果を、次の糧にしよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -8919,11 +8919,11 @@
             "レース敗北": [
               {
                 "Option": "もちろんだ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君も俺を信じてくれ",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9199,11 +9199,11 @@
             "レース勝利！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9211,11 +9211,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9223,11 +9223,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9479,11 +9479,11 @@
             "レース勝利！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9491,11 +9491,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9503,11 +9503,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9775,11 +9775,11 @@
             "レース勝利！": [
               {
                 "Option": "今日はご馳走だな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も全力で頑張ろう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9787,11 +9787,11 @@
             "レース入着": [
               {
                 "Option": "焦る必要はないさ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "協力は惜しまないぞ！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -9799,11 +9799,11 @@
             "レース敗北": [
               {
                 "Option": "次は期待しているぞ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "早速トレーニングだ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -10031,11 +10031,11 @@
             "レース勝利！": [
               {
                 "Option": "よくやったな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断は禁物だぞ",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10043,11 +10043,11 @@
             "レース入着": [
               {
                 "Option": "毎日頑張っている証拠だ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もっと頑張らないとな",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10055,11 +10055,11 @@
             "レース敗北": [
               {
                 "Option": "でもよくやった",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "失敗をバネにしよう",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10303,11 +10303,11 @@
             "レース勝利": [
               {
                 "Option": "でも勝てて嬉しいぞ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "これからもビシバシいくぞ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10315,11 +10315,11 @@
             "レース入着": [
               {
                 "Option": "いい走りだったぞ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は頂点をとりにいこう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10327,11 +10327,11 @@
             "レース敗北": [
               {
                 "Option": "帰り道で反省会だね",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "今日はいったん休もう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10567,11 +10567,11 @@
             "レース入着": [
               {
                 "Option": "悪くない策だった！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は度肝を抜いてやろう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10579,11 +10579,11 @@
             "レース勝利！": [
               {
                 "Option": "見事だった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次の作戦も練らないと",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10863,11 +10863,11 @@
             "レース入着": [
               {
                 "Option": "自分を褒めるのも大事",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "立ち止まってられないね",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10875,11 +10875,11 @@
             "レース勝利": [
               {
                 "Option": "全力を見せてもらえた",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ伸びしろを感じた",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -10887,11 +10887,11 @@
             "レース敗北": [
               {
                 "Option": "貴方ならできるよ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "今日の経験を糧にしよう！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11427,11 +11427,11 @@
             "レース勝利！": [
               {
                 "Option": "さすがだな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだこんなものじゃないだろう？",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11439,11 +11439,11 @@
             "レース入着": [
               {
                 "Option": "それだけ悔しがれるのも才能",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら次は1着を取るぞ！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11451,11 +11451,11 @@
             "レース敗北": [
               {
                 "Option": "まずは落ち着こう!",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら証明してやろう!",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11731,11 +11731,11 @@
             "レース入着": [
               {
                 "Option": "・・・いい部分もあったぞ!",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君の言うとおりだ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11743,11 +11743,11 @@
             "レース勝利": [
               {
                 "Option": "おめでとう!",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "\"まだ\"一歩、だ",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -11755,11 +11755,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12023,11 +12023,11 @@
             "レース勝利！": [
               {
                 "Option": "さすがだな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだこんなものじゃないだろう？",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12035,11 +12035,11 @@
             "レース入着": [
               {
                 "Option": "それだけ悔しがれるのも才能",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら次は1着を取るぞ！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12047,11 +12047,11 @@
             "レース敗北": [
               {
                 "Option": "まずは落ち着こう!",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら証明してやろう!",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12235,11 +12235,11 @@
             "レース入着": [
               {
                 "Option": "よく頑張った！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "カレンならもっと頑張れる！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12247,11 +12247,11 @@
             "レース勝利！": [
               {
                 "Option": "よく頑張ったもんな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次はもっと喜んでもらいたいな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12603,11 +12603,11 @@
             "レース入着": [
               {
                 "Option": "悪いレースじゃなかった",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "気合を入れていこう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12615,11 +12615,11 @@
             "レース勝利": [
               {
                 "Option": "最高だった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだいける！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12627,11 +12627,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12887,11 +12887,11 @@
             "レース入着": [
               {
                 "Option": "それでも、いい走りだった",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "お互い、もっと頑張らないとな・・・",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12899,11 +12899,11 @@
             "レース勝利": [
               {
                 "Option": "今は浮かれてもいいと思う",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "そのまま踏ん張って行こう・・・！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -12911,11 +12911,11 @@
             "レース敗北": [
               {
                 "Option": "次で見返そう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "なら、すべきことは1つだけ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13191,11 +13191,11 @@
             "レース勝利！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13203,11 +13203,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13215,11 +13215,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13651,11 +13651,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13663,11 +13663,11 @@
             "レース勝利": [
               {
                 "Option": "",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13675,11 +13675,11 @@
             "レース敗北": [
               {
                 "Option": "貴方はすごく頑張ったよ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "喝ーーっ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13947,11 +13947,11 @@
             "レース入着": [
               {
                 "Option": "でも充実したレースだった",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は白星をあげよう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13959,11 +13959,11 @@
             "レース勝利": [
               {
                 "Option": "とってもボーノ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "もうひと声！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -13971,11 +13971,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14215,11 +14215,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14227,11 +14227,11 @@
             "レース勝利": [
               {
                 "Option": "",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14239,11 +14239,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14483,11 +14483,11 @@
             "レース入着": [
               {
                 "Option": "よく頑張ったね！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は1着！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint5"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint5"
               }
             ]
           },
@@ -14495,11 +14495,11 @@
             "レース勝利": [
               {
                 "Option": "誇らしいよ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も勝とうね！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14507,11 +14507,11 @@
             "レース敗北": [
               {
                 "Option": "まだ次がある",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "負けた理由を探ろう",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14805,11 +14805,11 @@
             "レース入着": [
               {
                 "Option": "でも、まずはお疲れ様",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ\"皇帝\"の走りを見せよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -14817,11 +14817,11 @@
             "レース勝利": [
               {
                 "Option": "ご褒美を上げよう",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も勝とうな！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15085,11 +15085,11 @@
             "レース勝利": [
               {
                 "Option": "すごくハッピーになれたよ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君ならまだまだやれるはずだ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15097,11 +15097,11 @@
             "レース入着": [
               {
                 "Option": "この調子で頑張ろう",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "ここで満足しちゃだめ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15109,11 +15109,11 @@
             "レース敗北": [
               {
                 "Option": "よし、一緒に頑張ろう！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15249,11 +15249,11 @@
             "レース勝利！": [
               {
                 "Option": "俺も嬉しい",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだここから！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15261,11 +15261,11 @@
             "レース入着": [
               {
                 "Option": "頑張ったな",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "……甘いッ!",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15273,11 +15273,11 @@
             "レース敗北": [
               {
                 "Option": "えらい！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "結果でも応えないとな",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15585,11 +15585,11 @@
             "レース勝利！": [
               {
                 "Option": "さすが\"覇王\"オペラオー！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この勝利は、まだ序章のはず",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15597,11 +15597,11 @@
             "レース入着": [
               {
                 "Option": "いつも通りで安心した！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "てっきり、落ち込んでいるかと……",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15609,11 +15609,11 @@
             "レース敗北": [
               {
                 "Option": "次に1番輝くのは君だ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "……“覇王”の強さは、こんなものか？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -15881,11 +15881,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15893,11 +15893,11 @@
             "レース勝利": [
               {
                 "Option": "",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -15905,11 +15905,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16377,11 +16377,11 @@
             "レース勝利！": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16389,11 +16389,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16401,11 +16401,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -16529,11 +16529,11 @@
             "レース入着": [
               {
                 "Option": "よく頑張った！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "カレンならもっと頑張れる！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16541,11 +16541,11 @@
             "レース勝利！": [
               {
                 "Option": "よく頑張ったもんな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次はもっと喜んでもらいたいな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16865,11 +16865,11 @@
             "レース入着": [
               {
                 "Option": "",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16877,11 +16877,11 @@
             "レース勝利": [
               {
                 "Option": "",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -16889,11 +16889,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17209,11 +17209,11 @@
             "レース勝利！": [
               {
                 "Option": "さすが一流",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17221,11 +17221,11 @@
             "レース入着": [
               {
                 "Option": "それでこそキング！！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ一流に相応しい結果を",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17233,11 +17233,11 @@
             "レース敗北": [
               {
                 "Option": "時の運",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "実力",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -17491,11 +17491,11 @@
             "レース入着": [
               {
                 "Option": "でも、まずはお疲れ様",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ”皇帝”の走りを見せよう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17503,11 +17503,11 @@
             "レース勝利": [
               {
                 "Option": "ご褒美をあげよう",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次も勝とうな！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17515,11 +17515,11 @@
             "レース敗北": [
               {
                 "Option": "少し落ち着こう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "ビシバシいくぞ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17807,11 +17807,11 @@
             "レース入着": [
               {
                 "Option": "十分すごい結果だぞ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は絶対1着を取ろう！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17819,11 +17819,11 @@
             "レース勝利": [
               {
                 "Option": "君の\"実力\"が示せたな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君ならもっと上を目指せる！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17831,11 +17831,11 @@
             "レース敗北": [
               {
                 "Option": "この結果を次に繋げよう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "限界を自分で決めるな！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -17995,11 +17995,11 @@
             "レース入着": [
               {
                 "Option": "よく頑張った！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "カレンならもっと頑張れる！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18007,11 +18007,11 @@
             "レース勝利！": [
               {
                 "Option": "よく頑張ったもんな！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次はもっと喜んでもらいたいな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18379,11 +18379,11 @@
             "レース入着": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18391,11 +18391,11 @@
             "レース勝利": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18403,11 +18403,11 @@
             "レース敗北": [
               {
                 "Option": "選択肢上",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "選択肢下",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18905,11 +18905,11 @@
             "レース勝利！": [
               {
                 "Option": "よしよし",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "楽しくなかった？",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18917,11 +18917,11 @@
             "レース入着": [
               {
                 "Option": "……練習もしようね！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "期待してる",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -18929,11 +18929,11 @@
             "レース敗北": [
               {
                 "Option": "…マヤノ次第かも？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19393,11 +19393,11 @@
             "レース勝利！": [
               {
                 "Option": "次の勝負も頑張るぞ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断は禁物だ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19405,11 +19405,11 @@
             "レース入着": [
               {
                 "Option": "53点",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "相当いい走りだったよ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19417,11 +19417,11 @@
             "レース敗北": [
               {
                 "Option": "いつもの調子はどうしたの？",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は圧勝しよう",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19681,11 +19681,11 @@
             "レース勝利！": [
               {
                 "Option": "さすがだ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "油断しないようにな",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19693,11 +19693,11 @@
             "レース入着": [
               {
                 "Option": "悪くない結果だ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は一着をとろう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19705,11 +19705,11 @@
             "レース敗北": [
               {
                 "Option": "気持ちを入れ替えて",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "足りうるようになるんだ",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19961,11 +19961,11 @@
             "レース勝利！": [
               {
                 "Option": "君が誰よりも1番だ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "さらにすごい1番を目指そう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19973,11 +19973,11 @@
             "レース入着": [
               {
                 "Option": "いいレースだったよ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "詰めが甘かったね",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -19985,11 +19985,11 @@
             "レース敗北": [
               {
                 "Option": "次こそ、頑張ろう！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "帰ってすぐトレーニングだ！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20241,11 +20241,11 @@
             "レース勝利！": [
               {
                 "Option": "クリークの努力の結果だ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ油断できない",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20253,11 +20253,11 @@
             "レース入着": [
               {
                 "Option": "1着じゃなくても、いいレースだった！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この結果を、次の糧にしよう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20265,11 +20265,11 @@
             "レース敗北": [
               {
                 "Option": "もちろんだ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "君も俺を信じてくれ",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20545,11 +20545,11 @@
             "レース勝利！": [
               {
                 "Option": "最高だった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "さらに上を目指そう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20557,11 +20557,11 @@
             "レース入着": [
               {
                 "Option": "今日も十分よかった！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "負けてらんねーよ！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20569,11 +20569,11 @@
             "レース敗北": [
               {
                 "Option": "次はきっとうまくいく！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "へこんでてもしょうがない！",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20801,11 +20801,11 @@
             "レース勝利": [
               {
                 "Option": "ああ、今夜は盛大に乾杯しよう！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次のレースでも魅せてくれ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20813,11 +20813,11 @@
             "レース入着": [
               {
                 "Option": "十分カッコよかったぞ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ1着を取ろう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -20825,11 +20825,11 @@
             "レース敗北": [
               {
                 "Option": "また頑張りなおせばいいんだよ",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "でもこれで終わりじゃないだろ？",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21105,11 +21105,11 @@
             "レース勝利": [
               {
                 "Option": "でも勝てて嬉しいぞ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "これからもビシバシいくぞ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21117,11 +21117,11 @@
             "レース入着": [
               {
                 "Option": "いい走りだったぞ",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は頂点をとりにいこう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21129,11 +21129,11 @@
             "レース敗北": [
               {
                 "Option": "今日はいったん休もう",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "帰り道で反省会だね",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21411,11 +21411,11 @@
             "レース勝利！": [
               {
                 "Option": "本当に、よく頑張ったね！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "この調子で勝ち続けよう！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21631,11 +21631,11 @@
             "レース勝利！": [
               {
                 "Option": "タキオンの努力の結果だ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "これも研究のためだ",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21643,11 +21643,11 @@
             "レース入着": [
               {
                 "Option": "でも得たものはあったはず",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次はもっといい結果を目指そう",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21655,11 +21655,11 @@
             "レース敗北": [
               {
                 "Option": "まだまだこれからだ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21843,11 +21843,11 @@
             "レース勝利！": [
               {
                 "Option": "俺も嬉しい",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだここから！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21855,11 +21855,11 @@
             "レース入着": [
               {
                 "Option": "頑張ったな",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "……甘いッ!",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -21867,11 +21867,11 @@
             "レース敗北": [
               {
                 "Option": "えらい！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "結果でも応えないとな",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22227,11 +22227,11 @@
             "レース勝利！": [
               {
                 "Option": "さすが一流",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22239,11 +22239,11 @@
             "レース入着": [
               {
                 "Option": "それでこそキング！！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次こそ一流に相応しい結果を",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22251,11 +22251,11 @@
             "レース敗北": [
               {
                 "Option": "時の運",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "実力",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           }
@@ -22483,11 +22483,11 @@
             "レース勝利！": [
               {
                 "Option": "手本になる走りだった！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだ！喝ッ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22495,11 +22495,11 @@
             "レース入着": [
               {
                 "Option": "バクシンオーもよく頑張ってた！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "それでいいのか？",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22507,11 +22507,11 @@
             "レース敗北": [
               {
                 "Option": "学級委員長しっかり！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "失敗は悪いことじゃない",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22723,11 +22723,11 @@
             "レース勝利！": [
               {
                 "Option": "おめでとうっ！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "まだまだこれからだっ！",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22735,11 +22735,11 @@
             "レース入着": [
               {
                 "Option": "力強い走りだった",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "負けないようにもっと鍛えないとな！",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22747,11 +22747,11 @@
             "レース敗北": [
               {
                 "Option": "",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22935,11 +22935,11 @@
             "レース勝利！": [
               {
                 "Option": "君が強いから勝てたんだよ",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "次は実力で勝ったって言おう",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22947,11 +22947,11 @@
             "レース入着": [
               {
                 "Option": "この辺で満足か？",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -22959,11 +22959,11 @@
             "レース敗北": [
               {
                 "Option": "ああ、ネイチャなら大丈夫だ！",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "悔しさを誤魔かすな",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -23231,11 +23231,11 @@
             "レース勝利！": [
               {
                 "Option": "その通り！",
-                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "こら、調子に乗らない",
-                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -5/-20/-30\n1 Random stat(s) +5～+10\nSkill Pt +35/+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -23243,11 +23243,11 @@
             "レース入着": [
               {
                 "Option": "その意気だ！",
-                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -20\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "練習もしっかりやるぞ",
-                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -10/-30\n1 Random stat(s) +2～+8\nSkill Pt +20～+45\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
@@ -23255,11 +23255,11 @@
             "レース敗北": [
               {
                 "Option": "実力を試されているのかも",
-                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -25\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               },
               {
                 "Option": "",
-                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track / Race Condition Hint"
+                "Effect": "Energy -15/-25/-35\n1 Random stat(s) +0～+4\nSkill Pt +10～+25\nRandomly gain Track/Race Skill Hint"
               }
             ]
           },
