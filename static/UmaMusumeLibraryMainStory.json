@@ -452,6 +452,46 @@
             ]
           }
         ]
+      },
+      "Grand Live":{
+        "Event": [
+          {
+            "提案ッ！新曲プロデュース！": [
+              {
+                "Option": "ファルコンの気持ちを味わってもらうとか？",
+                "Effect": "Passion +20\nAkikawa bond +10"
+              },
+              {
+                "Option": "初心にかえりましょう！",
+                "Effect": "Unknown"
+              }
+            ]
+          },
+          {
+            "あなたと私をつなげるライブ": [
+              {
+                "Option": "『一緒に呼びかけあえる歌』か……(スマートファルコン)",
+                "Effect": "With Scenario Link Chara (Smart Falcon):\n「A Mile a Minute!」Hint Lv +1\nWithout: 「Impulsive」Hint Lv +1"
+              },
+              {
+                "Option": "『走れることへの感謝』か……(ミホノブルボン)",
+                "Effect": "With Scenario Link Chara (Mihono Bourbon)\n「Concentration」Hint Lv +1\nWithout: 「Focus」Hint Lv +1"
+              },
+              {
+                "Option": "『ただいま』か……(サイレンススズカ)",
+                "Effect": "With Scenario Link Chara (Silence Suzuka)\n「Trailblazer」Hint Lv +1\nWithout: 「Bright Future」Hint Lv +1"
+              },
+              {
+                "Option": "『打倒する力』か……(アグネスタキオン)",
+                "Effect": "With Scenario Link Chara (Agnes Tachyon)\n「Facing Death」Hint Lv +1\nWithout: 「All I Have」Hint Lv +1"
+              },
+              {
+                "Option": "『歌でつながる』か……",
+                "Effect": "「Lane Magician」Hint Lv +1"
+              }
+            ]
+          }
+        ]
       }
     }
   }

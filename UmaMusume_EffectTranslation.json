@@ -52,7 +52,7 @@
         "effect": "Migraine"
     },
     {
-        "originEffect": "練習ベタ〇?",
+        "originEffect": "練習(?:ベタ|下手)?〇?",
         "effect": "Bad Practice"
     },
     {
@@ -95,18 +95,55 @@
     },
     {
         "originEffect": "乙名史記者",
-        "effect": "Otonashi Etsuko"
+        "effect": "Otonashi Etsuko "
     },
     {
         "originEffect": "樫本理子",
-        "effect": "Kashimoto Riko"
+        "effect": "Kashimoto Riko "
+    },
+    {
+        "originEffect": "(?:シナリオに応じた|シナリオ)NPC",
+        "effect": "Scenario NPC "
+    },
+    {
+        "originEffect": "アオハル爆発発動数\\d～\\d回：\n?",
+        "effect": "",
+        "comment": "always same, useless"
     },
     {
         "originEffect": "アオハル杯?",
-        "effect": "Aoharu"
+        "effect": "Aoharu:"
     },
     {
-        "originEffect": "ランダム(?:に|な)?(?:ステータス)?(\\d)種を?",
+        "originEffect": "URA",
+        "effect": "URA:"
+    },
+    {
+        "originEffect": "チーム名が?",
+        "effect": "Team name"
+    },
+    {
+        "originEffect": "^(.+)編成時：",
+        "effect": "Requires Scenario Link Chara ($1)"
+    },
+    {
+        "originEffect": "※(.+)リンク編成する必要がある",
+        "effect": "※Requires Scenario Link Chara ($1)"
+    },
+    {
+        "originEffect": "※上昇値は出走レースで変動",
+        "effect": "※Depends on entered race"
+    },
+    {
+        "originEffect": "※シナリオリンク対象のウマ娘で育成する必要がある",
+        "effect": "※When training a Scenario Link horsegirl"
+    },
+    {
+        "originEffect": "チーム総合力アップ",
+        "effect": "Team strength up"
+    },
+    {
+        "originEffect": "(?:5種ステータスから)?ランダム[にな]?(?:ステータス)?(\\d)種を?",
         "effect": "$1 Random stat(s) "
     },
     {
@@ -114,11 +151,11 @@
         "effect": "From $1 stats, $2 random stats "
     },
     {
-        "originEffect": "5種(?:すべて|ステ(?:ータス)?)",
+        "originEffect": "5種(?:すべて|ステ(?:ータス)?)を?",
         "effect": "All 5 Stats "
     },
     {
-        "originEffect": "直前のトレ項目|(?:直前の)?トレーニング(?:種別|種)|直前にトレーニングしたステ",
+        "originEffect": "直前のトレ項目|(?:直前の)?トレーニング(?:種別|種)|直前[にの]トレーニング(?:した|に応じた)ステ(?:ータス)?",
         "effect": "Last Trained Stat(s) "
     },
     {
@@ -136,6 +173,10 @@
     {
         "originEffect": "効果なし",
         "effect": "No effect"
+    },
+    {
+        "originEffect": "ランダムでマイナススキルを獲得",
+        "effect": "Randomly gain purple skill"
     },
     {
         "originEffect": "以下ランダムで",
@@ -160,6 +201,10 @@
     {
         "originEffect": "選択肢なしイベント(「結果：フラッシュプラン」)が発生しない",
         "effect": "Chain event $1 does not trigger"
+    },
+    {
+        "originEffect": "※次回イベントが発生しない",
+        "effect": "※Next event does not trigger"
     },
     {
         "originEffect": "最終目標が(.+)になる",
@@ -258,6 +303,26 @@
         "effect": "Stamina "
     },
     {
+        "originEffect": "パッション",
+        "effect": "Passion "
+    },
+    {
+        "originEffect": "ボーカル",
+        "effect": "Vocal "
+    },
+    {
+        "originEffect": "ダンス",
+        "effect": "Dance "
+    },
+    {
+        "originEffect": "ビジュアル",
+        "effect": "Visual "
+    },
+    {
+        "originEffect": "メンタル",
+        "effect": "Mental "
+    },
+    {
         "originEffect": "短距離",
         "effect": "Short Distance "
     },
@@ -298,12 +363,12 @@
         "effect": "Bond Gauge "
     },
     {
-        "originEffect": "スキル(?:pt)?",
-        "effect": "Skill Pt "
+        "originEffect": "ウマ娘固有(?:スキル)?",
+        "effect": "Unique Skill "
     },
     {
-        "originEffect": "ウマ娘固有スキル",
-        "effect": "Unique Skill"
+        "originEffect": "スキル(?:pt)?",
+        "effect": "Skill Pt "
     },
     {
         "originEffect": "の?ヒント(?:レベル|Lv)?",
