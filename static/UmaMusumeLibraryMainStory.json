@@ -490,6 +490,30 @@
                 "Effect": "「Lane Magician」Hint Lv +1"
               }
             ]
+          },
+          {
+            "集まれ！のど自慢": [
+              {
+                "Option": "ゆりかごのように……子守唄を",
+                "Effect": "Energy +15"
+              },
+              {
+                "Option": "激しく情熱を燃やして！盛大に歌う！",
+                "Effect": "Passion +20"
+              }
+            ]
+          },
+          {
+            "できることから": [
+              {
+                "Option": "休憩用の飲み物を買ってきますよ",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "俺も付き合います！",
+                "Effect": "Guts +10"
+              }
+            ]
           }
         ]
       }
