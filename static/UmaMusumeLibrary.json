@@ -164,18 +164,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（最大の魅力）",
@@ -540,18 +528,6 @@
               {
                 "Option": "ちょっと待って",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -4182,18 +4158,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "食べて魅力を再確認しよう",
@@ -4262,18 +4226,6 @@
               {
                 "Option": "いや、今の流行はCD（クールダウン）だ！",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -5410,18 +5362,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -5634,18 +5574,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "音楽イベントについていく",
@@ -5702,18 +5630,6 @@
               {
                 "Option": "これ以上はオーバーワークになる",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -9976,18 +9892,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(出立、悠々と)",
@@ -10252,18 +10156,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "正月だしゆっくりしよう",
@@ -10332,18 +10224,6 @@
               {
                 "Option": "効率を考えれば許可できない",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -12980,18 +12860,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -13276,18 +13144,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "甘酒を飲もう",
@@ -13372,18 +13228,6 @@
               {
                 "Option": "やっぱり許可できない",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -14240,18 +14084,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -14472,18 +14304,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "ハヤヒデが元気でいられますように",
@@ -14568,18 +14388,6 @@
               {
                 "Option": "ライバルなら、信じてあげよう",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -14948,18 +14756,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -15232,18 +15028,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "甘酒を飲もう",
@@ -15340,18 +15124,6 @@
               {
                 "Option": "やっぱり許可できない",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -16592,18 +16364,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(レースって最高！)",
@@ -16852,18 +16612,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "出会いはトレンディー☆": [
               {
                 "Option": "ええい、ままよ！",
@@ -16948,18 +16696,6 @@
               {
                 "Option": "やめておこう",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -18600,18 +18336,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（めざすは日本一）",
@@ -18824,18 +18548,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "健康的に強くなる！",
@@ -18944,18 +18656,6 @@
               {
                 "Option": "落ち着いて、オーバーワークになっちゃうよ",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -20686,18 +20386,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -20962,18 +20650,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "楽しいファッション",
@@ -21070,18 +20746,6 @@
               {
                 "Option": "3位",
                 "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -21426,18 +21090,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "テストdeリカバリー☆": [
               {
                 "Option": "落ち着いて基礎を固めよう！",
@@ -21682,18 +21334,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "ファル子の健康",
@@ -21782,18 +21422,6 @@
               {
                 "Option": "3位",
                 "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -22658,18 +22286,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -22946,18 +22562,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "健康ッ！！",
@@ -23014,18 +22618,6 @@
               {
                 "Option": "オーバーワークになるから我慢しよう",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -25462,18 +25054,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（めざすは日本一）",
@@ -25662,18 +25242,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "健康的に強くなる！",
@@ -25782,18 +25350,6 @@
               {
                 "Option": "落ち着いて、オーバーワークになっちゃうよ",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
@@ -26690,18 +26246,6 @@
             ]
           },
           {
-            "できることから": [
-              {
-                "Option": "休憩用の飲み物を買ってきますよ",
-                "Effect": "Energy +10"
-              },
-              {
-                "Option": "俺も付き合います！",
-                "Effect": "Guts +10"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(突然の大宣言)",
@@ -26894,18 +26438,6 @@
             ]
           },
           {
-            "集まれ！のど自慢": [
-              {
-                "Option": "ゆりかごのように……子守唄を",
-                "Effect": "Energy +15"
-              },
-              {
-                "Option": "激しく情熱を燃やして！盛大に歌う！",
-                "Effect": "Passion +20"
-              }
-            ]
-          },
-          {
             "初詣": [
               {
                 "Option": "スペシャルウィーク",
@@ -26998,18 +26530,6 @@
               {
                 "Option": "ならば休むべき",
                 "Effect": "Energy +5"
-              }
-            ]
-          },
-          {
-            "提案ッ！新曲プロデュース！": [
-              {
-                "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
-              },
-              {
-                "Option": "初心にかえりましょう！",
-                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },

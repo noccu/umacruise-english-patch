@@ -459,11 +459,11 @@
             "提案ッ！新曲プロデュース！": [
               {
                 "Option": "ファルコンの気持ちを味わってもらうとか？",
-                "Effect": "Passion +20\nAkikawa bond +10"
+                "Effect": "Passion +20\nPresident Akikawa Bond Gauge +10"
               },
               {
                 "Option": "初心にかえりましょう！",
-                "Effect": "Unknown"
+                "Effect": "Mental +20\nPresident Akikawa Bond Gauge +10"
               }
             ]
           },
