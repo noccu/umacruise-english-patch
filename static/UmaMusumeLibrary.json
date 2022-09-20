@@ -140,30 +140,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（最大の魅力）",
@@ -188,18 +164,6 @@
               {
                 "Option": "怖いし、やめておこう",
                 "Effect": "Wisdom +20"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -400,18 +364,6 @@
             ]
           },
           {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
-              }
-            ]
-          },
-          {
             "夏合宿(2年目)にて": [
               {
                 "Option": "なら海のトレーニングにしようか",
@@ -488,22 +440,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "スピードを思いっきり伸ばしていこう",
@@ -559,11 +495,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -583,11 +519,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "ゆっくり休んで(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "漫画は禁止！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           }
@@ -1126,6 +1062,534 @@
               {
                 "Option": "……わかった",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Dream Deliverer] Winning Ticket": {
+        "Event": [
+          {
+            "あなたと私を繋げるライブ": [
+              {
+                "Option": "『一緒に呼びかけあえる歌』か……(スマートファルコン)",
+                "Effect": "Requires Scenario Link Chara (スマートファルコン)\n「A Mile a Minute!」Hint Lv +1"
+              },
+              {
+                "Option": "『走れることへの感謝』か……(ミホノブルボン)",
+                "Effect": "Requires Scenario Link Chara (ミホノブルボン)\n「Concentration」Hint Lv +1"
+              },
+              {
+                "Option": "『ただいま』か……(サイレンススズカ)",
+                "Effect": "Requires Scenario Link Chara (サイレンススズカ)\n「Trailblazer」Hint Lv +1"
+              },
+              {
+                "Option": "『打倒する力』か……(アグネスタキオン)",
+                "Effect": "Requires Scenario Link Chara (アグネスタキオン)\n「Prepared to Die」Hint Lv +1"
+              },
+              {
+                "Option": "『歌でつながる』か……",
+                "Effect": "「Lane Magician」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "あんし〜ん笹針師、参☆上": [
+              {
+                "Option": "強いウマ娘になれる秘孔を狙う",
+                "Effect": "[Success]==========\nAll 5 Stats +20\n\n[Failure]==========\nMood -1\nAll Stats -15\nGain 「Insomnia」"
+              },
+              {
+                "Option": "レースで勝てる秘孔を狙う",
+                "Effect": "[Success]==========\nGain \nGain \n\n[Failure]==========\nEnergy -20\nMood -1"
+              },
+              {
+                "Option": "元気で健康になれる秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy Max +12\nEnergy +40\nHeal negative condition\n\n[Failure]==========\nEnergy -20\nMood -1\nGain 「Bad Practice」"
+              },
+              {
+                "Option": "魅力アップの秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy +20\nMood +1\nGain 「Charming」\n\n[Failure]==========\nEnergy -10\nMood -1"
+              },
+              {
+                "Option": "不安なのでやめておく",
+                "Effect": "Energy +10"
+              }
+            ]
+          },
+          {
+            "いきなりフットサル！？": [
+              {
+                "Option": "ストライカー",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "ゴールキーパー",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "大事をとって今日は休もう(夏合宿中：きっちり休ませる)",
+                "Effect": "Mood -1\nLast Trained Stat(s) -5\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "よし、頑張ろう！(夏合宿中：頑張らせる)",
+                "Effect": "Mood -1\nLast Trained Stat(s) -10\nRandomly gain 「Bad Practice」"
+              }
+            ]
+          },
+          {
+            "クリスマス": [
+              {
+                "Option": "選択肢なし",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数12万人以上(一部8万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "この壁を越えてゆけ！": [
+              {
+                "Option": "気合いで完食だ！",
+                "Effect": "Mood +1\nGuts +5"
+              },
+              {
+                "Option": "こうなったら力ずくで……！",
+                "Effect": "Mood +1\nPower +5"
+              }
+            ]
+          },
+          {
+            "ごはんも全力！！": [
+              {
+                "Option": "適量を守るのは大切",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "満足するまで全力で食べよう！",
+                "Effect": "[Success]==========\nEnergy +30\nSkill Pt +10\n\n[Failure]==========\nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\nGain 「Overweight」"
+              }
+            ]
+          },
+          {
+            "スイーツへの道のり！": [
+              {
+                "Option": "早足でどんどん追い抜いていこう",
+                "Effect": "Energy -15\n「Betweener's Straights ○」Hint Lv +2\n「Betweener's Corners ○」Hint Lv +2"
+              },
+              {
+                "Option": "人の流れを見極めて進んでいこう",
+                "Effect": "Energy -15\n「Position Swiper」Hint Lv +2\n「Between the Lines」Hint Lv +2"
+              },
+              {
+                "Option": "人混みがなくなるのを待とう",
+                "Effect": "Wisdom +15"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "気合いが足りないんだ",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "力が入りすぎてるんだ",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "チケゾ―配達日記〜学園編〜": [
+              {
+                "Option": "『チケゾ―運送』恐るべし！",
+                "Effect": "Wisdom +20"
+              },
+              {
+                "Option": "気持ちはわかるかも……",
+                "Effect": "Stamina +20"
+              }
+            ]
+          },
+          {
+            "チケゾ―配達日記〜蒸気編〜": [
+              {
+                "Option": "みんなを救ってるんだな",
+                "Effect": "Guts +10\nRandomly gain 「Charming」"
+              },
+              {
+                "Option": "記念撮影、してみるか",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "デビュー戦の後に": [
+              {
+                "Option": "1位(ここから始まる！)",
+                "Effect": "3 Random stat(s) +3\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "3 Random stat(s) +2\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "バレンタイン": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数6万人以上(一部4万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ファン感謝祭": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Energy -5\nSkill Pt +25"
+              },
+              {
+                "Option": "ファン数7万人以上(一部6万人)",
+                "Effect": "Mood +1\nUnique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ホープフルSの後に": [
+              {
+                "Option": "1位(結果は上々！)",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下(結果は上々！)",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "よく泣くお姉ちゃん": [
+              {
+                "Option": "下手に動かず、待ち続けよう",
+                "Effect": "Guts +5\nSkill Pt +15"
+              },
+              {
+                "Option": "辺りを見渡せる場所があるといいんだけど",
+                "Effect": "Mood +1\nPower +5"
+              }
+            ]
+          },
+          {
+            "レース勝利！": [
+              {
+                "Option": "本当に、よく頑張ったね！（頑張ったな！）",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              },
+              {
+                "Option": "この調子で勝ち続けよう！",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "今は素直に喜んでいい！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              },
+              {
+                "Option": "じゃあ次は1着だな！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "次こそ勝とう！",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              },
+              {
+                "Option": "俺も悔しいっ！",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              }
+            ]
+          },
+          {
+            "雨ニモ負ケズ": [
+              {
+                "Option": "てるてる坊主でも作ろうか",
+                "Effect": "Energy -10\nStamina +10\nSkill Pt +15"
+              },
+              {
+                "Option": "少し様子を見ようか",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "じゃあ、砂浜全力ダッシュ100本だ！",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "じゃあ、遠泳だ！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "菊花賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位(負けてもサイコー！)",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下(負けてもサイコー！)",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "今度こそ負けない！": [
+              {
+                "Option": "上選択肢",
+                "Effect": "Mood +1\nSkill Pt +10"
+              },
+              {
+                "Option": "下選択肢",
+                "Effect": "Skill Pt +10\n「Underdog ○」Hint Lv +1\nRandomly gain purple skill"
+              }
+            ]
+          },
+          {
+            "最後の片道切符": [
+              {
+                "Option": "行ける限り遠く",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "未知の場所",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "1番行きたい場所",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "皐月賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下(忍び寄る鬼)(鬼、炸裂)",
+                "Effect": "All 5 Stats +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "三国志演技": [
+              {
+                "Option": "『三銃士』",
+                "Effect": "Stamina +5\nSkill Pt +15"
+              },
+              {
+                "Option": "『戦国物』",
+                "Effect": "Power +5\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "全力でリラックスしよう！",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "全力でおみくじを引こう！",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "全力で新しい技の勉強だ！",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "新たな気づき": [
+              {
+                "Option": "もっと瞬発力を鍛えよう",
+                "Effect": "Speed +10\nSkill Pt +15"
+              },
+              {
+                "Option": "相手を意識しすぎてたのかも",
+                "Effect": "「Slight Detour」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "マラソンに挑戦しよう",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "今日は体力温存だ！",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "必殺技を考えよう！",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "大阪杯の後に": [
+              {
+                "Option": "1位(整わない呼吸)",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位(遠くなった背中)",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "よし！やろう！",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+              },
+              {
+                "Option": "全力は後にとっておこう",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "日本ダービーの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下(完走！)",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "悩みなんて吹き飛ばせ！": [
+              {
+                "Option": "大した悩みじゃない、頑張れ！",
+                "Effect": "Mood +1\nPower +5"
+              },
+              {
+                "Option": "もう1回、リフレッシュしておく？",
+                "Effect": "Speed +5\nSkill Pt +15"
+              }
+            ]
+          },
+          {
+            "福引チャンス！": [
+              {
+                "Option": "特賞(温泉旅行券)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "1等(特上にんじんハンバーグ)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "2等(にんじん山盛り)",
+                "Effect": "Energy +20\nMood +1\nAll 5 Stats +5"
+              },
+              {
+                "Option": "3等(にんじん1本)",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "はずれ",
+                "Effect": "Mood -1"
+              }
+            ]
+          },
+          {
+            "宝塚記念の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下(背中は答えない)",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "無茶は厳禁！": [
+              {
+                "Option": "焦らないで、ゆっくり治そう(夏合宿中：とにかく労わる)",
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "なら、全力の限界を超えよう！！(夏合宿中：厳しくいく！)",
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+              }
+            ]
+          },
+          {
+            "弥生賞の後に": [
+              {
+                "Option": "1位(燃えたッ！)",
+                "Effect": "4 Random stat(s) +3\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "4 Random stat(s) +2\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "4 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
               }
             ]
           }
@@ -3878,30 +4342,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(迷走)",
@@ -3914,18 +4354,6 @@
               {
                 "Option": "3位以下(迷走)",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -4014,18 +4442,6 @@
               {
                 "Option": "ヘコんでてもしょうがない！",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -4174,22 +4590,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "食べすぎ御免！": [
               {
                 "Option": "オススメ1品だけで充分！",
@@ -4249,11 +4649,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -4289,11 +4689,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "大丈夫、俺がついてる(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "気合いで痛みを吹っ飛ばそう！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -5338,30 +5738,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -5374,18 +5750,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -5462,18 +5826,6 @@
               {
                 "Option": "次は必ず勝とう",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -5590,22 +5942,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "取り引きをする",
@@ -5685,11 +6021,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -5725,11 +6061,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "さすがに今日は休もう",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "一緒にできることを探そう",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -9868,30 +10204,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(出立、悠々と)",
@@ -9904,18 +10216,6 @@
               {
                 "Option": "3位以下(栄光の楯へと)",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -10004,18 +10304,6 @@
               {
                 "Option": "だったら逃げ出す？",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -10172,22 +10460,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "触らぬ者にたたりなしですわ！！": [
               {
                 "Option": "気を強く持て！あれは罠だ！",
@@ -10231,11 +10503,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -10267,11 +10539,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "完治するまでトレーニングは禁止(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "ダメだ、メニューから考え直そう！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -12836,30 +13108,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -12872,18 +13120,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -12992,18 +13228,6 @@
               {
                 "Option": "ベルちゃん？",
                 "Effect": "Power +20\nRandomly gain 「Charming」"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -13160,22 +13384,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "かるた、やろう！",
@@ -13251,11 +13459,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -13291,11 +13499,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "今は体を大切にしよう",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "治ったら取り返そう！",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -13580,6 +13788,522 @@
               {
                 "Option": "ヤマニンゼファー",
                 "Effect": "Stamina +10"
+              }
+            ]
+          }
+        ]
+      },
+      "[Difference Engineer] Narita Taishin": {
+        "Event": [
+          {
+            "『bg』": [
+              {
+                "Option": "しりとりしよう！",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "追いかけっこで勝負！",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "『easy game』": [
+              {
+                "Option": "お願いします！",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "まだまだ！",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "『gg』": [
+              {
+                "Option": "ウイニングチケット",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "ビワハヤヒデ",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "スーパークリーク",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "Unknown music": [
+              {
+                "Option": "生演奏のR&B",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "セカイ系ポップス",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "あなたと私を繋げるライブ": [
+              {
+                "Option": "『一緒に呼びかけあえる歌』か……(スマートファルコン)",
+                "Effect": "Requires Scenario Link Chara (スマートファルコン)\n「A Mile a Minute!」Hint Lv +1"
+              },
+              {
+                "Option": "『走れることへの感謝』か……(ミホノブルボン)",
+                "Effect": "Requires Scenario Link Chara (ミホノブルボン)\n「Concentration」Hint Lv +1"
+              },
+              {
+                "Option": "『ただいま』か……(サイレンススズカ)",
+                "Effect": "Requires Scenario Link Chara (サイレンススズカ)\n「Trailblazer」Hint Lv +1"
+              },
+              {
+                "Option": "『打倒する力』か……(アグネスタキオン)",
+                "Effect": "Requires Scenario Link Chara (アグネスタキオン)\n「Prepared to Die」Hint Lv +1"
+              },
+              {
+                "Option": "『歌でつながる』か……",
+                "Effect": "「Lane Magician」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "あんし〜ん笹針師、参☆上": [
+              {
+                "Option": "強いウマ娘になれる秘孔を狙う",
+                "Effect": "[Success]==========\nAll 5 Stats +20\n\n[Failure]==========\nMood -1\nAll Stats -15\nGain 「Insomnia」"
+              },
+              {
+                "Option": "レースで勝てる秘孔を狙う",
+                "Effect": "[Success]==========\nGain \nGain \n\n[Failure]==========\nEnergy -20\nMood -1"
+              },
+              {
+                "Option": "元気で健康になれる秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy Max +12\nEnergy +40\nHeal negative condition\n\n[Failure]==========\nEnergy -20\nMood -1\nGain 「Bad Practice」"
+              },
+              {
+                "Option": "魅力アップの秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy +20\nMood +1\nGain 「Charming」\n\n[Failure]==========\nEnergy -10\nMood -1"
+              },
+              {
+                "Option": "不安なのでやめておく",
+                "Effect": "Energy +10"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "それで悪化したら大変だ",
+                "Effect": "Mood -1\nLast Trained Stat(s) -5\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "わかった！トレーニングを再開しよう！",
+                "Effect": "Mood -1\nLast Trained Stat(s) -10\nRandomly gain 「Bad Practice」"
+              }
+            ]
+          },
+          {
+            "かごの扉はその手で開けろ": [
+              {
+                "Option": "よし、戻ってお茶でもいれよう！",
+                "Effect": "Stamina +5\nGuts +5"
+              },
+              {
+                "Option": "よし、友だちたくさん集めよう！",
+                "Effect": "Speed +5\nPower +5"
+              }
+            ]
+          },
+          {
+            "クエスト:演劇部のお手伝い！": [
+              {
+                "Option": "(……邪魔しちゃ悪いかな)",
+                "Effect": "Guts +20"
+              },
+              {
+                "Option": "猫へのプレゼント？",
+                "Effect": "Power +10\nWisdom +10"
+              }
+            ]
+          },
+          {
+            "クエスト:撤去作業のお手伝い！": [
+              {
+                "Option": "最後まで手伝うよ",
+                "Effect": "Stamina +10\nRandomly gain 「Rising Star」"
+              },
+              {
+                "Option": "効率のいいやり方を考えよう",
+                "Effect": "Speed +10\nRandomly gain 「Rising Star」"
+              }
+            ]
+          },
+          {
+            "クリスマス": [
+              {
+                "Option": "選択肢なし",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数12万人以上(一部8万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "いや、本当にすごいよ！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "俺も踊りたくなってきた！",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "デビュー戦の後に": [
+              {
+                "Option": "1位",
+                "Effect": "3 Random stat(s) +3\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "3 Random stat(s) +2\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "バレンタイン": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数6万人以上(一部4万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ファン感謝祭": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Energy -5\nSkill Pt +25"
+              },
+              {
+                "Option": "ファン数7万人以上(一部6万人)",
+                "Effect": "Mood +1\nUnique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ホープフルSの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "ムカつく気持ちは自主トレで": [
+              {
+                "Option": "むしろもう切り上げた方がいい",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "やってもいいけどほどほどにな",
+                "Effect": "Energy -5\nSkill Pt +30"
+              },
+              {
+                "Option": "思う存分やるといいよ！",
+                "Effect": "[Success]==========\nEnergy -15\nMood +1\nRandomly gain 2 Stats ステータスを+15\n\n[Failure]==========\nEnergy -15\nRandomly gain 1 Stats ステータスを+10"
+              }
+            ]
+          },
+          {
+            "モヤつく気持ちは自主トレで？": [
+              {
+                "Option": "じゃあ代わりにゆっくり休もうか",
+                "Effect": "Energy +10"
+              },
+              {
+                "Option": "ほどほどになら大丈夫だ！",
+                "Effect": "Energy -5\nSkill Pt +30"
+              },
+              {
+                "Option": "いや、思う存分やろう！",
+                "Effect": "[Success]==========\nEnergy -15\nMood +1\nRandomly gain 2 Stats ステータスを+15\n\n[Failure]==========\nEnergy -15\nRandomly gain 1 Stats ステータス+10"
+              }
+            ]
+          },
+          {
+            "レース勝利！": [
+              {
+                "Option": "みんな、すごいって思うな！！",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              },
+              {
+                "Option": "(黙ってタイシンを見守る)",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "でも、いい走りだったぞ！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              },
+              {
+                "Option": "次こそ1着を目指そう！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "俺はタイシンの強さを信じてるぞ！",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              },
+              {
+                "Option": "悔しさをバネにトレーニングだ！",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              }
+            ]
+          },
+          {
+            "栄養食品は希望の食品？": [
+              {
+                "Option": "食べすぎないよう気をつけて",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "よし！栄養ガッツリとろう！",
+                "Effect": "[Success]==========\nEnergy +30\nSkill Pt +10\n\n[Failure]==========\nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\nGain 「Overweight」"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "スイカ割りでパワートレーニング",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "タイヤ引きで根性トレーニング",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "寡黙なふたり": [
+              {
+                "Option": "ハヤヒデ、きっと喜ぶよ",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "……ああ、帰ろうか",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "菊花賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "距離": [
+              {
+                "Option": "探しに行くべき",
+                "Effect": "Mood +1\nGuts +10"
+              },
+              {
+                "Option": "じっと待つべき",
+                "Effect": "「On Standby」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "後日レポート提出済": [
+              {
+                "Option": "消化速度を著しく上げる薬を勧める",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "栄養摂取効率を上げる薬を勧める",
+                "Effect": "Stamina +5\nPower +5"
+              }
+            ]
+          },
+          {
+            "今度こそ負けない！": [
+              {
+                "Option": "上選択肢",
+                "Effect": "Mood +1\nSkill Pt +10"
+              },
+              {
+                "Option": "下選択肢",
+                "Effect": "Skill Pt +10\n「Underdog ○」Hint Lv +1\nRandomly gain purple skill"
+              }
+            ]
+          },
+          {
+            "皐月賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "何か美味しいもの奢るよ",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "いっそランニングでもしようか",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "ゲーセンでも行こうか！",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "こたつに入ってレースゲームでもしよう！",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "一緒に昼寝の続きをしよう！",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "いっそいつも通りミーティングしよう",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "わかった、付き合うよ！",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+              },
+              {
+                "Option": "タイシンにはタイシンのペースがある",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "天皇賞(春)の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "日本ダービーの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +35or45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "福引チャンス！": [
+              {
+                "Option": "特賞(温泉旅行券)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "1等(特上にんじんハンバーグ)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "2等(にんじん山盛り)",
+                "Effect": "Energy +20\nMood +1\nAll 5 Stats +5"
+              },
+              {
+                "Option": "3等(にんじん1本)",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "はずれ",
+                "Effect": "Mood -1"
+              }
+            ]
+          },
+          {
+            "無茶は厳禁！": [
+              {
+                "Option": "問題ありそうだから保健室に来たんだ",
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "君の熱意に応えるよ！",
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           }
@@ -14060,30 +14784,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -14096,18 +14796,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -14192,18 +14880,6 @@
               {
                 "Option": "頭でっかちになってるぞ！",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -14332,22 +15008,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "理論",
@@ -14455,11 +15115,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -14507,11 +15167,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "保健室に戻ろう(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "……歩くなら、一緒に！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -14732,30 +15392,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -14768,18 +15404,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -14864,18 +15488,6 @@
               {
                 "Option": "今日の経験を糧にしよう！",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -15044,22 +15656,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "かるた、やろう！",
@@ -15147,11 +15743,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -15187,11 +15783,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "今は体を大切にしよう",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "治ったら取り返そう！",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -16340,30 +16936,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(レースって最高！)",
@@ -16376,18 +16948,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -16496,18 +17056,6 @@
               {
                 "Option": "じっくり作る煮込み料理！",
                 "Effect": "Energy +10\nGuts +10"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -16640,22 +17188,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "持ち味のスピードを伸ばしていきたい！",
@@ -16731,11 +17263,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -16755,11 +17287,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "あせらず治そう(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "時には荒療治も必要だからな！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -18312,30 +18844,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（めざすは日本一）",
@@ -18348,18 +18856,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +20\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -18444,18 +18940,6 @@
               {
                 "Option": "失敗をバネにしよう",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -18560,22 +19044,6 @@
               {
                 "Option": "いろんな技を覚える！",
                 "Effect": "Skill Pt +35"
-              }
-            ]
-          },
-          {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
               }
             ]
           },
@@ -18707,11 +19175,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -18731,11 +19199,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "今は治すことだけ考えよう！(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "今日は休んで、また頑張ればいい！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -19016,6 +19484,534 @@
               {
                 "Option": "",
                 "Effect": "Same as above"
+              }
+            ]
+          }
+        ]
+      },
+      "[Sweet Beloved Flower of Mutsu] Yukino Bijin": {
+        "Event": [
+          {
+            "\"シチーガール\"になるために": [
+              {
+                "Option": "少しディープな場所に出かけてみるか？",
+                "Effect": "「Downhill Adept」Hint Lv +2"
+              },
+              {
+                "Option": "大都会を一望できる場所に行こう",
+                "Effect": "Speed +10\nGuts +10"
+              },
+              {
+                "Option": "ウインドーショッピングはどうだ？",
+                "Effect": "Energy +15\nMood +1"
+              }
+            ]
+          },
+          {
+            "あなたと私を繋げるライブ": [
+              {
+                "Option": "『一緒に呼びかけあえる歌』か……(スマートファルコン)",
+                "Effect": "Requires Scenario Link Chara (スマートファルコン)\n「A Mile a Minute!」Hint Lv +1"
+              },
+              {
+                "Option": "『走れることへの感謝』か……(ミホノブルボン)",
+                "Effect": "Requires Scenario Link Chara (ミホノブルボン)\n「Concentration」Hint Lv +1"
+              },
+              {
+                "Option": "『ただいま』か……(サイレンススズカ)",
+                "Effect": "Requires Scenario Link Chara (サイレンススズカ)\n「Trailblazer」Hint Lv +1"
+              },
+              {
+                "Option": "『打倒する力』か……(アグネスタキオン)",
+                "Effect": "Requires Scenario Link Chara (アグネスタキオン)\n「Prepared to Die」Hint Lv +1"
+              },
+              {
+                "Option": "『歌でつながる』か……",
+                "Effect": "「Lane Magician」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "あんし〜ん笹針師、参☆上": [
+              {
+                "Option": "強いウマ娘になれる秘孔を狙う",
+                "Effect": "[Success]==========\nAll 5 Stats +20\n\n[Failure]==========\nMood -1\nAll Stats -15\nGain 「Insomnia」"
+              },
+              {
+                "Option": "レースで勝てる秘孔を狙う",
+                "Effect": "[Success]==========\nGain \nGain \n\n[Failure]==========\nEnergy -20\nMood -1"
+              },
+              {
+                "Option": "元気で健康になれる秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy Max +12\nEnergy +40\nHeal negative condition\n\n[Failure]==========\nEnergy -20\nMood -1\nGain 「Bad Practice」"
+              },
+              {
+                "Option": "魅力アップの秘孔を狙う",
+                "Effect": "[Success]==========\nEnergy +20\nMood +1\nGain 「Charming」\n\n[Failure]==========\nEnergy -10\nMood -1"
+              },
+              {
+                "Option": "不安なのでやめておく",
+                "Effect": "Energy +10"
+              }
+            ]
+          },
+          {
+            "イマドキ♪お出かけコース": [
+              {
+                "Option": "まずはカフェで落ち着こう",
+                "Effect": "Power +20"
+              },
+              {
+                "Option": "いや、思い切って最初にコスメを！",
+                "Effect": "Wisdom +20"
+              }
+            ]
+          },
+          {
+            "ヴィクトリアマイルの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "オークスの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "お大事に！": [
+              {
+                "Option": "大事をとって休んでおこう",
+                "Effect": "Mood -1\nLast Trained Stat(s) -5\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "無理のない範囲で、な",
+                "Effect": "Mood -1\nLast Trained Stat(s) -10\nRandomly gain 「Bad Practice」"
+              }
+            ]
+          },
+          {
+            "クリスマス": [
+              {
+                "Option": "選択肢なし",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数12万人以上(一部8万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "シチーさんと猛特訓だべ！": [
+              {
+                "Option": "志はもう立派な俳優さんだな",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "あまり無茶はしないようにな",
+                "Effect": "Speed +10"
+              }
+            ]
+          },
+          {
+            "ダンスレッスン": [
+              {
+                "Option": "おしゃれな場所へ見にいこう",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "ウマトックをチェック！",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "デビュー戦の後に": [
+              {
+                "Option": "1位",
+                "Effect": "3 Random stat(s) +3\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "3 Random stat(s) +2\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "バレンタイン": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Skill Pt +20"
+              },
+              {
+                "Option": "ファン数6万人以上(一部4万人)",
+                "Effect": "Unique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ファン感謝祭": [
+              {
+                "Option": "ファン数不足",
+                "Effect": "Energy -5\nSkill Pt +25"
+              },
+              {
+                "Option": "ファン数7万人以上(一部6万人)",
+                "Effect": "Mood +1\nUnique Skill Lv+1"
+              }
+            ]
+          },
+          {
+            "ふるさと、想えば": [
+              {
+                "Option": "頑張ったな！",
+                "Effect": "Guts +20"
+              },
+              {
+                "Option": "いい写真だったな",
+                "Effect": "Speed +20"
+              }
+            ]
+          },
+          {
+            "めんこい人形": [
+              {
+                "Option": "あまりタフじゃないので成仏させたいかも",
+                "Effect": "Stamina +10"
+              },
+              {
+                "Option": "根性を出して共生の道を選ぶ……！",
+                "Effect": "Mood +1\nGuts +5"
+              }
+            ]
+          },
+          {
+            "レース勝利！": [
+              {
+                "Option": "最高の走りだったぞ！",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              },
+              {
+                "Option": "その意気で次も頑張ろう！",
+                "Effect": "G1：\n1 Random stat(s) +10\nSkill Pt +45"
+              }
+            ]
+          },
+          {
+            "レース入着": [
+              {
+                "Option": "その調子で頑張ろう！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              },
+              {
+                "Option": "気合いを入れ直そう！",
+                "Effect": "G1：\n1 Random stat(s) +5～8\nSkill Pt +40～45"
+              }
+            ]
+          },
+          {
+            "レース敗北": [
+              {
+                "Option": "その気持ちをバネにしよう",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              },
+              {
+                "Option": "なら、これまで以上に努力を重ねよう！",
+                "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
+              }
+            ]
+          },
+          {
+            "わくわく畑仕事": [
+              {
+                "Option": "ユキノの指導はすごかったな！",
+                "Effect": "Wisdom +10\nSkill Pt +15"
+              },
+              {
+                "Option": "雪国っ子のバイタリティはすごいなと",
+                "Effect": "「Winter Girl ○」Hint Lv +1"
+              }
+            ]
+          },
+          {
+            "夏合宿(2年目)にて": [
+              {
+                "Option": "バクシンオアパワーゲーム",
+                "Effect": "Power +10"
+              },
+              {
+                "Option": "バクシン灼熱地獄",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "丸い誘惑": [
+              {
+                "Option": "また付き合うから、無理はしないで",
+                "Effect": "Energy +10\nSkill Pt +5"
+              },
+              {
+                "Option": "思いっきり楽しんで",
+                "Effect": "[Success]==========\nEnergy +30\nSkill Pt +10\n\n[Failure]==========\nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\nGain 「Overweight」"
+              }
+            ]
+          },
+          {
+            "幻想、星めぐりへ": [
+              {
+                "Option": "えっ！本当に！？",
+                "Effect": "Wisdom +10"
+              },
+              {
+                "Option": "俺も同じこと思ってた……",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "今度こそ負けない！": [
+              {
+                "Option": "上選択肢",
+                "Effect": "Mood +1\nSkill Pt +10"
+              },
+              {
+                "Option": "下選択肢",
+                "Effect": "Skill Pt +10\n「Underdog ○」Hint Lv +1\nRandomly gain purple skill"
+              }
+            ]
+          },
+          {
+            "阪神JFの後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "桜花賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位以下",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "撮影本番だべ！": [
+              {
+                "Option": "頑張ったユキノにご褒美あげないとな",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "これからも特訓あるのみだな！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "よっ！未来の名優！",
+                "Effect": "Stamina +10"
+              }
+            ]
+          },
+          {
+            "山育ちはたくましい": [
+              {
+                "Option": "助かったな……！",
+                "Effect": "Speed +20"
+              },
+              {
+                "Option": "いや、守ってくれてありがとう",
+                "Effect": "Power +20"
+              }
+            ]
+          },
+          {
+            "秋華賞の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "初詣": [
+              {
+                "Option": "甘いモンを食べる",
+                "Effect": "Energy +30"
+              },
+              {
+                "Option": "お散歩",
+                "Effect": "All 5 Stats +5"
+              },
+              {
+                "Option": "ちょこっと遊ぶ",
+                "Effect": "Skill Pt +35"
+              }
+            ]
+          },
+          {
+            "新たなチャレンジだべ！": [
+              {
+                "Option": "そんなことない！ユキノなら絶対できるよ！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "ドラマに出ているユキノを見てみたい",
+                "Effect": "Wisdom +10"
+              }
+            ]
+          },
+          {
+            "新年の抱負": [
+              {
+                "Option": "のびのび全力で遊ぶ！！",
+                "Effect": "Guts +10"
+              },
+              {
+                "Option": "まったりコーヒーでも飲む",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "モデルの過ごし方を真似る",
+                "Effect": "Skill Pt +20"
+              }
+            ]
+          },
+          {
+            "静かにしてくなンしぇ": [
+              {
+                "Option": "頼もしいな！",
+                "Effect": "Speed +10"
+              },
+              {
+                "Option": "俺たちも強気でいこう",
+                "Effect": "Guts +10"
+              }
+            ]
+          },
+          {
+            "大阪杯の後に": [
+              {
+                "Option": "1位",
+                "Effect": "All 5 Stats +3\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "2位",
+                "Effect": "All 5 Stats +2\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              },
+              {
+                "Option": "3位",
+                "Effect": "All 5 Stats +1\nSkill Pt +45\nScenario NPC Bond Gauge +4"
+              }
+            ]
+          },
+          {
+            "追加の自主トレ": [
+              {
+                "Option": "わかった、もうひと頑張りしよう！",
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+              },
+              {
+                "Option": "無理したら元も子もないよ",
+                "Effect": "Energy +5"
+              }
+            ]
+          },
+          {
+            "美浦寮物産展へようこそ！": [
+              {
+                "Option": "俺たちも全力でブースを回って楽しもう！",
+                "Effect": "Energy -5\nSpeed +15"
+              },
+              {
+                "Option": "力強い地元愛が伝わってくるよ",
+                "Effect": "Power +10"
+              }
+            ]
+          },
+          {
+            "福引チャンス！": [
+              {
+                "Option": "特賞(温泉旅行券)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "1等(特上にんじんハンバーグ)",
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
+              },
+              {
+                "Option": "2等(にんじん山盛り)",
+                "Effect": "Energy +20\nMood +1\nAll 5 Stats +5"
+              },
+              {
+                "Option": "3等(にんじん1本)",
+                "Effect": "Energy +20"
+              },
+              {
+                "Option": "はずれ",
+                "Effect": "Mood -1"
+              }
+            ]
+          },
+          {
+            "無茶は厳禁！": [
+              {
+                "Option": "無理はさせられない",
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+              },
+              {
+                "Option": "よし、今できることをやろう！",
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           }
@@ -20362,30 +21358,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -20410,18 +21382,6 @@
               {
                 "Option": "みんな楽しんでくれてたな",
                 "Effect": "Wisdom +20"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -20554,18 +21514,6 @@
             ]
           },
           {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
-              }
-            ]
-          },
-          {
             "夏合宿(2年目)にて": [
               {
                 "Option": "踏み込みをしっかりと",
@@ -20662,22 +21610,6 @@
               {
                 "Option": "町全体の動き",
                 "Effect": "Skill Pt +35"
-              }
-            ]
-          },
-          {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
               }
             ]
           },
@@ -20813,11 +21745,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -20837,11 +21769,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "無理はさせられない",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "本当に大丈夫？",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -21066,30 +21998,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "テストdeリカバリー☆": [
               {
                 "Option": "落ち着いて基礎を固めよう！",
@@ -21126,18 +22034,6 @@
               {
                 "Option": "繰り返し練習あるのみ",
                 "Effect": "Stamina +10"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -21246,18 +22142,6 @@
             ]
           },
           {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
-              }
-            ]
-          },
-          {
             "夏合宿(2年目)にて": [
               {
                 "Option": "体幹！ビーチでダンスレッスン",
@@ -21346,22 +22230,6 @@
               {
                 "Option": "ファル子の進化",
                 "Effect": "Skill Pt +35"
-              }
-            ]
-          },
-          {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
               }
             ]
           },
@@ -21485,11 +22353,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -21509,11 +22377,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "無理しちゃダメだ！",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "今こそガッツだ！",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -22262,30 +23130,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位",
@@ -22298,18 +23142,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -22462,18 +23294,6 @@
             ]
           },
           {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
-              }
-            ]
-          },
-          {
             "夏合宿(2年目)にて": [
               {
                 "Option": "筋力アップコースはどうだ？",
@@ -22578,22 +23398,6 @@
             ]
           },
           {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
-              }
-            ]
-          },
-          {
             "新年の抱負": [
               {
                 "Option": "学園巡回",
@@ -22637,11 +23441,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -22689,11 +23493,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "ダメに決まってるだろ",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "よし、やるぞ！",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -25030,30 +25834,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位（めざすは日本一）",
@@ -25066,18 +25846,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +20\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -25150,18 +25918,6 @@
               {
                 "Option": "失敗をバネにしよう",
                 "Effect": "G1：\n1 Random stat(s) +4\nSkill Pt +25"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
               }
             ]
           },
@@ -25254,22 +26010,6 @@
               {
                 "Option": "いろんな技を覚える！",
                 "Effect": "Skill Pt +35"
-              }
-            ]
-          },
-          {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
               }
             ]
           },
@@ -25401,11 +26141,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -25425,11 +26165,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "今は治すことだけ考えよう！(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "今日は休んで、また頑張ればいい！(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           }
@@ -26222,30 +26962,6 @@
             ]
           },
           {
-            "ついに集まったチームメンバー！": [
-              {
-                "Option": "タイキの＜HOP CHEERS＞",
-                "Effect": "Gain Team name<HOP CHEERS>\n※Requires Scenario Link Chara (タイキシャトルを)"
-              },
-              {
-                "Option": "フクキタルの＜ハレノヒ・ランナーズ＞",
-                "Effect": "Gain Team name<ハレノヒ・ランナーズ>\n※Requires Scenario Link Chara (マチカネフクキタルを)"
-              },
-              {
-                "Option": "ウララの＜にんじんぷりん＞",
-                "Effect": "Gain Team name<にんじんぷりん>\n※Requires Scenario Link Chara (ハルウララを)"
-              },
-              {
-                "Option": "ライスの＜ブルームス＞",
-                "Effect": "Gain Team name<ブルームス>\n※Requires Scenario Link Chara (ライスシャワーを)"
-              },
-              {
-                "Option": "チーム＜キャロッツ＞",
-                "Effect": "Gain Team name<キャロッツ>"
-              }
-            ]
-          },
-          {
             "デビュー戦の後に": [
               {
                 "Option": "1位(突然の大宣言)",
@@ -26258,18 +26974,6 @@
               {
                 "Option": "3位以下",
                 "Effect": "3 Random stat(s) +1\nSkill Pt +30\nScenario NPC Bond Gauge +4"
-              }
-            ]
-          },
-          {
-            "トレーナー並の知識": [
-              {
-                "Option": "力強さが課題なんですが……",
-                "Effect": "Power +10\nOtonashi Etsuko Bond Gauge +5"
-              },
-              {
-                "Option": "スピードが課題なんですが……",
-                "Effect": "Speed +10\nOtonashi Etsuko Bond Gauge +5"
               }
             ]
           },
@@ -26362,18 +27066,6 @@
             ]
           },
           {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": "Success：\nEnergy -15\nMood +1\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +15\n※Depends on entered race\n"
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": "Energy -15or-25or-30\n1 Random stat(s) +0～4\nSkill Pt +10～25\nOtonashi Etsuko Bond Gauge +10\n※Depends on entered race"
-              }
-            ]
-          },
-          {
             "夏合宿(2年目)にて": [
               {
                 "Option": "突貫力",
@@ -26462,22 +27154,6 @@
               {
                 "Option": "追いつけるかもしれない！",
                 "Effect": "Power +10"
-              }
-            ]
-          },
-          {
-            "上々の面構えッ！": [
-              {
-                "Option": "では、新しい練習用具をいただけますか？",
-                "Effect": "Energy -10\nPower +20\nGuts +20\n「Like The Wind」Hint Lv +1"
-              },
-              {
-                "Option": "では、にんじんを分けていただけますか？",
-                "Effect": "Energy +30\nStamina +20\n「Breath of Fresh Air」Hint Lv +1"
-              },
-              {
-                "Option": "選択肢なしの場合",
-                "Effect": "Mood -1"
               }
             ]
           },
@@ -26577,11 +27253,11 @@
             "福引チャンス！": [
               {
                 "Option": "特賞(温泉旅行券)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "1等(特上にんじんハンバーグ)",
-                "Effect": "Energy +30\nMood 2段階Up\nAll 5 Stats +10"
+                "Effect": "Energy +30\nMood +2\nAll 5 Stats +10"
               },
               {
                 "Option": "2等(にんじん山盛り)",
@@ -26617,11 +27293,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "いいや、俺のミスだ(夏合宿中：とにかく労わる)",
-                "Effect": "Energy +10\nMood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "確かに、気合いが足りなかった(夏合宿中：厳しくいく！)",
-                "Effect": "Mood 3段階Down\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nGain 「Bad Practice」"
               }
             ]
           },
@@ -28562,18 +29238,6 @@
               {
                 "Option": "",
                 "Effect": "Same as above"
-              }
-            ]
-          },
-          {
-            "乙名史記者の徹底取材": [
-              {
-                "Option": "現状を真摯に受け止めます",
-                "Effect": ""
-              },
-              {
-                "Option": "このまま突き進みます！！",
-                "Effect": ""
               }
             ]
           },
@@ -31739,7 +32403,7 @@
             "交感：走力の限界突破に関する質的研究": [
               {
                 "Option": "上選択肢",
-                "Effect": "Mood 1段階Up\nEnergy +10\nBond Gauge +5"
+                "Effect": "Mood +1\nEnergy +10\nBond Gauge +5"
               },
               {
                 "Option": "下選択肢",
@@ -31824,6 +32488,46 @@
               {
                 "Option": "まずは1度様子を見よう",
                 "Effect": "「Faltering Runners」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[TT Ignition!] Twin Turbo": {
+        "Event": [
+          {
+            "ターボを追っかけて！": [
+              {
+                "Option": "必殺技で逃げるんだ！",
+                "Effect": "Success：\nSpeed +15\nGuts +15\nBond Gauge +5"
+              },
+              {
+                "Option": "心を鬼にして見守る",
+                "Effect": "Skill Pt +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "思い込んだら一直線！": [
+              {
+                "Option": "それならスピードを優先した方がいい",
+                "Effect": "Mood -1\nSpeed +20"
+              },
+              {
+                "Option": "確かにパワーは大事！",
+                "Effect": "Energy -10\nPower +20\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "燃えてきた！！": [
+              {
+                "Option": "簡単な曲でミスを減らしてみるのは？",
+                "Effect": "Energy +15\nBond Gauge +5"
+              },
+              {
+                "Option": "激ムズに挑戦してスコアを稼ごう！",
+                "Effect": "「Frontrunner」Hint Lv +1\nBond Gauge +5"
               }
             ]
           }
@@ -32697,6 +33401,58 @@
           }
         ]
       },
+      "[Teioo-oo-ooo!!!] Tokai Teio": {
+        "Event": [
+          {
+            "“カッコよさ”は1つじゃない": [
+              {
+                "Option": "テイオーのアドリブも見事だった",
+                "Effect": "Success：\nSkill Pt +20\n「Favorite Place」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "“縁の下の力持ち”は大人っぽい役目だな",
+                "Effect": "Power +10\nWisdom +10\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "ボクのやり方": [
+              {
+                "Option": "自分に合う方法が1番！",
+                "Effect": "Mood +1\nSkill Pt +15\nBond Gauge +5"
+              },
+              {
+                "Option": "我慢した後に走ったらもっと気持ちいいよ",
+                "Effect": "Guts +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "ボクの武器": [
+              {
+                "Option": "全部できるとかっこいいよ！",
+                "Effect": "Mood +1\nGuts +10\nBond Gauge +5"
+              },
+              {
+                "Option": "今も十分すごい武器を持ってるよ",
+                "Effect": "「Leader's Straights ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "帝王の泣きどころ": [
+              {
+                "Option": "次こそ帝王の強さを見せつけよう！",
+                "Effect": "Mood +2\nBond Gauge +5"
+              },
+              {
+                "Option": "やっぱり連携すると強いな……",
+                "Effect": "Power +5\nWisdom +10\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
       "[Trifle ☆ Vacation] Daiwa Scarlet": {
         "Event": [
           {
@@ -33224,6 +33980,46 @@
               {
                 "Option": "ライバルをよく観察しよう！",
                 "Effect": "Stamina +5\nWisdom +5\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Uchronia Architect] Biwa Hayahide": {
+        "Event": [
+          {
+            "ぎりぎり様相論": [
+              {
+                "Option": "ぎりぎりまでトレーニング",
+                "Effect": "Power +15\nBond Gauge +5"
+              },
+              {
+                "Option": "前のレースを観察する",
+                "Effect": "Speed +10\nSkill Pt +15\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "仮想空間を活用した認知の修正について": [
+              {
+                "Option": "みんなで盛り上がれそうでいいな！",
+                "Effect": "Stamina +20\nBond Gauge +5"
+              },
+              {
+                "Option": "準備は順調？",
+                "Effect": "Skill Pt +10\n「Breakaway Prep」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "脱・無難論": [
+              {
+                "Option": "頭で考えるより、行動あるのみ",
+                "Effect": "Energy -10\n「King of the Castle」Hint Lv +1\nBond Gauge +5"
+              },
+              {
+                "Option": "ケガをしたら元も子もない",
+                "Effect": "Energy +10\nStamina +10\nBond Gauge +5"
               }
             ]
           }
@@ -35032,7 +35828,7 @@
             "お花屋さんでの1ページ": [
               {
                 "Option": "水やり手伝おうか？",
-                "Effect": "Mood が2段階Up\nBond Gauge +5"
+                "Effect": "Mood +2\nBond Gauge +5"
               },
               {
                 "Option": "花の品出しをしてこようか？",
@@ -35169,6 +35965,50 @@
               {
                 "Option": "てるてる坊主を作ろう！",
                 "Effect": "「Track Condition (Good) ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          }
+        ]
+      },
+      "[Heroine Blessed with Magic] Zenno Rob Roy": {
+        "Event": [
+          {
+            "託された物語": [
+              {
+                "Option": "図書委員に確認するのがいいかもね",
+                "Effect": "Stamina +10\nWisdom +10\nBond Gauge +5"
+              },
+              {
+                "Option": "その本、どんなストーリー？",
+                "Effect": "「Medium Distance Straights ○」Hint Lv +1\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "読書家あるある": [
+              {
+                "Option": "ラストのカーチェイスが凄かった",
+                "Effect": "Speed +5\nWisdom +5\nBond Gauge +5"
+              },
+              {
+                "Option": "映像が綺麗だったよね",
+                "Effect": "Energy +10\nPower +5\nBond Gauge +5"
+              }
+            ]
+          },
+          {
+            "読書少女と秘密の作戦会議": [
+              {
+                "Option": "魅力的な宣伝かな？",
+                "Effect": "Stamina +5\n「Right Turns ○」Hint Lv +2\nBond Gauge +5"
+              },
+              {
+                "Option": "雰囲気をもっと出すとか……",
+                "Effect": "Speed +5\n「Left Turns ○」Hint Lv +2\nBond Gauge +5"
+              },
+              {
+                "Option": "衣装も凝った方がいいと思う！",
+                "Effect": "Wisdom +30\nBond Gauge +5"
               }
             ]
           }

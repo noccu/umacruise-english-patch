@@ -32,6 +32,14 @@
         "effect": ">"
     },
     {
+        "originEffect": "が?(\\d)段階ダウン",
+        "effect": "-$1"
+    },
+    {
+        "originEffect": "が?(\\d)段階アップ",
+        "effect": "+$1"
+    },
+    {
         "originEffect": "練習上手〇?",
         "effect": "Good Practice"
     },
