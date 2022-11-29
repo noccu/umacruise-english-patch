@@ -8,8 +8,16 @@
         "effect": "]"
     },
     {
-        "originEffect": "、",
-        "effect": ","
+        "originEffect": "[、,]",
+        "effect": "\n"
+    },
+    {
+        "originEffect": "[『「]+",
+        "effect": "「"
+    },
+    {
+        "originEffect": "[」』]+",
+        "effect": "」"
     },
     {
         "originEffect": "？",
@@ -30,6 +38,10 @@
     {
         "originEffect": "＞",
         "effect": ">"
+    },
+    {
+        "originEffect": "調査中",
+        "effect": "<Investigating>"
     },
     {
         "originEffect": "が?(\\d)段階ダウン",
@@ -60,7 +72,7 @@
         "effect": "Migraine"
     },
     {
-        "originEffect": "練習(?:ベタ|下手)?〇?",
+        "originEffect": "練習(?:ベタ|下手)〇?",
         "effect": "Bad Practice"
     },
     {
@@ -88,6 +100,10 @@
         "effect": "Shining"
     },
     {
+        "originEffect": "小心者",
+        "effect": "Timid"
+    },
+    {
         "skill": true
     },
     {
@@ -102,6 +118,10 @@
         "effect": "President Akikawa "
     },
     {
+        "originEffect": "ライトハロー",
+        "effect": "Light Hello "
+    },
+    {
         "originEffect": "乙名史記者",
         "effect": "Otonashi Etsuko "
     },
@@ -110,7 +130,7 @@
         "effect": "Kashimoto Riko "
     },
     {
-        "originEffect": "(?:シナリオに応じた|シナリオ)NPC",
+        "originEffect": "各?(?:シナリオに応じた|シナリオ)の?NPC",
         "effect": "Scenario NPC "
     },
     {
@@ -175,6 +195,10 @@
         "effect": "Selected Stats "
     },
     {
+        "originEffect": "選択した練習",
+        "effect": "Selected Training "
+    },
+    {
         "originEffect": "上に同じ",
         "effect": "Same as above"
     },
@@ -195,12 +219,16 @@
         "effect": "Randomly gain $1"
     },
     {
-        "originEffect": "(?:ランダム|確率)(?:で|に)?(.+?)に?(?:なる)?$",
-        "effect": "Randomly gain $1"
+        "originEffect": "(?:ランダム|確率)(?:で|に)?(.+?)に?(?:なる)?$|(.+?)になる\\(ランダム\\)$",
+        "effect": "Randomly gain $1$2"
     },
     {
-        "originEffect": "^.*お出かけ(?:できるように|可能に?)な(?:る|った)",
+        "originEffect": "^.*お出かけが?(?:できるよう|可能)(?:に?な(?:る|った))?",
         "effect": "Can start dating"
+    },
+    {
+        "originEffect": "^.*と?(?:お出かけに誘えなくなる|お出かけできない)",
+        "effect": "Can no longer date"
     },
     {
         "originEffect": "次のトレーニングが(\\d)種類だけになる",
@@ -239,12 +267,20 @@
         "effect": "<End>"
     },
     {
+        "originEffect": "(\\d)or",
+        "effect": "$1/"
+    },
+    {
         "originEffect": "または",
         "effect": " or "
     },
     {
         "originEffect": "^(.+)になる|^(.+)取得",
         "effect": "Gain $1"
+    },
+    {
+        "originEffect": "バッドコンディション全回復",
+        "effect": "Heal all negative conditions"
     },
     {
         "originEffect": "バッドコンディション(?:が|を)(?:解消|治る)",

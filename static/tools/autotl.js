@@ -91,7 +91,8 @@ function lookupSkills(str) {
     for (let [, m1, m2] of str.matchAll(/「([^a-z].+?)」|(.+?)のヒント/gi)) {
         let jpSkill = m1 || m2;
         if (!jpSkill) continue;
-        let enSkill = umaDbData.skillName[jpSkill.replace(/[〇◯]/, "○")];
+        let cleanedName = jpSkill.replace(/[〇◯]/, "○")
+        let enSkill = umaDbData.skillName[cleanedName] || umaDbData.skillName[cleanedName + "○"];
         if (enSkill) {
             if (!m1) { enSkill = `「${enSkill}」` };
             lookup.push({ jp: jpSkill, en: enSkill });
@@ -102,7 +103,8 @@ function lookupSkills(str) {
 
 function lookupRaces(str) {
     let lookup = []
-    for (let [, race] of str.matchAll(/「(.*?)」/gi)) {
+    for (let [, race, race2] of str.matchAll(/「(.+?)」|目標(?:レース)?が([^ 「]+)に(?:なる)?/gi)) {
+        race = race || race2
         let enRace = umaDbData.races[race];
         if (enRace) {
             lookup.push({ jp: race, en: enRace });
