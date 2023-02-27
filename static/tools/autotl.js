@@ -14,7 +14,7 @@ if (!dbTranslateDir) usage();
 
 const umaDbDir = {
     skillName: join(dbTranslateDir, "skill-name.json"),
-    umas: join(dbTranslateDir, "uma-name.json"),
+    umas: join(dbTranslateDir, "char-name.json"),
     titles: join(dbTranslateDir, "uma-title.json"),
     fullCards: join(dbTranslateDir, "support-full-name.json"),
     cardTitles: join(dbTranslateDir, "support-title.json"),
