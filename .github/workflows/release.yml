@@ -3,16 +3,29 @@ name: Create Release
 on:
   push:
     branches: [ main ]
+  schedule:
+    # Run midnight every monday
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 
 jobs:
   release:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - name: Translate 
+        if: vars.AUTO_UPDATE == 'true' && github.event_name != 'push'
+        run: |
+          curl -o jp.json -L https://github.com/po-po-po-pong/umaumacruise_customjson/raw/main/UmaMusumeLibrary.json
+          curl -o files.json -L https://api.github.com/repos/noccu/umamusu-translate/contents/translations/mdb?ref=master
+          jq --raw-output ".[] | select(.download_url != null).download_url" files.json > urls.txt
+          mkdir mdb
+          cd mdb
+          curl --remote-name-all $(cat ../urls.txt)
+          cd ..
+          node tools/autotl.js mdb jp.json libraries\UmaMusumeLibrary.json
+          cp libraries\UmaMusumeLibrary.json libraries\UmaMusumeLibrary_v2.json
 
       - name: Zip JSON files
         run: zip -j UmaUmaCruise_EN-patch.zip libraries/*.json
