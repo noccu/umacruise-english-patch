@@ -1,14 +1,13 @@
-//* Run from static dir
 // This script sorts keys in an old UmaMusumeLibrary.json file, to the order of a new one, and logs missing keys. For diffing.
 // newfile = translated straight from the japanese one
 // oldfile = previous translated file (static)
 import fs from "fs"
 import { exit } from "process";
 
-const oldfile = process.argv[3] || "UmaMusumeLibrary.json",
+const oldfile = process.argv[3] || "libraries/UmaMusumeLibrary.json",
     newFile = process.argv[2] || "new.json",
-    outFile = "UmaMusumeLibrary.sorted.json",
-    storyFile = "UmaMusumeLibraryMainStory.json";
+    outFile = "libraries/UmaMusumeLibrary.sorted.json",
+    storyFile = "libraries/UmaMusumeLibraryMainStory.json";
 var oldData,
     newData;
 const sortedData = {};

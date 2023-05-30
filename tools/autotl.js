@@ -4,21 +4,21 @@ import fs from "fs"
 import { exit } from "process";
 import { join } from "path";
 
-const inputFile = process.argv[3] && process.argv[3] != "-" ? process.argv[3] : "UmaMusumeLibrary.json",
+const inputFile = process.argv[3] && process.argv[3] != "-" ? process.argv[3] : "libraries/UmaMusumeLibrary.json",
     outFile = process.argv[4] || inputFile,
-    tlFile = "../UmaMusume_EffectTranslation.json",
-    dbTranslateDir = process.argv[2],
+    tlFile = "UmaMusume_EffectTranslation.json",
+    umatlDir = process.argv[2],
     altMap = "tools/map.json";
 
-if (!dbTranslateDir) usage();
+if (!umatlDir) usage();
 
 const umaDbDir = {
-    skillName: join(dbTranslateDir, "skill-name.json"),
-    umas: join(dbTranslateDir, "char-name.json"),
-    titles: join(dbTranslateDir, "uma-title.json"),
-    fullCards: join(dbTranslateDir, "support-full-name.json"),
-    cardTitles: join(dbTranslateDir, "support-title.json"),
-    races: join(dbTranslateDir, "race-name.json")
+    skillName: join(umatlDir, "skill-name.json"),
+    umas: join(umatlDir, "char-name.json"),
+    titles: join(umatlDir, "uma-title.json"),
+    fullCards: join(umatlDir, "support-full-name.json"),
+    cardTitles: join(umatlDir, "support-title.json"),
+    races: join(umatlDir, "race-name.json")
 };
 var umaDbData = {},
     inputData,
