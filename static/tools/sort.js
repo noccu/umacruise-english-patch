@@ -7,21 +7,30 @@ import { exit } from "process";
 
 const oldfile = process.argv[3] || "UmaMusumeLibrary.json",
     newFile = process.argv[2],
-    outFile = "UmaMusumeLibrary.sorted.json";
+    outFile = "UmaMusumeLibrary.sorted.json",
+    storyFile = "UmaMusumeLibraryMainStory.json";
 var oldData,
     newData;
 const sortedData = {};
+const storyEvents = [];
 
 function readFiles() {
     oldData = JSON.parse(fs.readFileSync(oldfile, "utf8"));
     newData = JSON.parse(fs.readFileSync(newFile, "utf8"));
+    let storyData = JSON.parse(fs.readFileSync(storyFile, "utf8")).MainStory.None;
+    for (let [story, data] of Object.entries(storyData)) {
+        for (let list of data.Event) {
+            let name = Object.keys(list)[0]
+            storyEvents.push(name)
+        }
+    }
 }
 
 // Takes new file and updates old to the same key order
 function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
     if (depth > 2) return;
     for (let [newKey, newVal] of Object.entries(newJson)) {
-        let entity = oldJson[newKey]
+        let oldVal = oldJson[newKey]
         // Copy keys before chars/cards
         if (depth < 2) {
             sortedJson[newKey] = {};
@@ -29,23 +38,29 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
         // Copy char/card objects from old file
         // newKey = char/card name
         else if (depth == 2) {
-            if (!entity) {
+            // if (newKey.includes("Glaçage")) debugger
+            if (!oldVal) {
                 let recover = attemptEntityRecovery(newVal, oldJson);
                 if (recover) {
                     console.warn(`Recovered ${newKey} as ${recover.oldEntityName}\n`);
-                    ({oldEntity: entity, oldEntityName: newKey} = recover);
+                    ({oldEntity: oldVal, oldEntityName: newKey} = recover);
                 }
                 else {
                     // Add new values after exhausting options
                     // console.log(`Adding new key: ${newKey}`);
-                    entity = newVal;
+                    oldVal = newVal;
                 }
             }
-            sortedJson[newKey] = entity;
+
+            let oldEvents = oldVal["Event"]
+            let newEvents = newVal["Event"]
+            oldVal["Event"] = oldEvents.filter(e => !storyEvents.includes(Object.keys(e)[0]))
+            newVal["Event"] = newEvents.filter(e => !storyEvents.includes(Object.keys(e)[0]))
+            sortedJson[newKey] = oldVal;
         }
         
         // Recurse, note use of newVal is not affected by entity recovery
-        sort(newVal, entity, sortedJson[newKey], depth + 1);
+        sort(newVal, oldVal, sortedJson[newKey], depth + 1);
     }
 
     //This depth is the list for a given rarity -> keys = chars/cards
@@ -108,6 +123,7 @@ function attemptEntityRecovery(newEntity, oldEntityList) {
 
 function writeFile() {
     fs.writeFileSync(outFile, JSON.stringify(sortedData, null, 2), "utf-8");
+    fs.writeFileSync(newFile, JSON.stringify(newData, null, 2), "utf-8");
 }
 
 //* Main
