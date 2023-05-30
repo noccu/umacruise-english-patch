@@ -6,7 +6,7 @@ import fs from "fs"
 import { exit } from "process";
 
 const oldfile = process.argv[3] || "UmaMusumeLibrary.json",
-    newFile = process.argv[2],
+    newFile = process.argv[2] || "new.json",
     outFile = "UmaMusumeLibrary.sorted.json",
     storyFile = "UmaMusumeLibraryMainStory.json";
 var oldData,
