@@ -2,7 +2,7 @@ name: Create Release
 
 on:
   push:
-    branches: [ static ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Zip JSON files
-        run: zip -j UmaUmaCruise_EN-patch.zip static/*.json
+        run: zip -j UmaUmaCruise_EN-patch.zip libraries/*.json
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
