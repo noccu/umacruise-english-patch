@@ -31,6 +31,7 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
     if (depth > 2) return;
     for (let [newKey, newVal] of Object.entries(newJson)) {
         let oldVal = oldJson[newKey]
+        let skipEventSort = false
         // Copy keys before chars/cards
         if (depth < 2) {
             sortedJson[newKey] = {};
@@ -49,6 +50,7 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
                     // Add new values after exhausting options
                     // console.log(`Adding new key: ${newKey}`);
                     oldVal = newVal;
+                    skipEventSort = true
                 }
             }
 
@@ -56,6 +58,33 @@ function sort(newJson, oldJson, sortedJson = sortedData, depth = 0) {
             let newEvents = newVal["Event"]
             oldVal["Event"] = oldEvents.filter(e => !storyEvents.includes(Object.keys(e)[0]))
             newVal["Event"] = newEvents.filter(e => !storyEvents.includes(Object.keys(e)[0]))
+
+            if (!skipEventSort) {
+                //sort events array
+                if (oldEvents && newEvents) {
+                    let oldIdx = oldEvents.reduce((p, c, i) => { p[Object.keys(c)[0]] = i; return p }, {})
+                    // let newIdx = newEvents.reduce((p, c, i) => { p[Object.keys(c)[0]] = i; return p }, {})
+                    newVal["Event"].sort((a, b) => {
+                        let titleA = Object.keys(a)[0]
+                        let titleB = Object.keys(b)[0]
+                        // console.log(titleA, titleB)
+                        // console.log(oldIdx[titleA], oldIdx[titleB])
+                        a = oldIdx[titleA]
+                        b = oldIdx[titleB]
+                        let x = 0
+                        if (a === undefined && b === undefined) x = 0
+                        else if (a === undefined) x = 1
+                        else if (b === undefined) x = -1
+                        else x = a - b
+                        // else if (a > b) x = 1
+                        // else if (a < b) x = -1
+                        // else x = 0
+                        // console.log(x)
+                        return x
+                    })
+                }
+            }
+
             sortedJson[newKey] = oldVal;
         }
         
