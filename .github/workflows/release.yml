@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Translate 
         if: vars.AUTO_UPDATE == 'true' && github.event_name != 'push'
         run: |
@@ -30,10 +30,10 @@ jobs:
       - name: Zip JSON files
         run: zip -j UmaUmaCruise_EN-patch.zip libraries/*.json
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - uses: "softprops/action-gh-release@v1"
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          tag_name: "latest"
           prerelease: false
-          title: "Latest update"
+          name: "Latest update"
           files: UmaUmaCruise_EN-patch.zip
