@@ -1,8 +1,8 @@
 name: Create Release
 
 on:
-  push:
-    branches: [ main ]
+  # push:
+  #   branches: [ main ]
   schedule:
     # Run midnight every monday
     - cron: '0 0 * * 1'
