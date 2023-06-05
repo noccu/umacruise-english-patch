@@ -35,5 +35,6 @@ jobs:
           token: "${{ secrets.GITHUB_TOKEN }}"
           tag_name: "latest"
           prerelease: false
+          generate_release_notes: true
           name: "Latest update"
           files: UmaUmaCruise_EN-patch.zip
