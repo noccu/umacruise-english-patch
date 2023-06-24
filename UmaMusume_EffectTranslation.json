@@ -44,11 +44,11 @@
         "effect": "<Investigating>"
     },
     {
-        "originEffect": "が?(\\d)段階ダウン",
+        "originEffect": "が?(\\d)段階ダウン(?:する)?",
         "effect": "-$1"
     },
     {
-        "originEffect": "が?(\\d)段階アップ",
+        "originEffect": "が?(\\d)段階アップ(?:する)?",
         "effect": "+$1"
     },
     {
@@ -143,7 +143,7 @@
         "effect": "Aoharu:"
     },
     {
-        "originEffect": "URA",
+        "originEffect": "URA：?",
         "effect": "URA:"
     },
     {
@@ -171,20 +171,24 @@
         "effect": "Team strength up"
     },
     {
-        "originEffect": "(?:5種ステータスから)?ランダム[にな]?(?:ステータス)?(\\d)種を?",
+        "originEffect": "(?:(?:5種|全)ステータスから)?ランダム[にな]?(?:(?:ステ|ステータス)?(?:UP|DOWN|(\\d)[種個]))(?:ステ|ステータス)?(?:UP|DOWN)?を?",
         "effect": "$1 Random stat(s) "
     },
     {
-        "originEffect": "(\\d)種の中からランダムで(\\d)種",
-        "effect": "From $1 stats, $2 random stats "
+        "originEffect": "(\\d|全)(?:種の中|ステータス)からランダムで?(\\d)種を?",
+        "effect": "From $1 stats, $2 random stat(s) "
     },
     {
         "originEffect": "5種(?:すべて|ステ(?:ータス)?)を?",
-        "effect": "All 5 Stats "
+        "effect": "All stats "
     },
     {
         "originEffect": "直前のトレ項目|(?:直前の)?トレーニング(?:種別|種)|直前[にの]トレーニング(?:した|に応じた)ステ(?:ータス)?",
         "effect": "Last Trained Stat(s) "
+    },
+    {
+        "originEffect": "ステータス([\\-+]\\d+)（直前のトレーニング）",
+        "effect": "Last Trained Stat $1"
     },
     {
         "originEffect": "全ステ(?:ータス)?",
@@ -251,7 +255,7 @@
         "effect": "「$2」 Race objective changes to 「$1」"
     },
     {
-        "originEffect": "目標が「(.*)」に",
+        "originEffect": "目標(?:レース)?が「(.*)」に(?:なる)?",
         "effect": "Set objective to「$1」"
     },
     {
@@ -283,7 +287,7 @@
         "effect": "Heal all negative conditions"
     },
     {
-        "originEffect": "バッドコンディション(?:が|を)(?:解消|治る)",
+        "originEffect": "(?:バッド|悪い)?コンディション(?:が|を)(?:解消|治る)",
         "effect": "Heal negative condition"
     },
     {
@@ -291,7 +295,7 @@
         "effect": "Activates during Summer Camp"
     },
     {
-        "originEffect": "イベント(?:終了|打ち切り)",
+        "originEffect": "(?:連続)?イベントが?(?:終了|打ち切り)",
         "effect": "Event chain ended"
     },
     {
@@ -399,11 +403,11 @@
         "effect": "Chaser "
     },
     {
-        "originEffect": "やる気",
+        "originEffect": "やる[き気]が?",
         "effect": "Mood "
     },
     {
-        "originEffect": "の?絆(?:ゲージ)?",
+        "originEffect": "の?絆(?:ゲージ)?|ゲージ",
         "effect": "Bond Gauge "
     },
     {
@@ -419,6 +423,18 @@
         "effect": " Hint Lv "
     },
     {
+        "originEffect": "赤色の欠片",
+        "effect": "Red Fragment"
+    },
+    {
+        "originEffect": "青色の欠片",
+        "effect": "Blue Fragment"
+    },
+    {
+        "originEffect": "黄色の欠",
+        "effect": "Yellow Fragment"
+    },
+    {
         "originEffect": "の?最大値",
         "effect": "Max "
     },
@@ -429,6 +445,10 @@
     {
         "originEffect": "種",
         "effect": " Stats "
+    },
+    {
+        "originEffect": "全",
+        "effect": "all"
     },
     {
         "originEffect": "低",

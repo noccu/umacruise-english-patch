@@ -195,7 +195,7 @@
               },
               {
                 "Option": "タイキをぐんぐん成長させられますように！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "タイキの走りが上達しますように",
@@ -275,7 +275,7 @@
               },
               {
                 "Option": "テイク・オフ!",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -415,7 +415,7 @@
               },
               {
                 "Option": "砂遊びをやろう！",
-                "Effect": "「砂遊び〇」Hint Lv +1 Hint Lv "
+                "Effect": "「砂遊び〇」Hint Lv +1 Hint Lv"
               }
             ]
           },
@@ -491,7 +491,7 @@
               },
               {
                 "Option": "幸運の杖",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "今年用の日記帳",
@@ -675,7 +675,7 @@
               },
               {
                 "Option": "おみくじで運気アップ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新たな技を身に着けよう",
@@ -715,7 +715,7 @@
               },
               {
                 "Option": "スイーツ、食べまくろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -939,11 +939,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "無理だと思う…",
-                "Effect": "Energy +10\nMood -3\nステータス-10（直前のトレーニング）\nAll Stats から2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat -10\n2 Random stat(s) -10\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "君ならできそうだけど…",
-                "Effect": "Mood -3する\nステータス-10（直前のトレーニング）\nAll Stats から2 Random stat(s) -10\nGain 「Bad Practice」Energy +10\nGain 「Good Practice」"
+                "Effect": "Mood -3\nLast Trained Stat -10\n2 Random stat(s) -10\nGain 「Bad Practice」Energy +10\nGain 「Good Practice」"
               }
             ]
           },
@@ -951,11 +951,11 @@
             "お大事に！": [
               {
                 "Option": "なら、今はここだな",
-                "Effect": "Mood がDown\nステータス-5（直前のトレーニング）\nRandomly gain 「Bad Practice」"
+                "Effect": "Mood Down\nLast Trained Stat -5\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "わかった、行こう",
-                "Effect": "Mood がDown\nステータス-10（直前のトレーニング）\nGain Randomly gain 「Bad Practice」Good Practice"
+                "Effect": "Mood Down\nLast Trained Stat -10\nGain Randomly gain 「Bad Practice」Good Practice"
               }
             ]
           },
@@ -963,7 +963,7 @@
             "追加の自主トレ": [
               {
                 "Option": "なら付き合うよ",
-                "Effect": "Energy -5\nステータス+5（直前のトレーニング）\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "今日はもうダメ",
@@ -1171,7 +1171,7 @@
               },
               {
                 "Option": "全身のウロコ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "往き去りし者の叡智",
@@ -1415,7 +1415,7 @@
               },
               {
                 "Option": "新春山ごもり",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "睡眠学習",
@@ -1467,7 +1467,7 @@
               },
               {
                 "Option": "ありがたく全部いただこう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -1655,7 +1655,7 @@
               },
               {
                 "Option": "なら、全力の限界を越えよう！！",
-                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also: \nEnergy +10\n「Good Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also:\nEnergy +10\n「Good Practice」"
               }
             ]
           },
@@ -1683,7 +1683,7 @@
               },
               {
                 "Option": "全力でおみくじを引こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "全力で新しい技の勉強だ！",
@@ -1735,7 +1735,7 @@
               },
               {
                 "Option": "満足するまで全力で食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -1951,7 +1951,7 @@
               },
               {
                 "Option": "天才ノラ猫の服部忍び丸へ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "無限の可能性を秘めているアリ村さんへ",
@@ -1999,7 +1999,7 @@
             "追加の自主トレ": [
               {
                 "Option": "やってみよう！",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになるからやめよう",
@@ -2051,11 +2051,11 @@
             "天皇賞（秋）の後に・空に手を": [
               {
                 "Option": "マイル路線の『安田記念』",
-                "Effect": "Gain 目標レースが「Yasuda Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
+                "Effect": "Set objective to「Yasuda Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
               },
               {
                 "Option": "中距離路線の『宝塚記念』",
-                "Effect": "Gain 目標レースが「Takarazuka Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
+                "Effect": "Set objective to「Takarazuka Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
               }
             ]
           },
@@ -2195,7 +2195,7 @@
               },
               {
                 "Option": "成長のために基礎から取り組もう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "みんなを蹴散らすスキルも身につけよう",
@@ -2235,7 +2235,7 @@
               },
               {
                 "Option": "上達のたえにたくさん作って食べよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -2375,7 +2375,7 @@
               },
               {
                 "Option": "おしるこをもらいに",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "お守りを見に",
@@ -2619,7 +2619,7 @@
               },
               {
                 "Option": "お参りでたくさんお願い",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "クラブのデイイベントに行く",
@@ -2779,7 +2779,7 @@
               },
               {
                 "Option": "運を天に任せておみくじ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新春セールにブッコミ",
@@ -2831,7 +2831,7 @@
               },
               {
                 "Option": "自分のペースで食べればいけると思う！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -3107,7 +3107,7 @@
               },
               {
                 "Option": "パリピの始祖",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "ビリヤード神",
@@ -3135,7 +3135,7 @@
               },
               {
                 "Option": "共に魔界に墜ちよう……",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -3375,7 +3375,7 @@
               },
               {
                 "Option": "おみくじで運気アップ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新たな技を身に着けよう",
@@ -3415,7 +3415,7 @@
               },
               {
                 "Option": "スイーツ、食べまくろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -3635,7 +3635,7 @@
               },
               {
                 "Option": "大願成就",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "技能向上",
@@ -3695,7 +3695,7 @@
             "追加の自主トレ": [
               {
                 "Option": "頑張ってきて！",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになるから自転車で",
@@ -3939,7 +3939,7 @@
               },
               {
                 "Option": "ライスの走りを支え続けたい",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "力が欲しい……！",
@@ -3991,7 +3991,7 @@
               },
               {
                 "Option": "デザートは別腹！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -4239,7 +4239,7 @@
               },
               {
                 "Option": "お言葉に甘えたら?",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -4507,7 +4507,7 @@
               },
               {
                 "Option": "お願いごとを書こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "年賀状を交換しよう！",
@@ -4571,7 +4571,7 @@
               },
               {
                 "Option": "歩き回った分たくさん食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -4827,7 +4827,7 @@
               },
               {
                 "Option": "福袋を買いに行く",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "書き初めをする",
@@ -4995,7 +4995,7 @@
               },
               {
                 "Option": "どんどん食べて体を強くしよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -5271,7 +5271,7 @@
               },
               {
                 "Option": "よし！栄養ガッツリとろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -5559,7 +5559,7 @@
               },
               {
                 "Option": "成長祈願!詣でまくりコース",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "飛び道具！？滝行コース",
@@ -5787,7 +5787,7 @@
               },
               {
                 "Option": "よいではないか～、よいではないか～",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -6087,11 +6087,11 @@
             "宝塚記念の後に": [
               {
                 "Option": "めっちゃすごい",
-                "Effect": "All 5 Stats +3\nSkill Pt +45\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Stand Your Ground」Hint Lv +1"
+                "Effect": "All stats +3\nSkill Pt +45\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Stand Your Ground」Hint Lv +1"
               },
               {
                 "Option": "歴史に名を残すレベルですごい",
-                "Effect": "All 5 Stats +3\nSkill Pt +45～+50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming」"
+                "Effect": "All stats +3\nSkill Pt +45～+50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming」"
               }
             ]
           },
@@ -6119,7 +6119,7 @@
               },
               {
                 "Option": "調理テクを身につけよう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "斬新なアレンジを考えよう",
@@ -6171,7 +6171,7 @@
               },
               {
                 "Option": "合点",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -6399,7 +6399,7 @@
               },
               {
                 "Option": "フランス人になりきる",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "日仏ゲーム対決",
@@ -6459,7 +6459,7 @@
             "追加の自主トレ": [
               {
                 "Option": "やってみよう！",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになるからやめよう",
@@ -6591,7 +6591,7 @@
               },
               {
                 "Option": "しっかり食べて、味レポしなきゃな！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -6631,7 +6631,7 @@
               },
               {
                 "Option": "パワースポットで能力アップ…？",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "一か八かの感覚をつかみに行く、とか",
@@ -6855,7 +6855,7 @@
               },
               {
                 "Option": "(たくさんレースで活躍できますように)",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "(多くの楽しみを見つけられますように)",
@@ -7079,7 +7079,7 @@
               },
               {
                 "Option": "成長祈願!詣でまくりコース",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "飛び道具！？滝行コース",
@@ -7247,7 +7247,7 @@
               },
               {
                 "Option": "思い切り体を動かしにいこう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "海でも見に行く？",
@@ -7483,7 +7483,7 @@
               },
               {
                 "Option": "脳もバナナを求めているはず！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -7687,7 +7687,7 @@
               },
               {
                 "Option": "数学の講演についていく",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新春レースイベントについていく",
@@ -7907,7 +7907,7 @@
               },
               {
                 "Option": "止まらなくなるよね",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\nGain 「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\nGain 「Overweight」"
               }
             ]
           },
@@ -8243,7 +8243,7 @@
               },
               {
                 "Option": "よし！行ってらっしゃい！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -8387,7 +8387,7 @@
             "レース場グルメの誘惑": [
               {
                 "Option": "一緒に食べよう",
-                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               },
               {
                 "Option": "我慢しよう",
@@ -8483,7 +8483,7 @@
               },
               {
                 "Option": "いつも通りのトレーニングだ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "福袋を買いに行こう！",
@@ -8523,7 +8523,7 @@
               },
               {
                 "Option": "お腹いっぱい食べよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -8811,7 +8811,7 @@
               },
               {
                 "Option": "バランスの取れたトレーニングかな",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "得意な武器を磨くことかな",
@@ -9055,7 +9055,7 @@
               },
               {
                 "Option": "能力を底上げする！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "色んな技を覚える！",
@@ -9107,7 +9107,7 @@
               },
               {
                 "Option": "あとで運動すれば大丈夫！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -9283,7 +9283,7 @@
               },
               {
                 "Option": "サッカー観戦",
-                "Effect": "All 5 Stats +3"
+                "Effect": "All stats +3"
               },
               {
                 "Option": "日曜大工",
@@ -9479,7 +9479,7 @@
               },
               {
                 "Option": "お散歩",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "ちょこっと遊ぶ",
@@ -9531,7 +9531,7 @@
               },
               {
                 "Option": "満足するまで全力で食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -9847,7 +9847,7 @@
               },
               {
                 "Option": "いっぱい食べてテスト頑張れ！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           }
@@ -9931,7 +9931,7 @@
             "レース場グルメの誘惑": [
               {
                 "Option": "一緒に食べよう",
-                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               },
               {
                 "Option": "我慢しよう",
@@ -10027,7 +10027,7 @@
               },
               {
                 "Option": "いつも通りのトレーニングだ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "福袋を買いに行こう！",
@@ -10067,7 +10067,7 @@
               },
               {
                 "Option": "お腹いっぱい食べよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -10163,7 +10163,7 @@
             "レース場グルメの誘惑": [
               {
                 "Option": "一緒に食べよう",
-                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nStamina +10\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               },
               {
                 "Option": "我慢しよう",
@@ -10307,7 +10307,7 @@
               },
               {
                 "Option": "いつも通りのトレーニングだ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "福袋を買いに行こう！",
@@ -10347,7 +10347,7 @@
               },
               {
                 "Option": "お腹いっぱい食べよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -10575,7 +10575,7 @@
               },
               {
                 "Option": "ゲームでもしようか？",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "撮影側を経験するとか……",
@@ -10627,7 +10627,7 @@
               },
               {
                 "Option": "勝つためにはカロリーを取らないと！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -10859,7 +10859,7 @@
               },
               {
                 "Option": "上着を貸す",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "すかさず写真を撮る",
@@ -11115,7 +11115,7 @@
               },
               {
                 "Option": "魔王転職",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "王政復古",
@@ -11155,7 +11155,7 @@
               },
               {
                 "Option": "わかった、見届けよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -11275,7 +11275,7 @@
             "オグリの大食い選手権": [
               {
                 "Option": "思いっきり戦ってこい！",
-                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               },
               {
                 "Option": "ほどほどにセーブしてほしい",
@@ -11355,7 +11355,7 @@
               },
               {
                 "Option": "最強を目指して『怪物になる！』",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "出来ることを増やす『技術を習得！』",
@@ -11735,7 +11735,7 @@
               },
               {
                 "Option": "絵馬に「強くなりたい」って書こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "おみくじを引こう！",
@@ -11787,7 +11787,7 @@
               },
               {
                 "Option": "ランチには困らないな",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -11999,7 +11999,7 @@
               },
               {
                 "Option": "サイレンススズカ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "グラスワンダー",
@@ -12051,7 +12051,7 @@
               },
               {
                 "Option": "いっぱい食べて、強くなろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -12299,7 +12299,7 @@
               },
               {
                 "Option": "どんどん食べて体を強くしよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -12563,7 +12563,7 @@
               },
               {
                 "Option": "お願いごとを書こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "年賀状を交換しよう！",
@@ -12627,7 +12627,7 @@
               },
               {
                 "Option": "歩き回った分たくさん食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -12819,7 +12819,7 @@
               },
               {
                 "Option": "全てを運に任せよ！おみくじ占い",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新たな技を身に付けよ！福笑い占い",
@@ -12859,7 +12859,7 @@
               },
               {
                 "Option": "気にせず食べちゃおう！",
-                "Effect": "Energy +30\nSkill Pt +15\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +15\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -13111,7 +13111,7 @@
               },
               {
                 "Option": "たくさん学んで大きくなってほしい",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "素敵な大人になれますように",
@@ -13163,7 +13163,7 @@
               },
               {
                 "Option": "面白そう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -13439,7 +13439,7 @@
               },
               {
                 "Option": "気迫炸裂",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "家事向上",
@@ -13491,7 +13491,7 @@
               },
               {
                 "Option": "頑張れ、クリーク！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -13743,7 +13743,7 @@
               },
               {
                 "Option": "新春マラソンに参加しよう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "出走予定レースの下調べをしよう！",
@@ -13795,7 +13795,7 @@
               },
               {
                 "Option": "ありがたくいただこう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -14023,7 +14023,7 @@
               },
               {
                 "Option": "新春マラソンに参加しよう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "出走予定レースの下調べをしよう！",
@@ -14075,7 +14075,7 @@
               },
               {
                 "Option": "ありがたくいただこう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -14207,7 +14207,7 @@
             "オグリの大食い選手権": [
               {
                 "Option": "思いっきり戦ってこい！",
-                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also: \nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also:\nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\n「Overweight」"
               },
               {
                 "Option": "ほどほどにセーブしてほしい",
@@ -14215,7 +14215,7 @@
               },
               {
                 "Option": "食って食って……全てを食い尽くせ！",
-                "Effect": "Energy +100\nPower +20\nSkill Pt +20\nRandomly also: \nEnergy +100\nSpeed -20\nPower +20\nSkill Pt +20\n「Overweight」"
+                "Effect": "Energy +100\nPower +20\nSkill Pt +20\nRandomly also:\nEnergy +100\nSpeed -20\nPower +20\nSkill Pt +20\n「Overweight」"
               }
             ]
           },
@@ -14319,7 +14319,7 @@
               },
               {
                 "Option": "最強を目指して「怪物になる！」",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "出来ることを増やす「技術を習得！」",
@@ -14359,7 +14359,7 @@
               },
               {
                 "Option": "腹が減っては力が出ない！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -14575,7 +14575,7 @@
             "追加の自主トレ": [
               {
                 "Option": "よし、やろう！",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになるからやめよう",
@@ -14591,7 +14591,7 @@
               },
               {
                 "Option": "動物園",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "ショッピングモール",
@@ -14763,7 +14763,7 @@
             "スペシャルウィーク、裏の顔": [
               {
                 "Option": "……花道を飾ってきなさい",
-                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also: \nEnergy +30\nSpeed -5\nPower +15\nSkill Pt +10\n「Overweight」"
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also:\nEnergy +30\nSpeed -5\nPower +15\nSkill Pt +10\n「Overweight」"
               },
               {
                 "Option": "なら、腹八分目程度に……",
@@ -14771,7 +14771,7 @@
               },
               {
                 "Option": "イェアー！ブルドーザー・マキシマム！",
-                "Effect": "Energy +100\nRandomly also: \nEnergy +100\nSpeed -5\n「Overweight」"
+                "Effect": "Energy +100\nRandomly also:\nEnergy +100\nSpeed -5\n「Overweight」"
               }
             ]
           },
@@ -14799,7 +14799,7 @@
               },
               {
                 "Option": "能力を底上げする！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "色んな技を覚える！",
@@ -14851,7 +14851,7 @@
               },
               {
                 "Option": "あとで運動すれば大丈夫！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -15167,7 +15167,7 @@
               },
               {
                 "Option": "『腹が減っては戦はできぬ』とも言うよ",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -15195,7 +15195,7 @@
               },
               {
                 "Option": "急いで1階へ降りよう！",
-                "Effect": "「Fast Paced」Hint Lv +2 Hint Lv "
+                "Effect": "「Fast Paced」Hint Lv +2 Hint Lv"
               }
             ]
           },
@@ -15371,7 +15371,7 @@
               },
               {
                 "Option": "止まらなくなるよね",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\nGain 「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\nGain 「Overweight」"
               }
             ]
           },
@@ -15547,7 +15547,7 @@
             "カラオケチャレンジ": [
               {
                 "Option": "ドーベルが挑戦します！",
-                "Effect": "[Success]==========\nEnergy +10\nAll 5 Stats +5\n[Failure]==========\nStamina +5\nGuts +10"
+                "Effect": "[Success]==========\nEnergy +10\nAll stats +5\n[Failure]==========\nStamina +5\nGuts +10"
               },
               {
                 "Option": "ライアンの優しさを今は受け取っておこう(失敗)",
@@ -15651,7 +15651,7 @@
               },
               {
                 "Option": "お守りを買おう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "願い事をしよう",
@@ -15907,7 +15907,7 @@
               },
               {
                 "Option": "成長するのに食は大事",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -15959,7 +15959,7 @@
               },
               {
                 "Option": "たくさんお願いする",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "絶景を見に行く",
@@ -16239,7 +16239,7 @@
               },
               {
                 "Option": "よし！栄養ガッツリとろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -16443,7 +16443,7 @@
             "気づいちゃった！": [
               {
                 "Option": "テイオーの走りが好きだから",
-                "Effect": "Speed +5\nStamina "
+                "Effect": "Speed +5\nStamina"
               },
               {
                 "Option": "約束を守りたいから",
@@ -16499,7 +16499,7 @@
               },
               {
                 "Option": "「テイオーの実力向上に努めます」って",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "「テイオーをスキルアップさせます」って",
@@ -16579,7 +16579,7 @@
               },
               {
                 "Option": "そう！ご飯を食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -16795,7 +16795,7 @@
               },
               {
                 "Option": "勝利を掴むために能力を上げたい",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "たくさん技術を磨きたい",
@@ -16811,7 +16811,7 @@
               },
               {
                 "Option": "脳もバナナを求めているはず！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -16943,7 +16943,7 @@
             "カラオケチャレンジ": [
               {
                 "Option": "ドーベルが挑戦します！",
-                "Effect": "[Success]==========\nEnergy +10\nAll 5 Stats +5\n[Failure]==========\nStamina +5\nGuts +10"
+                "Effect": "[Success]==========\nEnergy +10\nAll stats +5\n[Failure]==========\nStamina +5\nGuts +10"
               },
               {
                 "Option": "ライアンの優しさを今は受け取っておこう(失敗)",
@@ -17047,7 +17047,7 @@
               },
               {
                 "Option": "お守りを買おう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "願い事をしよう",
@@ -17279,7 +17279,7 @@
             "気づいちゃった！": [
               {
                 "Option": "テイオーの走りが好きだから",
-                "Effect": "Speed +5\nStamina "
+                "Effect": "Speed +5\nStamina"
               },
               {
                 "Option": "約束を守りたいから",
@@ -17335,7 +17335,7 @@
               },
               {
                 "Option": "「テイオーの実力向上に努めます」って",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "「テイオーをスキルアップさせます」って",
@@ -17415,7 +17415,7 @@
               },
               {
                 "Option": "そう！ご飯を食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -17635,7 +17635,7 @@
               },
               {
                 "Option": "カレン、頑張れ！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -17919,7 +17919,7 @@
               },
               {
                 "Option": "バランスの取れたトレーニングかな",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "得意な武器を磨くことかな",
@@ -18203,7 +18203,7 @@
               },
               {
                 "Option": "早く列が進みますように",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "神様の方から来てくれますように",
@@ -18267,7 +18267,7 @@
               },
               {
                 "Option": "お菓子、食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nEnergy +30\nSkill Pt +10\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -18275,11 +18275,11 @@
             "お大事に！": [
               {
                 "Option": "休息こそ近道だ",
-                "Effect": "Mood -1\nLast Trained Stat(s) -5\nRandomly also: \n「Bad Practice」"
+                "Effect": "Mood -1\nLast Trained Stat(s) -5\nRandomly also:\n「Bad Practice」"
               },
               {
                 "Option": "・・・無理はしないって約束できるか？",
-                "Effect": "Failure\nMood -1\nLast Trained Stat(s) -10\nRandomly also: \n「Bad Practice」\nSuccess\n「Good Practice」"
+                "Effect": "Failure\nMood -1\nLast Trained Stat(s) -10\nRandomly also:\n「Bad Practice」\nSuccess\n「Good Practice」"
               }
             ]
           },
@@ -18287,11 +18287,11 @@
             "無茶は厳禁！": [
               {
                 "Option": "トレーナーとして見過ごせない",
-                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly also: \n「Bad Practice」"
+                "Effect": "Energy +10\nMood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\nRandomly also:\n「Bad Practice」"
               },
               {
                 "Option": "・・・その想いに、賭けてみるか",
-                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also: \nEnergy +10\n「Good Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also:\nEnergy +10\n「Good Practice」"
               }
             ]
           }
@@ -18471,7 +18471,7 @@
               },
               {
                 "Option": "新春山ごもり",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "睡眠学習",
@@ -18523,7 +18523,7 @@
               },
               {
                 "Option": "ありがたく全部いただこう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -19075,7 +19075,7 @@
               },
               {
                 "Option": "少年、私たちもサッカーに混ぜて！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "……私がすごいキックを見せるから貸して",
@@ -19371,7 +19371,7 @@
               },
               {
                 "Option": "コーヒーで、全部頑張る！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "ホットチョコレートで、特別なパワー！",
@@ -19639,7 +19639,7 @@
               },
               {
                 "Option": "次までに君をもっと強くする!",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "新しい武器が見つかりますように",
@@ -19895,7 +19895,7 @@
               },
               {
                 "Option": "本願発見",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "筋肉革命",
@@ -20079,7 +20079,7 @@
               },
               {
                 "Option": "超模範的ウマ娘になる",
-                "Effect": "All 5 Stats +3"
+                "Effect": "All stats +3"
               },
               {
                 "Option": "超スピード以外の武器を持つ",
@@ -20359,7 +20359,7 @@
               },
               {
                 "Option": "ライスの走りを支え続けたい",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "力が欲しい……！",
@@ -20411,7 +20411,7 @@
               },
               {
                 "Option": "デザートは別腹！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -20655,7 +20655,7 @@
               },
               {
                 "Option": "「全知全能」最強の皇帝になる",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "「風流韻事」洒落の技術を磨く",
@@ -20719,7 +20719,7 @@
               },
               {
                 "Option": "よし、バッチリ味見しよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -20931,7 +20931,7 @@
               },
               {
                 "Option": "タイキをぐんぐん成長させられますように！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "タイキの走りが上達しますように",
@@ -21011,7 +21011,7 @@
               },
               {
                 "Option": "テイク・オフ!",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -21179,7 +21179,7 @@
               },
               {
                 "Option": "大排気量",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "サイドカー付き",
@@ -21267,7 +21267,7 @@
               },
               {
                 "Option": "ああ、おいしそうだ！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -21455,7 +21455,7 @@
               },
               {
                 "Option": "ぜひ挑戦しよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -21483,7 +21483,7 @@
               },
               {
                 "Option": "総合力を底上げ！『レベルアップする』",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "テクニックを磨く！『玄人になる』",
@@ -21679,7 +21679,7 @@
               },
               {
                 "Option": "魔王転職",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "王政復古",
@@ -21719,7 +21719,7 @@
               },
               {
                 "Option": "わかった、見届けよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -22011,7 +22011,7 @@
               },
               {
                 "Option": "万事底上",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "技能向上",
@@ -22227,7 +22227,7 @@
               },
               {
                 "Option": "大食いを極めよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -22251,7 +22251,7 @@
             "追加の自主トレ": [
               {
                 "Option": "正体を突き止めてきて",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA:：President Akikawa \nAoharu:：Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA:President Akikawa\nAoharu:：Otonashi Etsuko"
               },
               {
                 "Option": "ここで待っていれば、そのうち通るのでは？",
@@ -22307,7 +22307,7 @@
               },
               {
                 "Option": "プロの仕事みたいだった",
-                "Effect": "やるき+1\nSpeed +10\nRandomly gain 「Good Practice」"
+                "Effect": "Mood +1\nSpeed +10\nRandomly gain 「Good Practice」"
               }
             ]
           },
@@ -22807,7 +22807,7 @@
               },
               {
                 "Option": "友情パワー",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "多様性",
@@ -22955,11 +22955,11 @@
             "天皇賞（秋）の後に・空に手を": [
               {
                 "Option": "マイル路線の『安田記念』",
-                "Effect": "Gain 目標レースが「Yasuda Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
+                "Effect": "Set objective to「Yasuda Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
               },
               {
                 "Option": "中距離路線の『宝塚記念』",
-                "Effect": "Gain 目標レースが「Takarazuka Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
+                "Effect": "Set objective to「Takarazuka Kinen」\nAll Stats +3\nSkill Pt +59\nPresident Akikawa Bond Gauge +4"
               }
             ]
           },
@@ -23075,7 +23075,7 @@
               },
               {
                 "Option": "成長のために基礎から取り組もう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "みんなを蹴散らすスキルも身につけよう",
@@ -23115,7 +23115,7 @@
               },
               {
                 "Option": "上達のたえにたくさん作って食べよう",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -23271,7 +23271,7 @@
             "スペシャルウィーク、裏の顔": [
               {
                 "Option": "……花道を飾ってきなさい",
-                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also: \nEnergy +30\nSpeed -5\nPower +15\nSkill Pt +10\n「Overweight」"
+                "Effect": "Energy +30\nPower +10\nSkill Pt +10\nRandomly also:\nEnergy +30\nSpeed -5\nPower +15\nSkill Pt +10\n「Overweight」"
               },
               {
                 "Option": "なら、腹八分目程度に……",
@@ -23279,7 +23279,7 @@
               },
               {
                 "Option": "イェアー！ブルドーザー・マキシマム！",
-                "Effect": "Energy +100\nRandomly also: \nEnergy +100\nSpeed -5\n「Overweight」"
+                "Effect": "Energy +100\nRandomly also:\nEnergy +100\nSpeed -5\n「Overweight」"
               }
             ]
           },
@@ -23307,7 +23307,7 @@
               },
               {
                 "Option": "能力を底上げする！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "色んな技を覚える！",
@@ -23359,7 +23359,7 @@
               },
               {
                 "Option": "あとで運動すれば大丈夫！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -23591,7 +23591,7 @@
               },
               {
                 "Option": "カレン、頑張れ！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -24059,7 +24059,7 @@
               },
               {
                 "Option": "背伸びした写真",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "東京の珍品",
@@ -24327,7 +24327,7 @@
               },
               {
                 "Option": "背伸びした写真",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "東京の珍品",
@@ -24531,7 +24531,7 @@
               },
               {
                 "Option": "みんなから親しまれてるんだな！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -24583,7 +24583,7 @@
               },
               {
                 "Option": "上着を貸す",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "すかさず写真を撮る",
@@ -24875,7 +24875,7 @@
               },
               {
                 "Option": "『全知全能』最強の”皇帝”になる",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "『風流韻事』洒落の技術を磨く",
@@ -25451,7 +25451,7 @@
               },
               {
                 "Option": "ゲームでもしようか？",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "撮影側を経験するとか……",
@@ -25847,7 +25847,7 @@
             "なんどだって陽は昇る": [
               {
                 "Option": "なんだが人形も喜んでいるみたい",
-                "Effect": "「Winter Girl ○」Hint Lv "
+                "Effect": "「Winter Girl ○」Hint Lv"
               },
               {
                 "Option": "まるで魔法を見ているみたいだった！",
@@ -25991,7 +25991,7 @@
               },
               {
                 "Option": "基礎から鍛え直す！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "技術を磨こう！",
@@ -26043,7 +26043,7 @@
               },
               {
                 "Option": "思いっきり食べて“1番”を掴もう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -26415,7 +26415,7 @@
               },
               {
                 "Option": "近くの神社で成長祈願",
-                "Effect": "All 5 Stats +8"
+                "Effect": "All stats +8"
               },
               {
                 "Option": "レッツ・パーリータイムLv2☆",
@@ -26451,7 +26451,7 @@
             "追加の自主トレ": [
               {
                 "Option": "ぜひ併走してきて",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになるからやめよう",
@@ -26683,7 +26683,7 @@
               },
               {
                 "Option": "友情パワー",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "多様性",
@@ -26883,7 +26883,7 @@
             "追加の自主トレ": [
               {
                 "Option": "いってらっしゃい！",
-                "Effect": "Energy -5\nステータス+5（直前のトレーニング）\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "今日はもうやめておこう",
@@ -26915,7 +26915,7 @@
               },
               {
                 "Option": "羽子板",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "ゲーム",
@@ -27335,7 +27335,7 @@
               },
               {
                 "Option": "大物たちの関心",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "町全体の動き",
@@ -27383,7 +27383,7 @@
             "追加の自主トレ": [
               {
                 "Option": "よし、トレーニング成果を万倍にしよう！",
-                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat(s) +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "よく休んで、健康を万倍にするのはどうだ？",
@@ -27659,7 +27659,7 @@
               },
               {
                 "Option": "お言葉に甘えたら?",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -27967,7 +27967,7 @@
               },
               {
                 "Option": "よし！行ってらっしゃい！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -28281,7 +28281,7 @@
               },
               {
                 "Option": "たくさん学んで大きくなってほしい",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "素敵な大人になれますように",
@@ -28333,7 +28333,7 @@
               },
               {
                 "Option": "面白そう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -28537,7 +28537,7 @@
               },
               {
                 "Option": "たくさん食べてきてね",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -28781,7 +28781,7 @@
               },
               {
                 "Option": "サイレンススズカ",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "グラスワンダー",
@@ -28833,7 +28833,7 @@
               },
               {
                 "Option": "いっぱい食べて、強くなろう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -29069,7 +29069,7 @@
               },
               {
                 "Option": "絵馬に「強くなりたい」って書こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "おみくじを引こう！",
@@ -29121,7 +29121,7 @@
               },
               {
                 "Option": "ランチには困らないな",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -29349,7 +29349,7 @@
               },
               {
                 "Option": "基礎から鍛え直す！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "技術を磨こう！",
@@ -29401,7 +29401,7 @@
               },
               {
                 "Option": "思いっきり食べて“1番”を掴もう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -29629,7 +29629,7 @@
               },
               {
                 "Option": "気迫炸裂",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "家事向上",
@@ -29681,7 +29681,7 @@
               },
               {
                 "Option": "頑張れ、クリーク！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -29901,11 +29901,11 @@
             "宝塚記念の後に": [
               {
                 "Option": "めっちゃすごい",
-                "Effect": "All 5 Stats +3\nSkill Pt +45\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Stand Your Ground」Hint Lv +1"
+                "Effect": "All stats +3\nSkill Pt +45\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Stand Your Ground」Hint Lv +1"
               },
               {
                 "Option": "歴史に名を残すレベルですごい",
-                "Effect": "All 5 Stats +3\nSkill Pt +45～+50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming」"
+                "Effect": "All stats +3\nSkill Pt +45～+50\nPresident Akikawa Bond Gauge +4\nRandomly gain 「Gate Trouble」\nRandomly gain 「Charming」"
               }
             ]
           },
@@ -29933,7 +29933,7 @@
               },
               {
                 "Option": "調理テクを身につけよう",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "斬新なアレンジを考えよう",
@@ -29985,7 +29985,7 @@
               },
               {
                 "Option": "合点",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -30041,11 +30041,11 @@
             "夏合宿（3年目）終了": [
               {
                 "Option": "合宿中に割ったスイカの数",
-                "Effect": "From 5 stats, 3 random stats +5"
+                "Effect": "From 5 stats, 3 random stat(s) +5"
               },
               {
                 "Option": "合宿中に拾ったセミの抜け殻の数",
-                "Effect": "From 5 stats, 3 random stats +5"
+                "Effect": "From 5 stats, 3 random stat(s) +5"
               }
             ]
           }
@@ -30213,7 +30213,7 @@
               },
               {
                 "Option": "大排気量",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "サイドカー付き",
@@ -30301,7 +30301,7 @@
               },
               {
                 "Option": "ああ、おいしそうだ！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -30605,7 +30605,7 @@
               },
               {
                 "Option": "『腹が減っては戦はできぬ』とも言うよ",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -30803,11 +30803,11 @@
             "お大事に！": [
               {
                 "Option": "心配だから休もう",
-                "Effect": "Mood がDown\nステータス-5（直前のトレーニング）\nRandomly gain 「Bad Practice」"
+                "Effect": "Mood Down\nLast Trained Stat -5\nRandomly gain 「Bad Practice」"
               },
               {
                 "Option": "軽めの運動だったらいいよ",
-                "Effect": "Mood がDown\nステータス-10（直前のトレーニング）\nGain Randomly gain 「Bad Practice」Good Practice"
+                "Effect": "Mood Down\nLast Trained Stat -10\nGain Randomly gain 「Bad Practice」Good Practice"
               }
             ]
           },
@@ -30815,7 +30815,7 @@
             "追加の自主トレ": [
               {
                 "Option": "俺も見たい！",
-                "Effect": "Energy -5\nステータス+5（直前のトレーニング）\nScenario NPC Bond Gauge +5\nURA: President Akikawa \nAoharu: Otonashi Etsuko "
+                "Effect": "Energy -5\nLast Trained Stat +5\nScenario NPC Bond Gauge +5\nURA: President Akikawa\nAoharu: Otonashi Etsuko"
               },
               {
                 "Option": "オーバーワークになっちゃうかな……",
@@ -30983,7 +30983,7 @@
               },
               {
                 "Option": "なら、全力の限界を越えよう！！",
-                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also: \nEnergy +10\n「Good Practice」"
+                "Effect": "Mood -3\nLast Trained Stat(s) -10\n2 Random stat(s) -10\n「Bad Practice」\nRandomly also:\nEnergy +10\n「Good Practice」"
               }
             ]
           },
@@ -31011,7 +31011,7 @@
               },
               {
                 "Option": "全力でおみくじを引こう！",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "全力で新しい技の勉強だ！",
@@ -31063,7 +31063,7 @@
               },
               {
                 "Option": "満足するまで全力で食べよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -31355,7 +31355,7 @@
               },
               {
                 "Option": "折角だし頂けば？",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           }
@@ -31555,7 +31555,7 @@
               },
               {
                 "Option": "ぜひ挑戦しよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -31583,7 +31583,7 @@
               },
               {
                 "Option": "総合力を底上げ！『レベルアップする』",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "テクニックを磨く！『玄人になる』",
@@ -31799,7 +31799,7 @@
               },
               {
                 "Option": "みんなから親しまれてるんだな！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -31851,7 +31851,7 @@
               },
               {
                 "Option": "上着を貸す",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "すかさず写真を撮る",
@@ -32107,7 +32107,7 @@
               },
               {
                 "Option": "超模範的ウマ娘になる",
-                "Effect": "All 5 Stats +3"
+                "Effect": "All stats +3"
               },
               {
                 "Option": "超スピード以外の武器を持つ",
@@ -32319,7 +32319,7 @@
               },
               {
                 "Option": "自分でとったなら食べなきゃな",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -32371,7 +32371,7 @@
               },
               {
                 "Option": "本願発見",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "筋肉革命",
@@ -32587,7 +32587,7 @@
               },
               {
                 "Option": "よいではないか～、よいではないか～",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -32947,7 +32947,7 @@
               },
               {
                 "Option": "万事底上",
-                "Effect": "All 5 Stats +5"
+                "Effect": "All stats +5"
               },
               {
                 "Option": "技能向上",
@@ -32975,7 +32975,7 @@
               },
               {
                 "Option": "食い倒れよう！",
-                "Effect": "Energy +30\nSkill Pt +10\nRandomly also: \nSpeed -5\nPower +5\n「Overweight」"
+                "Effect": "Energy +30\nSkill Pt +10\nRandomly also:\nSpeed -5\nPower +5\n「Overweight」"
               }
             ]
           },
@@ -33355,7 +33355,7 @@
               },
               {
                 "Option": "君次第だと思う",
-                "Effect": "Energy -10Stamina +25\nGuts +25\nBond Gauge +5\n連続Event chain ended"
+                "Effect": "Energy -10Stamina +25\nGuts +25\nBond Gauge +5\nEvent chain ended"
               }
             ]
           },
@@ -34279,7 +34279,7 @@
             "曇りの日の1ページ": [
               {
                 "Option": "体育館を借りて走ろう!",
-                "Effect": "Speed \nGuts +5\nBond Gauge +5"
+                "Effect": "Speed\nGuts +5\nBond Gauge +5"
               },
               {
                 "Option": "てるてる坊主を作ろう!",
@@ -34343,7 +34343,7 @@
               },
               {
                 "Option": "応援してるよ",
-                "Effect": "Mood +2\nコンディションが治る\nBond Gauge +5"
+                "Effect": "Mood +2\nHeal negative condition\nBond Gauge +5"
               }
             ]
           },
@@ -35715,7 +35715,7 @@
               },
               {
                 "Option": "じゃ、じゃあ様子を見ながらで‥‥‥",
-                "Effect": "Mood +1\nRandomly gain ステUP+10\nBond Gauge +5\nCan start dating"
+                "Effect": "Mood +1\nRandom stat(s) +10\nBond Gauge +5\nCan start dating"
               },
               {
                 "Option": "遠慮しておきます！！",
@@ -35727,15 +35727,15 @@
             "刺々美との絆・酔えばあんし〜ん？": [
               {
                 "Option": "け、健康になれる秘孔で‥‥‥",
-                "Effect": "Energy +10\nRandomly gain 2個ステUP+10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
+                "Effect": "Energy +10\n2 Random stat(s) +10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
               },
               {
                 "Option": "頭がよくなる秘孔を！",
-                "Effect": "Energy +10\nRandomly gain 2個ステUP+10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
+                "Effect": "Energy +10\n2 Random stat(s) +10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
               },
               {
                 "Option": "魅力的になれる秘孔とか？",
-                "Effect": "Energy +10\nRandomly gain 2個ステUP+10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
+                "Effect": "Energy +10\n2 Random stat(s) +10\n「Big Fan」Hint Lv +3\nBond Gauge +5"
               }
             ]
           }
@@ -35783,7 +35783,7 @@
               },
               {
                 "Option": "とってもマーベラス☆",
-                "Effect": "All 5 Stats +7\nGain 「Good Practice」\nBond Gauge +5"
+                "Effect": "All stats +7\nGain 「Good Practice」\nBond Gauge +5"
               }
             ]
           },
@@ -35813,7 +35813,7 @@
           }
         ]
       },
-      "[Mission: Feed the heart] Mihono Bourbon": {
+      "[Mission: Feeding the heart] Mihono Bourbon": {
         "Event": [
           {
             "ミッション『雷特訓』": [
@@ -36347,7 +36347,7 @@
               },
               {
                 "Option": "チームワークでみんな食べよう",
-                "Effect": "Bond Gauge +5\nMood +1\nEnergy +20\n悪いコンディションを解消"
+                "Effect": "Bond Gauge +5\nMood +1\nEnergy +20\nHeal negative condition"
               }
             ]
           },
@@ -36999,7 +36999,7 @@
               },
               {
                 "Option": "いつかなれるといいね",
-                "Effect": "※連続Event chain ended\nBond Gauge -5\nPower +25"
+                "Effect": "※Event chain ended\nBond Gauge -5\nPower +25"
               }
             ]
           },
@@ -37111,7 +37111,7 @@
             "曇りの日の1ページ": [
               {
                 "Option": "体育館を借りて走ろう!",
-                "Effect": "Speed \nGuts +5\nBond Gauge +5"
+                "Effect": "Speed\nGuts +5\nBond Gauge +5"
               },
               {
                 "Option": "てるてる坊主を作ろう!",
@@ -37735,7 +37735,7 @@
               },
               {
                 "Option": "無理はしなくてもいいよ",
-                "Effect": "Energy +15\nゲージ+5"
+                "Effect": "Energy +15\nBond Gauge +5"
               }
             ]
           }
@@ -37763,15 +37763,15 @@
             "三女神の気分転換トレーニング": [
               {
                 "Option": "いざ、魔法の国へ！",
-                "Effect": "Skill Pt +4\nBond Gauge +5\n赤色の欠片"
+                "Effect": "Skill Pt +4\nBond Gauge +5\nRed Fragment"
               },
               {
                 "Option": "いざ、動物草原へ！",
-                "Effect": "Speed +4\nBond Gauge +5\n青色の欠片"
+                "Effect": "Speed +4\nBond Gauge +5\nBlue Fragment"
               },
               {
                 "Option": "いざ、ダンジョン攻略へ！",
-                "Effect": "Stamina +4\nBond Gauge +5\n黄色の欠片"
+                "Effect": "Stamina +4\nBond Gauge +5\nYellow Fragment片"
               }
             ]
           },
@@ -38227,7 +38227,7 @@
             "曇りの日の1ページ（ライスシャワー）": [
               {
                 "Option": "体育館を借りて走ろう!",
-                "Effect": "Speed \nGuts +5\nBond Gauge +5"
+                "Effect": "Speed\nGuts +5\nBond Gauge +5"
               },
               {
                 "Option": "てるてる坊主を作ろう!",

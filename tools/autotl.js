@@ -68,7 +68,7 @@ function translate(json, depth = 0, type = "char") {
                     value = value.replace(entry.regex, entry.effect);
                 }
             }
-            json[key] = value;
+            json[key] = value.replace(/^ +| +$/mg, "");
         }
         else {
             // Uma or Card name, 
