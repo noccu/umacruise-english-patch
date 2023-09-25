@@ -516,6 +516,60 @@
             ]
           }
         ]
+      },
+      "l'Arc":{
+        "Event": [
+          {
+            "With": [
+              {
+                "Option": "Satake Mei",
+                "Effect": "With Link:「Child of Longchamp」Hint Lv +1\nWithout: 「Longchamp Racetrack」Hint Lv +1"
+              },
+              {
+                "Option": "El Condor Pasa / Sirius Symboli",
+                "Effect": "Pasa Link:「Now I'm Pumped!」Hint Lv +1\nWithout: 「Pace Up」Hint Lv +1\n\nSirius Link:「Photon Flash」Hint Lv +1\nWithout: 「Medium Distance Straights」Hint Lv +1"
+              },
+              {
+                "Option": "Manhattan Cafe / Nakayama Festa",
+                "Effect": "Cafe Link:「Intrinsic Experience」Hint Lv +1\nWithout: 「King of the Castle」Hint Lv +1\n\nFesta Link:「Gamester」Hint Lv +1\nWithout: 「Questionable Strategy」Hint Lv +1"
+              },
+              {
+                "Option": "Gold Ship / Satono Diamond",
+                "Effect": "Golshi Link:「Prepared to Die」Hint Lv +1\nWithout: 「All I Have」Hint Lv +1\n\nDiamond Link:「Star of the Show」Hint Lv +1\nWithout: 「Position Sense」Hint Lv +1"
+              }
+            ],
+            "_With Split": [
+              {
+                "Option": "Satake Mei",
+                "Effect": "With Scenario Link:\n「Child of Longchamp」Hint Lv +1\nWithout: 「Longchamp Racetrack」Hint Lv +1"
+              },
+              {
+                "Option": "El Condor Pasa",
+                "Effect": "With Scenario Link:\n「Now I'm Pumped!」Hint Lv +1\nWithout: 「Pace Up」Hint Lv +1"
+              },
+              {
+                "Option": "Sirius Symboli",
+                "Effect": "With Scenario Link:\n「Photon Flash」Hint Lv +1\nWithout: 「Medium Distance Straights」Hint Lv +1"
+              },
+              {
+                "Option": "Manhattan Cafe",
+                "Effect": "With Scenario Link:\n「Intrinsic Experience」Hint Lv +1\nWithout: 「King of the Castle」Hint Lv +1"
+              },
+              {
+                "Option": "Nakayama Festa",
+                "Effect": "With Scenario Link:\n「Gamester」Hint Lv +1\nWithout: 「Questionable Strategy」Hint Lv +1"
+              },
+              {
+                "Option": "Gold Ship",
+                "Effect": "With Scenario Link:\n「Prepared to Die」Hint Lv +1\nWithout: 「All I Have」Hint Lv +1"
+              },
+              {
+                "Option": "Satono Diamond",
+                "Effect": "With Scenario Link:\n「Star of the Show」Hint Lv +1\nWithout: 「Position Sense」Hint Lv +1"
+              }
+            ]
+          }
+        ]
       }
     }
   }
