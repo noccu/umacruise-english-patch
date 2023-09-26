@@ -1,10 +1,12 @@
-This project is created to patch umacruise with english translations from the umamusume-db-translate project
+This project provides [UmaCruise's](https://github.com/amate/UmaUmaCruise) library files in English with translations from the [UmaTL project](https://github.com/noccu/umamusu-translate).  
+Translations are automatically updated ever monday based on data from GameWith through [this project](https://github.com/po-po-po-pong/umaumacruise_customjson).
 
 ## Installation
 
-1. Download the latest release or grab the files from the `static` folder in the repo
-2. Copy and overwrite the .json files into the `UmaLibrary` folder inside your umacruise folder.
+1. Download the latest release.
+2. Extract and overwrite the .json files in the `UmaLibrary` folder inside your umacruise folder.
 
+<!---
 ## Development
 
 Add translations for new content directly in their respective files.
@@ -21,12 +23,6 @@ Or use the scripts:
 A few other workflows are possible too.
 Of course you could also just run autotl.js on the new file and call it a day. But this way affords additional control, and fixes from this repo to not be lost.
 
-## Library
-English Translation : [https://github.com/noccu/umamusume-db-translate](https://github.com/noccu/umamusume-db-translate)
-
-UmaCruise Original Source : [https://github.com/amate/UmaUmaCruise](https://github.com/amate/UmaUmaCruise)
-
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
+--->
