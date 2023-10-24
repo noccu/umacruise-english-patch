@@ -3,7 +3,7 @@ Translations are automatically updated ever monday based on data from GameWith t
 
 ## Installation
 
-1. Download the latest release.
+1. Download the latest release. (Ignore date, it's still updated)
 2. Extract and overwrite the .json files in the `UmaLibrary` folder inside your umacruise folder.
 
 <!---
