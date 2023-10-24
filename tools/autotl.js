@@ -25,6 +25,10 @@ var umaDbData = {},
     tlData,
     altData;
 
+const DELETE_EVENTS = [
+    "With"
+]
+
 function readFiles() {
     inputData = JSON.parse(fs.readFileSync(inputFile, "utf8"));
     tlData = JSON.parse(fs.readFileSync(tlFile, "utf8"));
@@ -69,21 +73,24 @@ function translate(json, depth = 0, type = "char") {
                 }
             }
             json[key] = value.replace(/^ +| +$/mg, "");
+            continue
         }
-        else {
-            // Uma or Card name, 
-            if (depth == 2) {
-                let [found, translatedKey] = lookupNames(key, type);
-                if (found) {
-                    json[translatedKey] = value;
-                    delete json[key]
-                };
-                key = translatedKey;
-            }
-            if (key == "Support") type = "card";
-            else if (key == "MainStory") type = "story";
-            translate(value, depth + 1, type);
+        else if (depth == 2) {
+            let [found, translatedKey] = lookupNames(key, type);
+            if (found) {
+                json[translatedKey] = value;
+                delete json[key]
+            };
+            key = translatedKey;
         }
+        else if (key == "Event") {
+            value = cleanEvents(value)
+            json[key] = value
+        }
+        else if (key == "Support") type = "card";
+        else if (key == "MainStory") type = "story";
+        // Uma or Card name, 
+        translate(value, depth + 1, type);
     }
 }
 function lookupSkills(str) {
@@ -144,6 +151,10 @@ function lookupNames(str, type) {
     else found = true
 
     return [found, `${titleEN} ${nameEN}`];
+}
+
+function cleanEvents(eventArr) {
+    return eventArr.filter(ev => !DELETE_EVENTS.includes(Object.keys(ev)[0]));
 }
 
 function buildRegexes() {
