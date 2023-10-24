@@ -517,6 +517,26 @@
           }
         ]
       },
+      "Grand Masters":{
+        "Event": [
+          {
+            "今を賭ける者たちの祖": [
+              {
+                "Option": "Darley Arabian",
+                "Effect": "「Blessing of the Sun」Hint Lv +1\nWisdom > 3:\n「Wisdom of the Sun」Hint Lv +1\nTotal Wisdom > 11: Hint Lv +3"
+              },
+              {
+                "Option": "Godolphin Barb",
+                "Effect": "「Blessing of the Ocean」Hint Lv +1\nWisdom > 3:\n「Wisdom of the Ocean」Hint Lv +1\nTotal Wisdom > 11: Hint Lv +3"
+              },
+              {
+                "Option": "Byerley Turk",
+                "Effect": "「Blessing of the Land」Hint Lv +1\nWisdom > 3:\n「Wisdom of the Land」Hint Lv +1\nTotal Wisdom > 11: Hint Lv +3"
+              }
+            ]
+          }
+        ]
+      },
       "l'Arc":{
         "Event": [
           {
